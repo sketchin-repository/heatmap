@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}Titolo di Pagina{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body>
+    <!-- Start page content -->
+    {% block content %}Contenuto di pagina{% endblock %}
+    <!-- End page content -->
+
+    <!-- Global scripts -->
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.js"></script>
+    <!-- Page scripts -->
+    {% block scripts %}{% endblock %}
+</body>
+
+</html>

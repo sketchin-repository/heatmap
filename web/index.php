@@ -13,5 +13,9 @@ $app->get('/', function () use ($app) {
     ));
 });
 
+$app->get('/map', function () use ($app) {
+    return $app['twig']->render('map.html');
+});
+
 $app->run();
 ?>
