@@ -1,0 +1,7 @@
+{
+    "require": {
+        "silex/silex": "~1.2",
+        "php" : ">=5.3.2",
+        "keboola/csv": "1.1.*"
+    }
+}
