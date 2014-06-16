@@ -74,14 +74,14 @@ function drawGoogleMap(data) {
 
     // define map properties
     var myOptions = {
-        zoom: 10,
+        zoom: 9,
         center: myLatlng,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         disableDefaultUI: false,
         scrollwheel: true,
         draggable: true,
         navigationControl: true,
-        mapTypeControl: false,
+        mapTypeControl: true,
         scaleControl: true,
         disableDoubleClickZoom: false
     };
