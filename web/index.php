@@ -4,6 +4,8 @@ use Silex\Provider\FormServiceProvider;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Validator\Constraints as Assert;
+use Symfony\Component\Validator\Mapping\ClassMetadata;
+use Symfony\Component\HttpKernel\HttpKernelInterface;
 
 class structure {
 	// properties
@@ -92,17 +94,38 @@ $app->match('/', function (Request $request) use ($app) {
     $filename = __DIR__ . '/assets/data/fonti.json';
     $fonti = json_decode(file_get_contents($filename), true);
 
-
     $form = $app['form.factory']->createBuilder('form')
     ->add('path', 'file', array(
-        'constraints' => array(new Assert\NotBlank())
+        'constraints' => array(
+            new Assert\NotBlank()
+        )
     ))
     ->getForm();
-
+    
+    /*
+    $form = $app['form.factory']->createBuilder('form')
+    ->add('path', 'file', array(
+        'constraints' => array(
+            new Assert\NotBlank(),
+            new Assert\File(array(
+                'mimeTypes' => array(
+                    'text/csv',
+                ),
+                'mimeTypesMessage' => 'Please upload a valid CSV',
+            ))
+        )
+    ))
+    ->getForm();
+    */
+    
     $form->handleRequest($request);
-
+    
+    /**
+     * Redirect on /add page
+     */
     if ($form->isValid()) {
         $data = $form->getData();
+<<<<<<< HEAD
 
         // do something with the data
         $dati_elaborati =custom_geocoding($data["path"]->getPathName());
@@ -111,6 +134,18 @@ $app->match('/', function (Request $request) use ($app) {
         return $app['twig']->render('add.html', array(
         'dati_elaborati' => $dati_elaborati,
         ));
+=======
+        $csvPath = $data["path"]->getPathName();
+        $csvData = new Keboola\Csv\CsvFile($csvPath, ",");
+
+        // redirect somewhere
+        $subRequest = Request::create(
+            '/add', 
+            'POST',
+            array('csv' => $csvData)
+        );
+        return $app->handle($subRequest, HttpKernelInterface::SUB_REQUEST);
+>>>>>>> FETCH_HEAD
     }
 
     // display the form
@@ -120,7 +155,11 @@ $app->match('/', function (Request $request) use ($app) {
         ));
 });
 
-$app->get('/add', function () use ($app) {
+$app->match('/add', function (Request $request) use ($app) {
+    $csvFile = $request->request->get('csv');
+    foreach($csvFile as $row) {
+        var_dump($row);
+    }
     return $app['twig']->render('add.html');
 });
 
