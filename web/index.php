@@ -1,5 +1,10 @@
 <?php
 
+use Silex\Provider\FormServiceProvider;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Validator\Constraints as Assert;
+
 class structure {
 	// properties
 	public $name;
@@ -20,11 +25,28 @@ class structure {
 require_once __DIR__.'/../vendor/autoload.php';
 
 $app = new Silex\Application();
+$app['debug'] = true;
 
+/**
+ * Register Twig template engine
+ */
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
     'twig.path' => __DIR__.'/views',
 ));
 
+/**
+ * Register form and validation service providers
+ */
+$app->register(new FormServiceProvider());
+$app->register(new Silex\Provider\ValidatorServiceProvider());
+
+/**
+ * Register translation provider
+ */
+$app->register(new Silex\Provider\TranslationServiceProvider(), array(
+    'translator.messages' => array(),
+    'translator.domains' => array()
+));
 
 $csvFile = new Keboola\Csv\CsvFile(__DIR__ . '/assets/data/dati_prova.csv', ",");
 $data = array();
@@ -43,7 +65,10 @@ $geocoder->registerProvider($provider);
 $geocoded = new \Geocoder\Result\Geocoded();
 
 
-
+/**
+ * Geocoding function
+ */
+ 
 foreach($csvFile as $row) {
 
 	// 2000000 = 2sec
@@ -74,8 +99,27 @@ $app->get('/', function () use ($app) {
     
 });
 
-$app->get('/add', function () use ($app) {
-    return $app['twig']->render('add.html');
+$app->match('/add', function (Request $request) use ($app) {
+
+    $form = $app['form.factory']->createBuilder('form')
+    ->add('path', 'file', array(
+        'constraints' => array(new Assert\NotBlank())
+    ))
+    ->getForm();
+
+    $form->handleRequest($request);
+
+    if ($form->isValid()) {
+        $data = $form->getData();
+
+        // do something with the data
+
+        // redirect somewhere
+        return $app->redirect('/');
+    }
+
+    // display the form
+    return $app['twig']->render('add.html', array('form' => $form->createView()));
 });
 
 $app->get('/map', function () use ($app) {
