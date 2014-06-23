@@ -125,16 +125,10 @@ $app->match('/', function (Request $request) use ($app) {
      */
     if ($form->isValid()) {
         $data = $form->getData();
-<<<<<<< HEAD
 
-        // do something with the data
-        $dati_elaborati =custom_geocoding($data["path"]->getPathName());
+        // funzione per la laura che sennò si dimentica
+        // $dati_elaborati =custom_geocoding($data["path"]->getPathName());
 
-        // redirect somewhere
-        return $app['twig']->render('add.html', array(
-        'dati_elaborati' => $dati_elaborati,
-        ));
-=======
         $csvPath = $data["path"]->getPathName();
         $csvData = new Keboola\Csv\CsvFile($csvPath, ",");
 
@@ -145,7 +139,6 @@ $app->match('/', function (Request $request) use ($app) {
             array('csv' => $csvData)
         );
         return $app->handle($subRequest, HttpKernelInterface::SUB_REQUEST);
->>>>>>> FETCH_HEAD
     }
 
     // display the form

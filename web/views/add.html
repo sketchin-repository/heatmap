@@ -3,21 +3,6 @@
 {% block title %}Add{% endblock %}
 
 {% block content %}
-<!-- <ul>
-    {% for dato in dati_elaborati %}
-        <li>{{ dato.name|e }}</li>
-    {% endfor %}
-</ul> -->
 
-<table>
-{% for dato in dati_elaborati%}
-    <tr>
-    	<td>{{ dato.name }}</td>
-    	<td>{{ dato.lon }}</td>
-    	<td>{{ dato.lat }}</td>
-    	<td>{{ dato.count }}</td>
-    </tr>
-{% endfor %}
-</table>
 {% endblock %}
 
