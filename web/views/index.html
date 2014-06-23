@@ -1,8 +1,15 @@
-<html>
-<head>
-	<title>Heatmap</title>
-</head>
-<body>
-	ciao {{ name }}
-</body>
-</html>
+{% extends "layout.html" %}
+
+{% block title %}Index{% endblock %}
+
+{% block content %}
+
+<h1>Heatmap index</h1>
+<ul>
+    {% for fonte in fonti %}
+        <li><a href="{{ fonte.href }}">{{ fonte.caption }}</a></li>
+    {% endfor %}
+    <li><a href="/add">Aggiungi nuovo</a></li>
+</ul>
+
+{% endblock %}
