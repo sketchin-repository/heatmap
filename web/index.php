@@ -22,6 +22,44 @@ class structure {
     }
 }
 
+function custom_geocoding($file_path) {
+
+    $csvFile = new Keboola\Csv\CsvFile($file_path, ",");
+    $dati_strutturati = array();
+    //$cols_names[] = $csvFile->getHeader();
+
+    $geocoder = new \Geocoder\Geocoder();
+    $adapter = new \Geocoder\HttpAdapter\SocketHttpAdapter();
+
+    //$apiKey = 'AIzaSyDTXsR4Id1Hk4xowxa9yCKeEn1Q6C2buEo';
+
+    $provider = new \Geocoder\Provider\GoogleMapsProvider($adapter);//, null, null, true, $apiKey);
+    $geocoder->registerProvider($provider);
+
+    $geocoded = new \Geocoder\Result\Geocoded();
+
+    foreach($csvFile as $row) {
+
+        // 2000000 = 2sec
+        usleep(200);
+
+        try {
+            $geocoded = $geocoder->geocode($row[0]);
+
+            $dati_strutturati[] = new structure($row[0], $geocoded->getLongitude(), $geocoded->getLatitude(), $row[1]);
+
+        } catch (Exception $e) {
+            echo $e->getMessage();
+        }
+    }
+
+    return $dati_strutturati; // è un array di structure (definita da utente)
+
+    $fp = fopen('assets/data/data.json', 'w');
+    fwrite($fp, json_encode($dati_strutturati));
+    fclose($fp);
+}
+
 require_once __DIR__.'/../vendor/autoload.php';
 
 $app = new Silex\Application();
@@ -48,45 +86,6 @@ $app->register(new Silex\Provider\TranslationServiceProvider(), array(
     'translator.domains' => array()
 ));
 
-$csvFile = new Keboola\Csv\CsvFile(__DIR__ . '/assets/data/dati_prova.csv', ",");
-$data = array();
-
-//$cols_names[] = $csvFile->getHeader();
-
-
-$geocoder = new \Geocoder\Geocoder();
-$adapter = new \Geocoder\HttpAdapter\SocketHttpAdapter();
-
-$apiKey = 'AIzaSyDTXsR4Id1Hk4xowxa9yCKeEn1Q6C2buEo';
-
-$provider = new \Geocoder\Provider\GoogleMapsProvider($adapter);//, null, null, true, $apiKey);
-$geocoder->registerProvider($provider);
-
-$geocoded = new \Geocoder\Result\Geocoded();
-
-
-/**
- * Geocoding function
- */
- 
-foreach($csvFile as $row) {
-
-	// 2000000 = 2sec
-	usleep(200);
-
-    try {
-    	$geocoded = $geocoder->geocode($row[0]);
-
-    	$data[] = new structure($row[0], $geocoded->getLongitude(), $geocoded->getLatitude(), $row[1]);
-
-    } catch (Exception $e) {
-    	echo $e->getMessage();
-    }
-}
-
-$fp = fopen('assets/data/data.json', 'w');
-fwrite($fp, json_encode($data));
-fclose($fp);
 
 $app->match('/', function (Request $request) use ($app) {
 
@@ -106,20 +105,11 @@ $app->match('/', function (Request $request) use ($app) {
         $data = $form->getData();
 
         // do something with the data
-        var_dump($data["path"]->getPathName());
-
-        $filedi = new Keboola\Csv\CsvFile($data["path"]->getPathName(), ",");
-
-        foreach($filedi as $row) {
-            var_dump($row);
-        }
-
-
-
+        $dati_elaborati =custom_geocoding($data["path"]->getPathName());
 
         // redirect somewhere
         return $app['twig']->render('add.html', array(
-        'dati_caricati' => $data,
+        'dati_elaborati' => $dati_elaborati,
         ));
     }
 
