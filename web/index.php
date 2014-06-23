@@ -88,18 +88,11 @@ $fp = fopen('assets/data/data.json', 'w');
 fwrite($fp, json_encode($data));
 fclose($fp);
 
-$app->get('/', function () use ($app) {
+$app->match('/', function (Request $request) use ($app) {
+
     $filename = __DIR__ . '/assets/data/fonti.json';
     $fonti = json_decode(file_get_contents($filename), true);
 
-    return $app['twig']->render('index.html', array(
-        'fonti' => $fonti,
-        )
-    );
-    
-});
-
-$app->match('/add', function (Request $request) use ($app) {
 
     $form = $app['form.factory']->createBuilder('form')
     ->add('path', 'file', array(
@@ -113,14 +106,34 @@ $app->match('/add', function (Request $request) use ($app) {
         $data = $form->getData();
 
         // do something with the data
+        var_dump($data["path"]->getPathName());
+
+        $filedi = new Keboola\Csv\CsvFile($data["path"]->getPathName(), ",");
+
+        foreach($filedi as $row) {
+            var_dump($row);
+        }
+
+
+
 
         // redirect somewhere
-        return $app->redirect('/');
+        return $app['twig']->render('add.html', array(
+        'dati_caricati' => $data,
+        ));
     }
 
     // display the form
-    return $app['twig']->render('add.html', array('form' => $form->createView()));
+    return $app['twig']->render('index.html', array(
+        'form' => $form->createView(),
+        'fonti' => $fonti
+        ));
 });
+
+$app->get('/add', function () use ($app) {
+    return $app['twig']->render('add.html');
+});
+
 
 $app->get('/map', function () use ($app) {
     return $app['twig']->render('map.html');

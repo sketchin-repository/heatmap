@@ -9,7 +9,15 @@
     {% for fonte in fonti %}
         <li><a href="{{ fonte.href }}">{{ fonte.caption }}</a></li>
     {% endfor %}
-    <li><a href="/add">Aggiungi nuovo</a></li>
 </ul>
+
+
+	{{ form_start(form) }}
+
+		{{ form_errors(form) }}
+		{{ form_row(form.path) }}
+
+	    <input type="submit" value="Submit me"/>
+	{{ form_end(form) }}
 
 {% endblock %}
