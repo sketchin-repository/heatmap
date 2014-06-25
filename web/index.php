@@ -102,86 +102,136 @@ $app->register(new Silex\Provider\TranslationServiceProvider(), array(
 ));
 
 /**
+ * Register session provider
+ */
+$app->register(new Silex\Provider\SessionServiceProvider());
+
+/**
 * Controller index
 */
 $app->match('/', function (Request $request) use ($app) {
-
+    
     $filename = __DIR__ . '/assets/data/fonti.json';
     $fonti = json_decode(file_get_contents($filename), true);
 
-    $form = $app['form.factory']->createBuilder('form')
-    ->add('path', 'file', array(
-        'constraints' => array(
-            new Assert\NotBlank()
-        )
-    ))
-    ->getForm();
-    
-    /*
-    $form = $app['form.factory']->createBuilder('form')
-    ->add('path', 'file', array(
-        'constraints' => array(
-            new Assert\NotBlank(),
-            new Assert\File(array(
-                'mimeTypes' => array(
-                    'text/csv',
-                ),
-                'mimeTypesMessage' => 'Please upload a valid CSV',
-            ))
-        )
-    ))
-    ->getForm();
-    */
-    
-    $form->handleRequest($request);
-    
-    /**
-     * Redirect on /add page
-     */
-    if ($form->isValid()) {
-        $data = $form->getData();
-
-        // funzione per la laura che sennò si dimentica
-        // $dati_elaborati =custom_geocoding($data["path"]->getPathName());
-
-        $csvPath = $data["path"]->getPathName();
-        $csvData = new Keboola\Csv\CsvFile($csvPath, ",");
-
-        $originalName = $data["path"]->getClientOriginalName();
-        
-        // redirect somewhere
-        $subRequest = Request::create(
-            '/add', 
-            'POST',
-            array(
-                'csv' => $csvData,
-                'csvName' => $originalName)
-        );
-        return $app->handle($subRequest, HttpKernelInterface::SUB_REQUEST);
-    }
-
-    // display the form
     return $app['twig']->render('index.html', array(
-        'form' => $form->createView(),
         'fonti' => $fonti
         ));
 });
 
-/**
-* Controller add
-*/
-$app->match('/add', function (Request $request) use ($app) {
-    $csvFile = $request->request->get('csv');
-    $originalName = $request->request->get('csvName');
-    //$cols_names[] = $csvFile->getHeader();
+$app->match('/add/01', function (Request $request) use ($app) {
+    
+    // Crea il form per la gestione dell'upload
+    $uploadForm = $app['form.factory']->createBuilder('form')
+        ->add('path', 'file', array(
+            'constraints' => array(
+                new Assert\NotBlank()
+            )
+        ))
+        ->getForm();
+        
+    $uploadForm->handleRequest($request);
+        
+    if ($uploadForm->isValid()) {
+        // Legge il CSV
+        $data = $uploadForm->getData();
+        $csvPath = $data["path"]->getPathName();
+        $csvData = new Keboola\Csv\CsvFile($csvPath, ";");
+        $originalName = $data["path"]->getClientOriginalName();
+        
+        // Crea l'oggetto dati
+        $array = array();
+        foreach($csvData as $row) {
+            $tmpRow = array();
+            foreach($row as $col) {
+                $tmpRow[]=$col;
+            }
+            $array[]=$tmpRow;
+        }
+        
+        // Carica il CSV in sessione
+        $app['session']->set('newHeatmap', array('analyticsData' => $array));
+        
+        // Mostra la preview del CSV
+        return $app['twig']->render('add_01_preview.html', array(
+            'file_uploaded' => $array,
+            'fileName' => $originalName
+        ));
+    }
+    
+    return $app['twig']->render('add_01.html', array(
+        'form' => $uploadForm->createView()
+    ));
+});
 
-    // file senza header
+$app->match('/add/02', function (Request $request) use ($app) {
+    
+    if (null === $heatmapData = $app['session']->get('newHeatmap')) {
+        return $app->redirect('/add/01');
+    }
+    
+    // Crea il form per la gestione dell'upload
+    $optionsForm = $app['form.factory']->createBuilder('form')
+        ->add('heatmapName', 'text', array(
+            'constraints' => array(
+                new Assert\NotBlank()
+            )
+        ))
+        ->add('cityNameColumn', 'choice', array(
+          'choices' => $heatmapData['analyticsData'][0]
+        ))
+        ->add('valueColumn', 'choice', array(
+          'choices' => $heatmapData['analyticsData'][0]
+        ))
+        ->add('valueFormat', 'choice', array(
+          'choices' => array('Integer','Float')
+        ))
+        ->getForm();
+        
+    $optionsForm->handleRequest($request);
+    
+    if ($optionsForm->isValid()) {
+        $data = $optionsForm->getData();
+        
+        // array(4) { ["heatmapName"]=> string(6) "Poppa!" ["cityNameColumn"]=> int(0) ["valueColumn"]=> int(1) ["valueFormat"]=> int(0) }
+        $computedData = array();
+        $rawData = array();
+        
+        foreach($heatmapData['analyticsData'] as $row) {
+            
+            // Dati computati
+            
+            $tempComputedRow = array();
 
-
-    return $app['twig']->render('add.html', array(
-        'file_uploaded' => $csvFile,
-        'csvName' => $originalName
-        //'cols_names' => $cols_names,
+            $tempComputedRow['city'] = $row[$data["cityNameColumn"]];
+            if($data["valueFormat"]==0) {
+                $tempComputedRow['value'] = (int)$row[$data["valueColumn"]];
+            } else if ($data["valueFormat"]==1) {
+                $tempComputedRow['value'] = (float)$row[$data["valueColumn"]];
+            }
+            
+            $computedData[] = $tempComputedRow;
+            
+            // Dati grezzi
+            
+            $tempRawRow = array();
+            
+            $tempRawRow['city'] = $row[$data["cityNameColumn"]];
+            $tempRawRow['value'] = $row[$data["valueColumn"]];
+            
+            $rawData[] = $tempRawRow;
+        }
+        
+        return $app['twig']->render('add_02_preview.html', array(
+                'form' => $optionsForm->createView(),
+                'raw' => $rawData,
+                'computed' => $computedData
+            ));
+    }
+    
+    return $app['twig']->render('add_02.html', array(
+            'form' => $optionsForm->createView(),
+            'table' => $heatmapData['analyticsData']
         ));
 });
 

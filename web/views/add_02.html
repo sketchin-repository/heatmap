@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block title %}Step 2/3: Define data{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="call-md-12">
+            <h1>Step 2/3: Define data</h1>
+            
+            {{ form_start(form) }}
+
+                {{ form_errors(form) }}
+                {{ form_row(form.heatmapName) }}
+                {{ form_row(form.cityNameColumn) }}
+                {{ form_row(form.valueColumn) }}
+                {{ form_row(form.valueFormat) }}
+
+                <input type="submit" value="Next"/>
+            {{ form_end(form) }}
+            
+            <table class="table">
+            {% for row in table|slice(0, 6) %}
+                {% if loop.first %}
+                    <tr>
+                        {% for column in row %}
+                        <th>{{ column }}</th>
+                        {% endfor %}
+                    </tr>       
+                {% else %}
+                    <tr>
+                        {% for column in row %}
+                        <td>{{ column }}</td>
+                        {% endfor %}
+                    </tr>       
+                {% endif %}
+            {% endfor %}
+            </table>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
