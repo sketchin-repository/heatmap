@@ -1,5 +1,8 @@
 <?php
 
+/**
+* Define namespaces to use
+*/
 use Silex\Provider\FormServiceProvider;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -7,6 +10,9 @@ use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Mapping\ClassMetadata;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
 
+/**
+* Structure definition
+*/
 class structure {
 	// properties
 	public $name;
@@ -24,6 +30,9 @@ class structure {
     }
 }
 
+/**
+* Geocoding function
+*/
 function custom_geocoding($file_path) {
 
     $csvFile = new Keboola\Csv\CsvFile($file_path, ",");
@@ -55,13 +64,17 @@ function custom_geocoding($file_path) {
         }
     }
 
-    return $dati_strutturati; // è un array di structure (definita da utente)
+    return $dati_strutturati; // è un array di structure (oggetto definito da utente)
 
     $fp = fopen('assets/data/data.json', 'w');
     fwrite($fp, json_encode($dati_strutturati));
     fclose($fp);
 }
 
+
+/**
+* Create app
+*/
 require_once __DIR__.'/../vendor/autoload.php';
 
 $app = new Silex\Application();
@@ -88,7 +101,9 @@ $app->register(new Silex\Provider\TranslationServiceProvider(), array(
     'translator.domains' => array()
 ));
 
-
+/**
+* Controller index
+*/
 $app->match('/', function (Request $request) use ($app) {
 
     $filename = __DIR__ . '/assets/data/fonti.json';
@@ -132,11 +147,15 @@ $app->match('/', function (Request $request) use ($app) {
         $csvPath = $data["path"]->getPathName();
         $csvData = new Keboola\Csv\CsvFile($csvPath, ",");
 
+        $originalName = $data["path"]->getClientOriginalName();
+        
         // redirect somewhere
         $subRequest = Request::create(
             '/add', 
             'POST',
-            array('csv' => $csvData)
+            array(
+                'csv' => $csvData,
+                'csvName' => $originalName)
         );
         return $app->handle($subRequest, HttpKernelInterface::SUB_REQUEST);
     }
@@ -148,19 +167,33 @@ $app->match('/', function (Request $request) use ($app) {
         ));
 });
 
+/**
+* Controller add
+*/
 $app->match('/add', function (Request $request) use ($app) {
     $csvFile = $request->request->get('csv');
-    foreach($csvFile as $row) {
-        var_dump($row);
-    }
-    return $app['twig']->render('add.html');
+    $originalName = $request->request->get('csvName');
+    //$cols_names[] = $csvFile->getHeader();
+
+    // file senza header
+
+
+    return $app['twig']->render('add.html', array(
+        'file_uploaded' => $csvFile,
+        'csvName' => $originalName
+        //'cols_names' => $cols_names,
+        ));
 });
 
-
+/**
+* Controller map
+*/
 $app->get('/map', function () use ($app) {
     return $app['twig']->render('map.html');
 });
 
-
+/**
+* Run app
+*/
 $app->run();
 ?>
