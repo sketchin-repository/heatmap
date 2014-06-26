@@ -114,20 +114,22 @@ function drawGoogleMap(data) {
 
 
     // conver utm to lat lng
-    for (var i in data.locations) {
-        var utm = "+proj=utm +zone=32";
-        var wgs84 = "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs";
-        var lonlat = proj4(utm, wgs84, [data.locations[i].lng, data.locations[i].lat]);
-        data.locations[i].lat = lonlat[1];
-        data.locations[i].lng = lonlat[0];
-    }
+    // for (var i in data.locations) {
+    //     var utm = "+proj=utm +zone=32";
+    //     var wgs84 = "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs";
+    //     var lonlat = proj4(utm, wgs84, [data.locations[i].lng, data.locations[i].lat]);
+    //     data.locations[i].lat = lonlat[1];
+    //     data.locations[i].lng = lonlat[0];
+    // }
 
     // here is our dataset
     // important: a datapoint now contains lat, lng and count property!    
     var testData = {
         max: 16000,
-        data: data.locations
+        data: data
     };
+
+    console.log(testData);
 
     // now we can set the data
     google.maps.event.addListenerOnce(map, "idle", function () {
@@ -136,12 +138,12 @@ function drawGoogleMap(data) {
     });
 }
 
-$(document).ready(function () {
-    $.ajax({
-        url: "/assets/data/analytics.json",
-        dataType: "json",
-        success: function (data) {
-            drawGoogleMap(data);
-        }
-    });
-});
+// $(document).ready(function () {
+//     $.ajax({
+//         url: "/assets/data/analytics.json",
+//         dataType: "json",
+//         success: function (data) {
+//             drawGoogleMap(data);
+//         }
+//     });
+// });

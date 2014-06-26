@@ -6,8 +6,8 @@
 
 <h1>Heatmap index</h1>
 <ul>
-    {% for fonte in fonti %}
-    <li><a href="{{ fonte.href }}">{{ fonte.caption }}</a></li>
+    {% for source in sources %}
+    <li><a href="/map/{{ source.href }}">{{ source.caption }}</a></li>
     {% endfor %}
     <li><a href="/add/01">New heatmap</a></li>
 </ul>

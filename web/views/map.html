@@ -15,4 +15,16 @@
 <script src="/assets/js/heatmap/heatmap-openlayers.js"></script>
 <script src="/assets/js/heatmap/heatmap-gmaps.js"></script>
 <script src="/assets/js/showmap.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+    $.ajax({
+        url: "/assets/data/sources/{{ name }}.json",
+        dataType: "json",
+        success: function (data) {
+            drawGoogleMap(data);
+        }
+    });
+});
+</script>
 {% endblock %}

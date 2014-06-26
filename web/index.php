@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 /**
 * Define namespaces to use
@@ -10,10 +10,14 @@ use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Mapping\ClassMetadata;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
 
+
+use Controllers\indexController;
+
 /**
 * Create app
 */
-require_once __DIR__.'/../vendor/autoload.php';
+$loader = require __DIR__.'/../vendor/autoload.php';
+$loader->add('Controllers', __DIR__.'/src');
 
 $app = new Silex\Application();
 $app['debug'] = true;
@@ -49,14 +53,19 @@ $app->register(new Silex\Provider\SessionServiceProvider());
 */
 $app->match('/', function (Request $request) use ($app) {
     
-    $filename = __DIR__ . '/assets/data/fonti.json';
-    $fonti = json_decode(file_get_contents($filename), true);
+    $filename = __DIR__ . '/assets/data/sources.json';
+    $sources = json_decode(file_get_contents($filename), true);
 
     return $app['twig']->render('index.html', array(
-        'fonti' => $fonti
+        'sources' => $sources,
         ));
 });
 
+//$app->match('/',          'Controllers\indexController::indexAction');
+
+/**
+* Controller add step 1/3
+*/
 $app->match('/add/01', function (Request $request) use ($app) {
     
     // Crea il form per la gestione dell'upload
@@ -102,6 +111,9 @@ $app->match('/add/01', function (Request $request) use ($app) {
     ));
 });
 
+/**
+* Controller add step 2/3
+*/
 $app->match('/add/02', function (Request $request) use ($app) {
     
     if (null === $heatmapData = $app['session']->get('newHeatmap')) {
@@ -166,7 +178,7 @@ $app->match('/add/02', function (Request $request) use ($app) {
 
         // Carica i dati computati in sessione
         $app['session']->set('newData', array(
-            'data' => $computedData, 
+            'data' => $computedData,
             'userFileName' => $data["heatmapName"]
             ));
         
@@ -183,6 +195,9 @@ $app->match('/add/02', function (Request $request) use ($app) {
         ));
 });
 
+/**
+* Controller add step 3/3
+*/
 $app->match('/add/03', function (Request $request) use ($app) {
     
     if (null === $newData = $app['session']->get('newData')) {
@@ -209,21 +224,21 @@ $app->match('/add/03', function (Request $request) use ($app) {
     foreach($newData['data'] as $row) {
 
         $tmpGeocodedRow = array(
-        "city" => "",
-        "value" => "",
-        "longitude" => "null",
-        "latitude" => "null",
+        "name" => "",
+        "count" => "",
+        "lng" => "null",
+        "lat" => "null",
         "result" => "success"
         );
 
-        $tmpGeocodedRow["city"] = $row["city"];
-        $tmpGeocodedRow["value"] = $row["value"];
+        $tmpGeocodedRow["name"] = $row["city"];
+        $tmpGeocodedRow["count"] = $row["value"];
 
         try {
             $tmpGeocoded = $geocoder->geocode($row["city"]);
             
-            $tmpGeocodedRow["longitude"] = $tmpGeocoded->getLatitude();
-            $tmpGeocodedRow["latitude"] = $tmpGeocoded->getLongitude();
+            $tmpGeocodedRow["lng"] = $tmpGeocoded->getLatitude();
+            $tmpGeocodedRow["lat"] = $tmpGeocoded->getLongitude();
 
         } catch (Exception $e) {
             $tmpGeocodedRow["result"] = $e->getMessage();
@@ -232,23 +247,72 @@ $app->match('/add/03', function (Request $request) use ($app) {
          $geocodedData[] = $tmpGeocodedRow;
     }
 
-    $jsontoHeat = fopen($newData['userFileName'], 'w');
-    fwrite($jsontoHeat, json_encode($geocodedData, JSON_PRETTY_PRINT));
-    fclose($jsontoHeat);
+    // // Salvataggio dati acquisti con geocoding in file json
+
+    // $jsontoHeat = fopen(__DIR__ . "/assets/data/sources/" . $newData['userFileName'], 'w');
+    // fwrite($jsontoHeat, json_encode($geocodedData, JSON_PRETTY_PRINT));
+    // fclose($jsontoHeat);
+
+    // // Modifica del file delle fonti
+
+    // $sources = file_get_contents(__DIR__ . '/assets/data/sources.json');
+    // $dataSources = json_decode($sources);
+    
+    // $dataSources[] = array('href'=> '#', 'caption' => $newData['userFileName']);
+    
+    // file_put_contents(__DIR__ . '/assets/data/sources.json',json_encode($dataSources));
+
+    // Carica i dati computati in sessione
+        $app['session']->set('geocodingResults', array(
+            'data' => $geocodedData, 
+            'name' => $newData["userFileName"]
+            ));
 
 
 
-    // Presenta la tabella geocodata (city - value - lat - lng - result)
+    // Presenta la tabella geocodata (city - value - lng - lat - result)
     return $app['twig']->render('add_03.html', array(
         'geocoded' => $geocodedData,
-        ));
+    ));
 });
+
+/**
+* Controller add end
+*/
+$app->get('add/end', function() use ($app) {
+
+    if (null === $geocodingResults = $app['session']->get('geocodingResults')) {
+        return $app->redirect('/add/01');
+    }
+
+    // Salvataggio dati acquisti con geocoding in file json
+
+    $jsontoHeat = fopen(__DIR__ . "/assets/data/sources/" . $geocodingResults['name'] . ".json", 'w');
+    fwrite($jsontoHeat, json_encode($geocodingResults['data'], JSON_PRETTY_PRINT));
+    fclose($jsontoHeat);
+
+    // Modifica del file delle fonti
+
+    $sources = file_get_contents(__DIR__ . '/assets/data/sources.json');
+    $dataSources = json_decode($sources);
+    
+    $dataSources[] = array('href'=> '#', 'caption' => $geocodingResults['name']);
+    
+    file_put_contents(__DIR__ . '/assets/data/sources.json',json_encode($dataSources));
+
+    return $app['twig']->render('add_end.html', array(
+        'name' => $geocodingResults['name'],
+    ));
+});
+
 
 /**
 * Controller map
 */
-$app->get('/map', function () use ($app) {
-    return $app['twig']->render('map.html');
+$app->get('/map/{name}', function ($name) use ($app) {
+    return $app['twig']->render('map.html', array(
+        'name' => $name,
+    ));
 });
 
 /**
