@@ -10,6 +10,27 @@
             <h1>Step 3/3: Geocode</h1>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Original data</h2>
+            <table class="table">
+                <tr>
+                    <th>City</th>
+                    <th>Value</th>
+                    <th>Longitude</th>
+                    <th>Latitude</th>
+                    <th>Result</th>
+                </tr>   
+                {% for column in geocoded %}
+                <tr>
+                    {% for row in column %}
+                    <td>{{ row }}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
 </div>
 
 {% endblock %}

@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block title %}Add{% endblock %}
+
+{% block content %}
+
+<div class="container">
+<div class="row">
+<div class="call-md-12">
+<h1>Aggiungi</h1>
+
+File da caricare: {{ csvName }}
+
+	{{ form_start(form) }}
+
+		{{ form_errors(form) }}
+		{{ form_row(form.name) }}
+		{{ form_row(form.col_name) }}
+		{{ form_row(form.format) }}
+
+
+	    <!-- <input type="submit" value="Submit me"/> -->
+	{{ form_end(form) }}
+
+<table class="table">
+{% for row in file_uploaded %}
+    {% if loop.first %}
+    	<tr>
+    			{% for column in row %}
+            	<th>{{ column }}</th>
+        		{% endfor %}
+    	</tr>       
+    {% else %}
+    	<tr>
+        	{% for column in row %}
+            <td>{{ column }}</td>
+        	{% endfor %}
+		</tr>       
+    {% endif %}
+{% endfor %}
+</table>
+</div>
+</div>
+</div>
+
+{% endblock %}
+
