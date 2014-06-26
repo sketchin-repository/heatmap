@@ -10,14 +10,27 @@
             <h1>Step 2/3: Define data</h1>
             
             {{ form_start(form) }}
-
+                
                 {{ form_errors(form) }}
-                {{ form_row(form.heatmapName) }}
-                {{ form_row(form.cityNameColumn) }}
-                {{ form_row(form.valueColumn) }}
-                {{ form_row(form.valueFormat) }}
+                
+                <div class="form-group">
+                    {{ form_label(form.heatmapName,'Full name') }}
+                    {{ form_widget(form.heatmapName, { 'attr': {'class': 'form-control'} }) }}
+                </div>
+                <div class="form-group">
+                    {{ form_label(form.cityNameColumn,'City name column') }}
+                    {{ form_widget(form.cityNameColumn, { 'attr': {'class': 'form-control'} }) }}
+                </div>
+                <div class="form-group">
+                    {{ form_label(form.valueColumn,'Data column') }}
+                    {{ form_widget(form.valueColumn, { 'attr': {'class': 'form-control'} }) }}
+                </div>
+                <div class="form-group">
+                    {{ form_label(form.valueFormat,'Data type') }}
+                    {{ form_widget(form.valueFormat, { 'attr': {'class': 'form-control'} }) }}
+                </div>
 
-                <input type="submit" value="Next"/>
+                <button type="submit" class="btn btn-primary">Next</button>
             {{ form_end(form) }}
             
             <table class="table">

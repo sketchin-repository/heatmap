@@ -3,3 +3,5 @@ html, body, #heatmap {
     height: 100%;
     margin: 0;
 }
+
+body#map { padding-top: 50px; }

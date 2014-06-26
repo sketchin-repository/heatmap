@@ -1,18 +1,43 @@
 {% extends "layout.html" %}
 
-{% block title %}Index{% endblock %}
+{% block title %}Sketchin Heatmap{% endblock %}
 
 {% block content %}
+<div class="jumbotron">
+    <div class="container">
+        <h1>Sketchin heatmaps</h1>
+        <p>Simple app to create and share geographical heatmaps based on Google Analytics data.</p>
+        <p><a class="btn btn-primary btn-lg" role="button" href="/add/01"><span class="glyphicon glyphicon-plus"></span> New heatmap</a>
+        </p>
+    </div>
+</div>
 
-<h1>Heatmap index</h1>
-<ul>
-    {% for source in sources %}
-    <li><a href="/map/{{ source.href }}">{{ source.caption }}</a></li>
-    {% endfor %}
-    <li><a href="/add/01">New heatmap</a></li>
-</ul>
-
-
-	
-
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Generated heatmaps</h3>
+            <br>
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <th colspan="2">Heatmap name</th>
+                    </tr>
+                    {% for key, source in sources %}
+                    <tr>
+                        <td><a href="/show/{{ key }}">{{ source.name }}</a></td>
+                        <td>
+                            <div class="pull-right">
+                                <a href="/show/{{ key }}" class="btn btn-default">Show</a>
+                                <a href="/delete/{{ key }}" class="btn btn-danger"><span class="glyphicon glyphicon-trash"> Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                    {% else %}
+                        <td colspan="2"><em>No heatmap found</em></td>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
 {% endblock %}

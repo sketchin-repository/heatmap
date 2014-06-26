@@ -9,6 +9,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Mapping\ClassMetadata;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
+use Cocur\Slugify\Slugify;
 
 
 use Controllers\indexController;
@@ -54,11 +55,15 @@ $app->register(new Silex\Provider\SessionServiceProvider());
 $app->match('/', function (Request $request) use ($app) {
     
     $filename = __DIR__ . '/assets/data/sources.json';
-    $sources = json_decode(file_get_contents($filename), true);
+    $sources = array();
+    
+    if (file_exists($filename)) {
+        $sources = json_decode(file_get_contents($filename), true);
+    }
 
     return $app['twig']->render('index.html', array(
         'sources' => $sources,
-        ));
+    ));
 });
 
 //$app->match('/',          'Controllers\indexController::indexAction');
@@ -285,23 +290,33 @@ $app->get('add/end', function() use ($app) {
     }
 
     // Salvataggio dati acquisti con geocoding in file json
+    $slugify = new Slugify();
+    $name = $geocodingResults['name'];
+    $slug = $slugify->slugify($name);
 
-    $jsontoHeat = fopen(__DIR__ . "/assets/data/sources/" . $geocodingResults['name'] . ".json", 'w');
+    $jsontoHeat = fopen(__DIR__ . "/assets/data/sources/" . $slug . ".json", 'w');
     // fwrite($jsontoHeat, json_encode($geocodingResults['data'], JSON_PRETTY_PRINT));
     fwrite($jsontoHeat, json_encode($geocodingResults['data']));
     fclose($jsontoHeat);
 
     // Modifica del file delle fonti
-
-    $sources = file_get_contents(__DIR__ . '/assets/data/sources.json');
-    $dataSources = json_decode($sources);
     
-    $dataSources[] = array('href'=> '#', 'caption' => $geocodingResults['name']);
+    $dataSources = array();
+    $dataSourcesFile = __DIR__ . '/assets/data/sources.json';
+    
+    if(file_exists($dataSourcesFile)) {
+        $sources = file_get_contents($dataSourcesFile);
+        $dataSources = json_decode($sources,true);
+    }
+    
+    $dataSources[$slug] = array(
+        'name' => $name,
+    );
     
     file_put_contents(__DIR__ . '/assets/data/sources.json',json_encode($dataSources));
 
     return $app['twig']->render('add_end.html', array(
-        'name' => $geocodingResults['name'],
+        'slug' => $slug
     ));
 });
 
@@ -309,10 +324,25 @@ $app->get('add/end', function() use ($app) {
 /**
 * Controller map
 */
-$app->get('/map/{name}', function ($name) use ($app) {
+$app->get('/show/{slug}', function ($slug) use ($app) {
+    
+    $filename = __DIR__ . '/assets/data/sources.json';
+    
+    if (!file_exists($filename)) {
+        return 'Il file non esiste';
+    }
+    
+    $sources = json_decode(file_get_contents($filename), true);
+
     return $app['twig']->render('map.html', array(
-        'name' => $name,
+        'slug' => $slug,
+        'name' => $sources[$slug]['name'],
+        'sources' => $sources
     ));
+});
+
+$app->get('/delete/{name}', function ($name) use ($app) {
+    return 'cancella mappa';
 });
 
 /**

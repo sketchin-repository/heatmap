@@ -13,6 +13,7 @@
         "symfony/translation": "~2.3",
         "symfony/locale": "~2.3",
         "symfony/twig-bridge": "~2.3",
-        "webignition/json-pretty-print": "dev-master"
+        "webignition/json-pretty-print": "dev-master",
+        "cocur/slugify": "dev-master"
     }
 }
