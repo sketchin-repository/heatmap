@@ -129,8 +129,6 @@ function drawGoogleMap(data) {
         data: data
     };
 
-    console.log(testData);
-
     // now we can set the data
     google.maps.event.addListenerOnce(map, "idle", function () {
         // this is important, because if you set the data set too early, the latlng/pixel projection doesn't work

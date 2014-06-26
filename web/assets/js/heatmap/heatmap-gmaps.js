@@ -136,12 +136,16 @@ HeatmapOverlay.prototype.setDataSet = function(data){
 
     me.latlngs = [];
    
+   
+    
     while(dlen--){	
     	latlng = new google.maps.LatLng(d[dlen].lat, d[dlen].lng);
         
         if(!currentBounds.contains(latlng)) { 
             continue; 
         }
+        
+        console.log(latlng);
 
     	me.latlngs.push({latlng: latlng, c: d[dlen].count});
     	point = me.pixelTransform(projection.fromLatLngToDivPixel(latlng));

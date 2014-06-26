@@ -204,7 +204,6 @@ $app->match('/add/03', function (Request $request) use ($app) {
         return $app->redirect('/add/01');
     }
 
-
     // Geocoding
 
     $geocoder = new \Geocoder\Geocoder();
@@ -237,8 +236,8 @@ $app->match('/add/03', function (Request $request) use ($app) {
         try {
             $tmpGeocoded = $geocoder->geocode($row["city"]);
             
-            $tmpGeocodedRow["lng"] = $tmpGeocoded->getLatitude();
-            $tmpGeocodedRow["lat"] = $tmpGeocoded->getLongitude();
+            $tmpGeocodedRow["lng"] = $tmpGeocoded->getLongitude();
+            $tmpGeocodedRow["lat"] = $tmpGeocoded->getLatitude();
 
         } catch (Exception $e) {
             $tmpGeocodedRow["result"] = $e->getMessage();
@@ -288,7 +287,8 @@ $app->get('add/end', function() use ($app) {
     // Salvataggio dati acquisti con geocoding in file json
 
     $jsontoHeat = fopen(__DIR__ . "/assets/data/sources/" . $geocodingResults['name'] . ".json", 'w');
-    fwrite($jsontoHeat, json_encode($geocodingResults['data'], JSON_PRETTY_PRINT));
+    // fwrite($jsontoHeat, json_encode($geocodingResults['data'], JSON_PRETTY_PRINT));
+    fwrite($jsontoHeat, json_encode($geocodingResults['data']));
     fclose($jsontoHeat);
 
     // Modifica del file delle fonti
