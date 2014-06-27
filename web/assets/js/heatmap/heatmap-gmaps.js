@@ -144,8 +144,6 @@ HeatmapOverlay.prototype.setDataSet = function(data){
         if(!currentBounds.contains(latlng)) { 
             continue; 
         }
-        
-        console.log(latlng);
 
     	me.latlngs.push({latlng: latlng, c: d[dlen].count});
     	point = me.pixelTransform(projection.fromLatLngToDivPixel(latlng));

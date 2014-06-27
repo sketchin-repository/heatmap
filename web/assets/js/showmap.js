@@ -103,10 +103,6 @@ function drawGoogleMap(data) {
             0.65: "rgb(0,255,0)",
             0.95: "yellow",
             1.0: "rgb(237,69,17)"
-        },
-        "legend": {
-            position: 'bl',
-            title: 'Sessioni utente'
         }
     };
 
@@ -125,7 +121,7 @@ function drawGoogleMap(data) {
     // here is our dataset
     // important: a datapoint now contains lat, lng and count property!    
     var testData = {
-        max: 16000,
+        max: 250000,
         data: data
     };
 

@@ -230,8 +230,8 @@ $app->match('/add/03', function (Request $request) use ($app) {
         $tmpGeocodedRow = array(
         "name" => "",
         "count" => "",
-        "lng" => "null",
-        "lat" => "null",
+        "lng" => null,
+        "lat" => null,
         "result" => "success"
         );
 
