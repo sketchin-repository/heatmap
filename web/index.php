@@ -212,11 +212,11 @@ $app->match('/add/03', function (Request $request) use ($app) {
     // Geocoding
 
     $geocoder = new \Geocoder\Geocoder();
-    $adapter = new \Geocoder\HttpAdapter\SocketHttpAdapter();
+    $adapter = new \Geocoder\HttpAdapter\CurlHttpAdapter();
 
-    //$apiKey = 'AIzaSyDTXsR4Id1Hk4xowxa9yCKeEn1Q6C2buEo';
+    $apiKey = 'AIzaSyDTXsR4Id1Hk4xowxa9yCKeEn1Q6C2buEo';
 
-    $provider = new \Geocoder\Provider\GoogleMapsProvider($adapter);//, null, null, true, $apiKey);
+    $provider = new \Geocoder\Provider\GoogleMapsProvider($adapter, null, null, true, $apiKey);
     $geocoder->registerProvider($provider);
 
     $tmpGeocoded = new \Geocoder\Result\Geocoded();
