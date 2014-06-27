@@ -1,5 +1,5 @@
 vendor/
-web/assets/sources/*
-web/assets/sources.json
+web/assets/data/sources/*
+web/assets/data/sources.json
 composer.phar
 composer.lock
