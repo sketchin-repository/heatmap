@@ -141,6 +141,9 @@ $app->match('/add/02', function (Request $request) use ($app) {
         ->add('valueFormat', 'choice', array(
           'choices' => array('Integer','Float')
         ))
+        ->add('radius', 'number')
+        ->add('opacity', 'number')
+        ->add('max', 'number')
         ->getForm();
         
     $optionsForm->handleRequest($request);
@@ -148,8 +151,9 @@ $app->match('/add/02', function (Request $request) use ($app) {
     if ($optionsForm->isValid()) {
         $data = $optionsForm->getData();
         
-        // array(4) { ["heatmapName"]=> string(6) "Poppa!" ["cityNameColumn"]=> int(0) ["valueColumn"]=> int(1) ["valueFormat"]=> int(0) }
-        
+    // array(6) { ["heatmapName"]=> string(12) "prova config" ["cityNameColumn"]=> int(0) 
+    //    ["valueColumn"]=> int(1) ["valueFormat"]=> int(0) ["radius"]=> float(67) ["opacity"]=> float(12) }
+
         $computedData = array();
         $rawData = array();
         
@@ -181,10 +185,17 @@ $app->match('/add/02', function (Request $request) use ($app) {
         array_shift($computedData);
         array_shift($rawData);
 
+        $config = array(
+            'radius' => $data['radius'],
+            'opacity' => $data['opacity'],
+            'max' => $data['max']
+            );
+
         // Carica i dati computati in sessione
         $app['session']->set('newData', array(
             'data' => $computedData,
-            'userFileName' => $data["heatmapName"]
+            'userFileName' => $data["heatmapName"],
+            'config' => $config
             ));
         
         return $app['twig']->render('add_02_preview.html', array(
@@ -269,7 +280,8 @@ $app->match('/add/03', function (Request $request) use ($app) {
     // Carica i dati computati in sessione
         $app['session']->set('geocodingResults', array(
             'data' => $geocodedData, 
-            'name' => $newData["userFileName"]
+            'name' => $newData["userFileName"],
+            'config' => $newData["config"]
             ));
 
 
@@ -295,8 +307,7 @@ $app->get('add/end', function() use ($app) {
     $slug = $slugify->slugify($name);
 
     $jsontoHeat = fopen(__DIR__ . "/assets/data/sources/" . $slug . ".json", 'w');
-    // fwrite($jsontoHeat, json_encode($geocodingResults['data'], JSON_PRETTY_PRINT));
-    fwrite($jsontoHeat, json_encode($geocodingResults['data']));
+    fwrite($jsontoHeat, json_encode($geocodingResults['data'], JSON_PRETTY_PRINT));
     fclose($jsontoHeat);
 
     // Modifica del file delle fonti
@@ -306,14 +317,19 @@ $app->get('add/end', function() use ($app) {
     
     if(file_exists($dataSourcesFile)) {
         $sources = file_get_contents($dataSourcesFile);
-        $dataSources = json_decode($sources,true);
+        $dataSources = json_decode($sources, true);
     }
     
     $dataSources[$slug] = array(
         'name' => $name,
     );
     
-    file_put_contents(__DIR__ . '/assets/data/sources.json',json_encode($dataSources));
+    file_put_contents(__DIR__ . '/assets/data/sources.json',json_encode($dataSources, JSON_PRETTY_PRINT));
+
+    // Carica i dati computati in sessione
+        $app['session']->set('heatmapConfig', array(
+            'config' => $geocodingResults['config']
+            ));
 
     return $app['twig']->render('add_end.html', array(
         'slug' => $slug
@@ -329,20 +345,47 @@ $app->get('/show/{slug}', function ($slug) use ($app) {
     $filename = __DIR__ . '/assets/data/sources.json';
     
     if (!file_exists($filename)) {
-        return 'Il file non esiste';
+        return 'File does not exist';
     }
     
     $sources = json_decode(file_get_contents($filename), true);
 
+
+    if (null === $heatmapConfig = $app['session']->get('heatmapConfig')) {
+        return $app->redirect('/');
+    }
+
     return $app['twig']->render('map.html', array(
         'slug' => $slug,
         'name' => $sources[$slug]['name'],
-        'sources' => $sources
+        'sources' => $sources,
+        'config' => $heatmapConfig['config']
     ));
 });
 
 $app->get('/delete/{name}', function ($name) use ($app) {
-    return 'cancella mappa';
+
+    $filename = __DIR__ . '/assets/data/sources.json';
+    
+    if (!file_exists($filename)) {
+        return 'File does not exist';
+    }
+    
+    $sources = json_decode(file_get_contents($filename), true);
+
+    foreach ($sources as $key => $value) {
+        if ($key == $name) {
+            unset($sources[$key]);
+        }
+    }
+    
+    file_put_contents(__DIR__ . '/assets/data/sources.json',json_encode($sources, JSON_PRETTY_PRINT));
+
+    unlink(__DIR__ . "/assets/data/sources/" . $name . ".json");
+
+    return $app['twig']->render('deleted.html', array(
+        'nameDeletedMap' => $name,
+    ));
 });
 
 /**

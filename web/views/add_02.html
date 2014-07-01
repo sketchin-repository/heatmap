@@ -1,22 +1,28 @@
 {% extends "layout.html" %}
 
-{% block title %}Step 2/3: Define data{% endblock %}
+{% block title %}Step 2/3: Define data & map configuration{% endblock %}
 
 {% block content %}
 
 <div class="container">
     <div class="row">
-        <div class="call-md-12">
-            <h1>Step 2/3: Define data</h1>
+        <div class="col-md-12">
+            <h1>Step 2/3: Define data & map configuration</h1>
             
             {{ form_start(form) }}
                 
                 {{ form_errors(form) }}
-                
+                <div class="row">
+                <div class="col-md-12">
                 <div class="form-group">
                     {{ form_label(form.heatmapName,'Full name') }}
                     {{ form_widget(form.heatmapName, { 'attr': {'class': 'form-control'} }) }}
                 </div>
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col-md-8">
                 <div class="form-group">
                     {{ form_label(form.cityNameColumn,'City name column') }}
                     {{ form_widget(form.cityNameColumn, { 'attr': {'class': 'form-control'} }) }}
@@ -29,6 +35,24 @@
                     {{ form_label(form.valueFormat,'Data type') }}
                     {{ form_widget(form.valueFormat, { 'attr': {'class': 'form-control'} }) }}
                 </div>
+                </div>
+
+                <div class="col-md-4">                
+                <div class="form-group">
+                    {{ form_label(form.radius,'Ball radius') }}
+                    {{ form_widget(form.radius, { 'attr': {'class': 'form-control'} }) }}
+                </div>
+                <div class="form-group">
+                    {{ form_label(form.opacity,'Ball opacity') }}
+                    {{ form_widget(form.opacity, { 'attr': {'class': 'form-control'} }) }}
+                </div>
+                <div class="form-group">
+                    {{ form_label(form.max,'Maximum rate of interest') }}
+                    {{ form_widget(form.max, { 'attr': {'class': 'form-control'} }) }}
+                </div>
+                </div>
+                </div>
+
 
                 <button type="submit" class="btn btn-primary">Next</button>
             {{ form_end(form) }}

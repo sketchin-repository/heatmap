@@ -35,24 +35,24 @@ function drawOpenLayerMap(data) {
     layer = new OpenLayers.Layer.OSM();
     //layer = new OpenLayers.Layer.Google("Google Streets",{numZoomLevels: 20});
 
-    // configure heatmap layer
-    var config = {
-        "radius": 45,
-        "element": "heatmap-scale",
-        "visible": true,
-        "opacity": 60,
-        "gradient": {
-            0.45: "rgb(0,0,255)",
-            0.55: "rgb(0,255,255)",
-            0.65: "rgb(0,255,0)",
-            0.95: "yellow",
-            1.0: "rgb(237,69,17)"
-        },
-        "legend": {
-            position: 'bl',
-            title: 'Sessioni utente'
-        }
-    };
+    // // configure heatmap layer
+    // var config = {
+    //     "radius": 45,
+    //     "element": "heatmap-scale",
+    //     "visible": true,
+    //     "opacity": 60,
+    //     "gradient": {
+    //         0.45: "rgb(0,0,255)",
+    //         0.55: "rgb(0,255,255)",
+    //         0.65: "rgb(0,255,0)",
+    //         0.95: "yellow",
+    //         1.0: "rgb(237,69,17)"
+    //     },
+    //     "legend": {
+    //         position: 'bl',
+    //         title: 'Sessioni utente'
+    //     }
+    // };
 
     // create heatmap layer
     heatmap = new OpenLayers.Layer.Heatmap("Heatmap Layer", map, layer, config, {
@@ -67,7 +67,7 @@ function drawOpenLayerMap(data) {
     heatmap.setDataSet(transformedData);
 };
 
-function drawGoogleMap(data) {
+function drawGoogleMap(data, config) {
 
     // standard gmaps initialization
     var myLatlng = new google.maps.LatLng(45.538889, 10.219444);
@@ -89,22 +89,22 @@ function drawGoogleMap(data) {
     // we'll use the heatmapArea 
     var map = new google.maps.Map($("#heatmap")[0], myOptions);
 
-    // let's create a heatmap-overlay
-    // with heatmap config properties
-    // configure heatmap layer
-    var config = {
-        "radius": 45,
-        "element": "heatmap-scale",
-        "visible": true,
-        "opacity": 60,
-        "gradient": {
-            0.45: "rgb(0,0,255)",
-            0.55: "rgb(0,255,255)",
-            0.65: "rgb(0,255,0)",
-            0.95: "yellow",
-            1.0: "rgb(237,69,17)"
-        }
-    };
+    // // let's create a heatmap-overlay
+    // // with heatmap config properties
+    // // configure heatmap layer
+    // var config = {
+    //     "radius": 45,
+    //     "element": "heatmap-scale",
+    //     "visible": true,
+    //     "opacity": 60,
+    //     "gradient": {
+    //         0.45: "rgb(0,0,255)",
+    //         0.55: "rgb(0,255,255)",
+    //         0.65: "rgb(0,255,0)",
+    //         0.95: "yellow",
+    //         1.0: "rgb(237,69,17)"
+    //     }
+    // };
 
     var heatmap = new HeatmapOverlay(map, config);
 
@@ -116,19 +116,13 @@ function drawGoogleMap(data) {
     //     var lonlat = proj4(utm, wgs84, [data.locations[i].lng, data.locations[i].lat]);
     //     data.locations[i].lat = lonlat[1];
     //     data.locations[i].lng = lonlat[0];
-    // }
+    // }  
 
-    // here is our dataset
-    // important: a datapoint now contains lat, lng and count property!    
-    var testData = {
-        max: 250000,
-        data: data
-    };
 
     // now we can set the data
     google.maps.event.addListenerOnce(map, "idle", function () {
         // this is important, because if you set the data set too early, the latlng/pixel projection doesn't work
-        heatmap.setDataSet(testData);
+        heatmap.setDataSet(data);
     });
 }
 

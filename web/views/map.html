@@ -59,7 +59,30 @@
         url: "/assets/data/sources/{{ slug }}.json",
         dataType: "json",
         success: function (data) {
-            drawGoogleMap(data);
+            // let's create a heatmap-overlay
+            // with heatmap config properties
+            // configure heatmap layer
+            
+            var heatmapData = {
+                max: {{ config.max }},
+                data: data
+            };
+
+            var config = {
+                "radius": {{ config.radius }},
+                "element": "heatmap-scale",
+                "visible": true,
+                "opacity": {{  config.opacity }},
+                "gradient": {
+                    0.45: "rgb(0,0,255)",
+                    0.55: "rgb(0,255,255)",
+                    0.65: "rgb(0,255,0)",
+                    0.95: "yellow",
+                    1.0: "rgb(237,69,17)"
+                }
+            };
+
+            drawGoogleMap(heatmapData, config);
         }
     });
 });
