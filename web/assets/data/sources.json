@@ -1,0 +1,26 @@
+{
+    "analytics-gdb-sessioni": {
+        "name": "Analytics GDB Sessioni",
+        "config": {
+            "radius": 40,
+            "opacity": 60,
+            "max": 20000
+        }
+    },
+    "analytics-gdb-pagine-per-sessione": {
+        "name": "Analytics GDB Pagine per sessione",
+        "config": {
+            "radius": 20,
+            "opacity": 60,
+            "max": 5
+        }
+    },
+    "analytics-gdb-durata-sessione-media": {
+        "name": "Analytics GDB Durata sessione media",
+        "config": {
+            "radius": 20,
+            "opacity": 60,
+            "max": 500
+        }
+    }
+}

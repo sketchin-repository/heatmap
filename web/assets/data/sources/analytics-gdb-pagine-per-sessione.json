@@ -1,0 +1,8339 @@
+[
+    {
+        "name": "Brescia",
+        "count": 3.8,
+        "lng": 10.2118019,
+        "lat": 45.5415526,
+        "result": "success"
+    },
+    {
+        "name": "Milan",
+        "count": 2.99,
+        "lng": 9.1859243,
+        "lat": 45.4654219,
+        "result": "success"
+    },
+    {
+        "name": "Rome",
+        "count": 2.74,
+        "lng": 12.4801802,
+        "lat": 41.8723889,
+        "result": "success"
+    },
+    {
+        "name": "Bergamo",
+        "count": 3.26,
+        "lng": 9.6772698,
+        "lat": 45.6982642,
+        "result": "success"
+    },
+    {
+        "name": "Mantua",
+        "count": 3.52,
+        "lng": 10.7913751,
+        "lat": 45.1564168,
+        "result": "success"
+    },
+    {
+        "name": "Turin",
+        "count": 2.99,
+        "lng": 7.6868565,
+        "lat": 45.070312,
+        "result": "success"
+    },
+    {
+        "name": "Cremona",
+        "count": 3.62,
+        "lng": 10.0226511,
+        "lat": 45.133249,
+        "result": "success"
+    },
+    {
+        "name": "Desenzano del Garda",
+        "count": 3.88,
+        "lng": 10.5333351,
+        "lat": 45.4714531,
+        "result": "success"
+    },
+    {
+        "name": "Como",
+        "count": 3.1,
+        "lng": 9.0851765,
+        "lat": 45.8080597,
+        "result": "success"
+    },
+    {
+        "name": "Verona",
+        "count": 4.64,
+        "lng": 10.9916215,
+        "lat": 45.4383842,
+        "result": "success"
+    },
+    {
+        "name": "Lumezzane",
+        "count": 4.04,
+        "lng": 10.2654082,
+        "lat": 45.6474809,
+        "result": "success"
+    },
+    {
+        "name": "Padua",
+        "count": 2.43,
+        "lng": 11.8767611,
+        "lat": 45.4064349,
+        "result": "success"
+    },
+    {
+        "name": "Varese",
+        "count": 3.52,
+        "lng": 8.8250576,
+        "lat": 45.8205989,
+        "result": "success"
+    },
+    {
+        "name": "Rovato",
+        "count": 3.95,
+        "lng": 9.9999307,
+        "lat": 45.5654088,
+        "result": "success"
+    },
+    {
+        "name": "Bologna",
+        "count": 3.15,
+        "lng": 11.3426163,
+        "lat": 44.494887,
+        "result": "success"
+    },
+    {
+        "name": "Montichiari",
+        "count": 3.55,
+        "lng": 10.3928713,
+        "lat": 45.4148389,
+        "result": "success"
+    },
+    {
+        "name": "Pavia",
+        "count": 3.76,
+        "lng": 9.1582069,
+        "lat": 45.1847248,
+        "result": "success"
+    },
+    {
+        "name": "Manerbio",
+        "count": 3.37,
+        "lng": 10.140792,
+        "lat": 45.3534331,
+        "result": "success"
+    },
+    {
+        "name": "Chiari",
+        "count": 4.67,
+        "lng": 9.9321721,
+        "lat": 45.5367464,
+        "result": "success"
+    },
+    {
+        "name": "Florence",
+        "count": 2.78,
+        "lng": 11.2480006,
+        "lat": 43.7710332,
+        "result": "success"
+    },
+    {
+        "name": "Darfo Boario Terme",
+        "count": 3.91,
+        "lng": 10.1877542,
+        "lat": 45.8815885,
+        "result": "success"
+    },
+    {
+        "name": "Sarezzo",
+        "count": 3.35,
+        "lng": 10.20055,
+        "lat": 45.6521677,
+        "result": "success"
+    },
+    {
+        "name": "Treviglio",
+        "count": 3.91,
+        "lng": 9.5951189,
+        "lat": 45.5211505,
+        "result": "success"
+    },
+    {
+        "name": "Catania",
+        "count": 2.43,
+        "lng": 15.0830304,
+        "lat": 37.5078772,
+        "result": "success"
+    },
+    {
+        "name": "Ghedi",
+        "count": 3.85,
+        "lng": 10.2755113,
+        "lat": 45.406043,
+        "result": "success"
+    },
+    {
+        "name": "Monza",
+        "count": 3.11,
+        "lng": 9.2744485,
+        "lat": 45.5845001,
+        "result": "success"
+    },
+    {
+        "name": "Avellino",
+        "count": 3.44,
+        "lng": 14.7906121,
+        "lat": 40.914388,
+        "result": "success"
+    },
+    {
+        "name": "Palazzolo sull'Oglio",
+        "count": 3.51,
+        "lng": 9.8863806,
+        "lat": 45.5964593,
+        "result": "success"
+    },
+    {
+        "name": "Naples",
+        "count": 2.09,
+        "lng": -81.7948103,
+        "lat": 26.1420358,
+        "result": "success"
+    },
+    {
+        "name": "Vicenza",
+        "count": 3.38,
+        "lng": 11.5354214,
+        "lat": 45.5454787,
+        "result": "success"
+    },
+    {
+        "name": "Trento",
+        "count": 2.76,
+        "lng": 11.1197626,
+        "lat": 46.0700915,
+        "result": "success"
+    },
+    {
+        "name": "Treviso",
+        "count": 3.27,
+        "lng": 12.243039,
+        "lat": 45.6669011,
+        "result": "success"
+    },
+    {
+        "name": "Orzinuovi",
+        "count": 3.58,
+        "lng": 9.9248647,
+        "lat": 45.4014052,
+        "result": "success"
+    },
+    {
+        "name": "Rezzato",
+        "count": 3.96,
+        "lng": 10.3324897,
+        "lat": 45.5071605,
+        "result": "success"
+    },
+    {
+        "name": "Lecco",
+        "count": 3.45,
+        "lng": 9.3976704,
+        "lat": 45.8565698,
+        "result": "success"
+    },
+    {
+        "name": "Castiglione delle Stiviere",
+        "count": 3.48,
+        "lng": 10.4829578,
+        "lat": 45.3873983,
+        "result": "success"
+    },
+    {
+        "name": "Salo",
+        "count": 4.19,
+        "lng": 23.125,
+        "lat": 60.386111,
+        "result": "success"
+    },
+    {
+        "name": "Montreal",
+        "count": 1.81,
+        "lng": -73.5539925,
+        "lat": 45.5086699,
+        "result": "success"
+    },
+    {
+        "name": "Palermo",
+        "count": 2.25,
+        "lng": 13.3612671,
+        "lat": 38.1156879,
+        "result": "success"
+    },
+    {
+        "name": "Castenedolo",
+        "count": 3.69,
+        "lng": 10.2982006,
+        "lat": 45.4715911,
+        "result": "success"
+    },
+    {
+        "name": "London",
+        "count": 2.76,
+        "lng": -0.1277583,
+        "lat": 51.5073509,
+        "result": "success"
+    },
+    {
+        "name": "Civitanova Marche",
+        "count": 3.41,
+        "lng": 13.7218351,
+        "lat": 43.3048492,
+        "result": "success"
+    },
+    {
+        "name": "Roncadelle",
+        "count": 4.43,
+        "lng": 10.1601758,
+        "lat": 45.5270162,
+        "result": "success"
+    },
+    {
+        "name": "Calcinato",
+        "count": 4.12,
+        "lng": 10.4111493,
+        "lat": 45.4619342,
+        "result": "success"
+    },
+    {
+        "name": "Oslo",
+        "count": 1.35,
+        "lng": 10.7522454,
+        "lat": 59.9138688,
+        "result": "success"
+    },
+    {
+        "name": "Crema",
+        "count": 3.42,
+        "lng": 9.6824841,
+        "lat": 45.3643375,
+        "result": "success"
+    },
+    {
+        "name": "Parma",
+        "count": 2.61,
+        "lng": 10.3279036,
+        "lat": 44.801485,
+        "result": "success"
+    },
+    {
+        "name": "Udine",
+        "count": 2.94,
+        "lng": 13.2345794,
+        "lat": 46.0710668,
+        "result": "success"
+    },
+    {
+        "name": "Iseo",
+        "count": 3.77,
+        "lng": 10.0523552,
+        "lat": 45.657081,
+        "result": "success"
+    },
+    {
+        "name": "Concesio",
+        "count": 4.19,
+        "lng": 10.22268,
+        "lat": 45.5998218,
+        "result": "success"
+    },
+    {
+        "name": "Genoa",
+        "count": 2.57,
+        "lng": 8.946256,
+        "lat": 44.4056499,
+        "result": "success"
+    },
+    {
+        "name": "Bari",
+        "count": 2.4,
+        "lng": 16.8718715,
+        "lat": 41.1171432,
+        "result": "success"
+    },
+    {
+        "name": "Borgonuovo",
+        "count": 2.37,
+        "lng": 11.2708014,
+        "lat": 44.4386496,
+        "result": "success"
+    },
+    {
+        "name": "Sirmione",
+        "count": 3.61,
+        "lng": 10.6053754,
+        "lat": 45.4969717,
+        "result": "success"
+    },
+    {
+        "name": "Modena",
+        "count": 3.03,
+        "lng": 10.9200867,
+        "lat": 44.6488366,
+        "result": "success"
+    },
+    {
+        "name": "Gardone Val Trompia",
+        "count": 3.8,
+        "lng": 10.18562,
+        "lat": 45.6889709,
+        "result": "success"
+    },
+    {
+        "name": "Sondrio",
+        "count": 4.14,
+        "lng": 9.8787674,
+        "lat": 46.1698583,
+        "result": "success"
+    },
+    {
+        "name": "San Donato Milanese",
+        "count": 3.91,
+        "lng": 9.2684867,
+        "lat": 45.4092402,
+        "result": "success"
+    },
+    {
+        "name": "Forli",
+        "count": 3.5,
+        "lng": 12.0407312,
+        "lat": 44.2227398,
+        "result": "success"
+    },
+    {
+        "name": "Leno",
+        "count": 4.49,
+        "lng": 10.2178501,
+        "lat": 45.3680207,
+        "result": "success"
+    },
+    {
+        "name": "Venice",
+        "count": 2.74,
+        "lng": 12.3155151,
+        "lat": 45.4408474,
+        "result": "success"
+    },
+    {
+        "name": "Sovere",
+        "count": 3.36,
+        "lng": 10.0255367,
+        "lat": 45.8237135,
+        "result": "success"
+    },
+    {
+        "name": "Passirano",
+        "count": 3.98,
+        "lng": 10.0627657,
+        "lat": 45.5996034,
+        "result": "success"
+    },
+    {
+        "name": "Nuvolento",
+        "count": 3.84,
+        "lng": 10.3841257,
+        "lat": 45.5450757,
+        "result": "success"
+    },
+    {
+        "name": "Salerno",
+        "count": 3.46,
+        "lng": 14.7680961,
+        "lat": 40.6824408,
+        "result": "success"
+    },
+    {
+        "name": "Rimini",
+        "count": 2.98,
+        "lng": 12.5646003,
+        "lat": 44.0570817,
+        "result": "success"
+    },
+    {
+        "name": "Novara",
+        "count": 2.9,
+        "lng": 8.6221612,
+        "lat": 45.44693,
+        "result": "success"
+    },
+    {
+        "name": "Busto Arsizio",
+        "count": 2.93,
+        "lng": 8.8531265,
+        "lat": 45.611892,
+        "result": "success"
+    },
+    {
+        "name": "Villa Carcina",
+        "count": 5.51,
+        "lng": 10.1958364,
+        "lat": 45.6325231,
+        "result": "success"
+    },
+    {
+        "name": "Lucca",
+        "count": 2.31,
+        "lng": 10.4950609,
+        "lat": 43.8376211,
+        "result": "success"
+    },
+    {
+        "name": "Lecce",
+        "count": 2.23,
+        "lng": 18.1750161,
+        "lat": 40.3515155,
+        "result": "success"
+    },
+    {
+        "name": "Dalmine",
+        "count": 3.73,
+        "lng": 9.6049071,
+        "lat": 45.6502006,
+        "result": "success"
+    },
+    {
+        "name": "Casalmaggiore",
+        "count": 3.39,
+        "lng": 10.4196194,
+        "lat": 44.9883089,
+        "result": "success"
+    },
+    {
+        "name": "Castel Goffredo",
+        "count": 3.26,
+        "lng": 10.4767787,
+        "lat": 45.2989404,
+        "result": "success"
+    },
+    {
+        "name": "Ashburn",
+        "count": 2.37,
+        "lng": -77.4874416,
+        "lat": 39.0437567,
+        "result": "success"
+    },
+    {
+        "name": "Voghera",
+        "count": 3.47,
+        "lng": 9.0120442,
+        "lat": 44.9916599,
+        "result": "success"
+    },
+    {
+        "name": "Pistoia",
+        "count": 3.05,
+        "lng": 10.9078587,
+        "lat": 43.9303475,
+        "result": "success"
+    },
+    {
+        "name": "Adro",
+        "count": 3.62,
+        "lng": 9.9575541,
+        "lat": 45.6201335,
+        "result": "success"
+    },
+    {
+        "name": "Cosenza",
+        "count": 2.17,
+        "lng": 16.2537357,
+        "lat": 39.2982629,
+        "result": "success"
+    },
+    {
+        "name": "Legnano",
+        "count": 3.07,
+        "lng": 8.9142485,
+        "lat": 45.5983403,
+        "result": "success"
+    },
+    {
+        "name": "Prato",
+        "count": 2.62,
+        "lng": 11.102228,
+        "lat": 43.8777049,
+        "result": "success"
+    },
+    {
+        "name": "Gallarate",
+        "count": 2.89,
+        "lng": 8.7921269,
+        "lat": 45.6623632,
+        "result": "success"
+    },
+    {
+        "name": "Storo",
+        "count": 2.71,
+        "lng": 10.5790256,
+        "lat": 45.8482451,
+        "result": "success"
+    },
+    {
+        "name": "Vigevano",
+        "count": 3.23,
+        "lng": 8.8466726,
+        "lat": 45.3218787,
+        "result": "success"
+    },
+    {
+        "name": "Asola",
+        "count": 2.97,
+        "lng": 10.4130142,
+        "lat": 45.2201286,
+        "result": "success"
+    },
+    {
+        "name": "Villongo",
+        "count": 3.24,
+        "lng": 9.9356767,
+        "lat": 45.6675595,
+        "result": "success"
+    },
+    {
+        "name": "Viadana",
+        "count": 4,
+        "lng": 10.5177888,
+        "lat": 44.9239745,
+        "result": "success"
+    },
+    {
+        "name": "Reggio Emilia",
+        "count": 3.09,
+        "lng": 10.6296859,
+        "lat": 44.6989932,
+        "result": "success"
+    },
+    {
+        "name": "Lodi",
+        "count": 3.07,
+        "lng": 9.503716,
+        "lat": 45.3097228,
+        "result": "success"
+    },
+    {
+        "name": "Sassari",
+        "count": 2.58,
+        "lng": 8.5556826,
+        "lat": 40.7259269,
+        "result": "success"
+    },
+    {
+        "name": "Livigno",
+        "count": 3.81,
+        "lng": 10.1357319,
+        "lat": 46.538636,
+        "result": "success"
+    },
+    {
+        "name": "Bolzano",
+        "count": 4.32,
+        "lng": 11.3547582,
+        "lat": 46.4982953,
+        "result": "success"
+    },
+    {
+        "name": "Sesto San Giovanni",
+        "count": 3.54,
+        "lng": 9.2256875,
+        "lat": 45.5328245,
+        "result": "success"
+    },
+    {
+        "name": "Foggia",
+        "count": 2.61,
+        "lng": 15.5446302,
+        "lat": 41.4621984,
+        "result": "success"
+    },
+    {
+        "name": "Cantu",
+        "count": 3.27,
+        "lng": 9.1362202,
+        "lat": 45.7336838,
+        "result": "success"
+    },
+    {
+        "name": "Toronto",
+        "count": 1.84,
+        "lng": -79.3831843,
+        "lat": 43.653226,
+        "result": "success"
+    },
+    {
+        "name": "Siena",
+        "count": 2.94,
+        "lng": 11.3307574,
+        "lat": 43.318809,
+        "result": "success"
+    },
+    {
+        "name": "Sarnico",
+        "count": 3.18,
+        "lng": 9.9640563,
+        "lat": 45.6691609,
+        "result": "success"
+    },
+    {
+        "name": "Seriate",
+        "count": 3.46,
+        "lng": 9.7217012,
+        "lat": 45.685418,
+        "result": "success"
+    },
+    {
+        "name": "Cagliari",
+        "count": 2.66,
+        "lng": 9.1216613,
+        "lat": 39.2238411,
+        "result": "success"
+    },
+    {
+        "name": "Saronno",
+        "count": 3.81,
+        "lng": 9.0359607,
+        "lat": 45.6242491,
+        "result": "success"
+    },
+    {
+        "name": "Breno",
+        "count": 3.34,
+        "lng": 8.883333,
+        "lat": 46.033333,
+        "result": "success"
+    },
+    {
+        "name": "Pisa",
+        "count": 2.67,
+        "lng": 10.4016888,
+        "lat": 43.7228386,
+        "result": "success"
+    },
+    {
+        "name": "Paris",
+        "count": 2.72,
+        "lng": 2.3522219,
+        "lat": 48.856614,
+        "result": "success"
+    },
+    {
+        "name": "Zurich",
+        "count": 3.3,
+        "lng": 8.5391825,
+        "lat": 47.3686498,
+        "result": "success"
+    },
+    {
+        "name": "New York",
+        "count": 3.24,
+        "lng": -74.0059413,
+        "lat": 40.7127837,
+        "result": "success"
+    },
+    {
+        "name": "Suzzara",
+        "count": 3.57,
+        "lng": 10.742497,
+        "lat": 44.9918729,
+        "result": "success"
+    },
+    {
+        "name": "Pesaro",
+        "count": 2.93,
+        "lng": 12.9155494,
+        "lat": 43.9124756,
+        "result": "success"
+    },
+    {
+        "name": "Piacenza",
+        "count": 2.57,
+        "lng": 9.6865813,
+        "lat": 45.0473754,
+        "result": "success"
+    },
+    {
+        "name": "Lugano",
+        "count": 3.48,
+        "lng": 8.9523121,
+        "lat": 46.0065117,
+        "result": "success"
+    },
+    {
+        "name": "Cesena",
+        "count": 2.99,
+        "lng": 12.2464292,
+        "lat": 44.1396438,
+        "result": "success"
+    },
+    {
+        "name": "Bagolino",
+        "count": 3.08,
+        "lng": 10.4635029,
+        "lat": 45.8231864,
+        "result": "success"
+    },
+    {
+        "name": "Vestone",
+        "count": 3.81,
+        "lng": 10.4032727,
+        "lat": 45.7082866,
+        "result": "success"
+    },
+    {
+        "name": "Mariano Comense",
+        "count": 3.3,
+        "lng": 9.1824505,
+        "lat": 45.6981773,
+        "result": "success"
+    },
+    {
+        "name": "Athens",
+        "count": 6.16,
+        "lng": 23.7293599,
+        "lat": 37.983917,
+        "result": "success"
+    },
+    {
+        "name": "Chieti",
+        "count": 2.22,
+        "lng": 14.1635845,
+        "lat": 42.347886,
+        "result": "success"
+    },
+    {
+        "name": "Limone Sul Garda",
+        "count": 3.4,
+        "lng": 10.7898576,
+        "lat": 45.8101279,
+        "result": "success"
+    },
+    {
+        "name": "Carpi",
+        "count": 2.89,
+        "lng": 10.8796629,
+        "lat": 44.7838779,
+        "result": "success"
+    },
+    {
+        "name": "Erba",
+        "count": 3.91,
+        "lng": 9.2267284,
+        "lat": 45.8116198,
+        "result": "success"
+    },
+    {
+        "name": "Berlin",
+        "count": 4.73,
+        "lng": 13.404954,
+        "lat": 52.5200066,
+        "result": "success"
+    },
+    {
+        "name": "Rho",
+        "count": 2.7,
+        "lng": 9.0396122,
+        "lat": 45.5326476,
+        "result": "success"
+    },
+    {
+        "name": "Desio",
+        "count": 2.87,
+        "lng": 9.2076935,
+        "lat": 45.6186654,
+        "result": "success"
+    },
+    {
+        "name": "Pescara",
+        "count": 2.36,
+        "lng": 14.2160898,
+        "lat": 42.4617902,
+        "result": "success"
+    },
+    {
+        "name": "Peschiera del Garda",
+        "count": 3.41,
+        "lng": 10.6865449,
+        "lat": 45.4396385,
+        "result": "success"
+    },
+    {
+        "name": "Tradate",
+        "count": 2.85,
+        "lng": 8.907067,
+        "lat": 45.7115434,
+        "result": "success"
+    },
+    {
+        "name": "Campodarsego",
+        "count": 1.9,
+        "lng": 11.906657,
+        "lat": 45.5015196,
+        "result": "success"
+    },
+    {
+        "name": "Vailate",
+        "count": 3.18,
+        "lng": 9.6026494,
+        "lat": 45.4618159,
+        "result": "success"
+    },
+    {
+        "name": "Cinisello Balsamo",
+        "count": 2.76,
+        "lng": 9.2143838,
+        "lat": 45.5583553,
+        "result": "success"
+    },
+    {
+        "name": "Riccione",
+        "count": 2.94,
+        "lng": 12.6555485,
+        "lat": 43.999296,
+        "result": "success"
+    },
+    {
+        "name": "Ravenna",
+        "count": 2.54,
+        "lng": 12.2035294,
+        "lat": 44.4183598,
+        "result": "success"
+    },
+    {
+        "name": "Cuneo",
+        "count": 3.24,
+        "lng": 7.5426711,
+        "lat": 44.3844766,
+        "result": "success"
+    },
+    {
+        "name": "Madrid",
+        "count": 2.71,
+        "lng": -3.7037902,
+        "lat": 40.4167754,
+        "result": "success"
+    },
+    {
+        "name": "Caserta",
+        "count": 2.21,
+        "lng": 14.3311337,
+        "lat": 41.0723484,
+        "result": "success"
+    },
+    {
+        "name": "Lissone",
+        "count": 3.41,
+        "lng": 9.242569,
+        "lat": 45.6130379,
+        "result": "success"
+    },
+    {
+        "name": "Savona",
+        "count": 2.67,
+        "lng": 8.4645,
+        "lat": 44.2975603,
+        "result": "success"
+    },
+    {
+        "name": "Romano di Lombardia",
+        "count": 3.07,
+        "lng": 9.7550117,
+        "lat": 45.5210652,
+        "result": "success"
+    },
+    {
+        "name": "Kyiv",
+        "count": 3.27,
+        "lng": 30.5234,
+        "lat": 50.4501,
+        "result": "success"
+    },
+    {
+        "name": "Alessandria",
+        "count": 3.08,
+        "lng": 8.6116796,
+        "lat": 44.9072727,
+        "result": "success"
+    },
+    {
+        "name": "Colonnella",
+        "count": 2.53,
+        "lng": 13.8698337,
+        "lat": 42.8754227,
+        "result": "success"
+    },
+    {
+        "name": "Brussels",
+        "count": 2.97,
+        "lng": 4.35,
+        "lat": 50.85,
+        "result": "success"
+    },
+    {
+        "name": "Castelli Calepio",
+        "count": 4.09,
+        "lng": 9.8908546,
+        "lat": 45.6143964,
+        "result": "success"
+    },
+    {
+        "name": "Cologno Monzese",
+        "count": 3.14,
+        "lng": 9.2787075,
+        "lat": 45.528603,
+        "result": "success"
+    },
+    {
+        "name": "Senigallia",
+        "count": 2.54,
+        "lng": 13.2152224,
+        "lat": 43.7197926,
+        "result": "success"
+    },
+    {
+        "name": "Terni",
+        "count": 6.19,
+        "lng": 12.6426604,
+        "lat": 42.5636168,
+        "result": "success"
+    },
+    {
+        "name": "Pordenone",
+        "count": 3.49,
+        "lng": 12.6551362,
+        "lat": 45.9626398,
+        "result": "success"
+    },
+    {
+        "name": "Trescore Balneario",
+        "count": 2.75,
+        "lng": 9.8408098,
+        "lat": 45.6966331,
+        "result": "success"
+    },
+    {
+        "name": "Dublin",
+        "count": 3.47,
+        "lng": -6.2603097,
+        "lat": 53.3498053,
+        "result": "success"
+    },
+    {
+        "name": "Lagos",
+        "count": 2.45,
+        "lng": 3.3792057,
+        "lat": 6.5243793,
+        "result": "success"
+    },
+    {
+        "name": "Luino",
+        "count": 3.26,
+        "lng": 8.7464,
+        "lat": 46.0018022,
+        "result": "success"
+    },
+    {
+        "name": "Asti",
+        "count": 2.7,
+        "lng": 75.1664835,
+        "lat": 18.8078681,
+        "result": "success"
+    },
+    {
+        "name": "Seregno",
+        "count": 2.98,
+        "lng": 9.2051608,
+        "lat": 45.6504567,
+        "result": "success"
+    },
+    {
+        "name": "Cernusco sul Naviglio",
+        "count": 3.5,
+        "lng": 9.3329595,
+        "lat": 45.5249795,
+        "result": "success"
+    },
+    {
+        "name": "Lido di Jesolo",
+        "count": 2.62,
+        "lng": 12.6457389,
+        "lat": 45.5063264,
+        "result": "success"
+    },
+    {
+        "name": "Faenza",
+        "count": 2.98,
+        "lng": 11.8774091,
+        "lat": 44.2898527,
+        "result": "success"
+    },
+    {
+        "name": "Biella",
+        "count": 3.05,
+        "lng": 8.0583397,
+        "lat": 45.5628842,
+        "result": "success"
+    },
+    {
+        "name": "Sydney",
+        "count": 7.11,
+        "lng": 151.2069902,
+        "lat": -33.8674869,
+        "result": "success"
+    },
+    {
+        "name": "Santo Domingo",
+        "count": 2.48,
+        "lng": -69.95,
+        "lat": 18.466667,
+        "result": "success"
+    },
+    {
+        "name": "Collegno",
+        "count": 3.47,
+        "lng": 7.566241,
+        "lat": 45.0787054,
+        "result": "success"
+    },
+    {
+        "name": "Munich",
+        "count": 3.2,
+        "lng": 11.5819806,
+        "lat": 48.1351253,
+        "result": "success"
+    },
+    {
+        "name": "Curno",
+        "count": 3.41,
+        "lng": 9.6103,
+        "lat": 45.6911214,
+        "result": "success"
+    },
+    {
+        "name": "Ferrara",
+        "count": 4.15,
+        "lng": 11.619787,
+        "lat": 44.8381237,
+        "result": "success"
+    },
+    {
+        "name": "Macerata",
+        "count": 2.79,
+        "lng": 13.4534767,
+        "lat": 43.2984268,
+        "result": "success"
+    },
+    {
+        "name": "Pomigliano d'Arco",
+        "count": 2,
+        "lng": 14.3829123,
+        "lat": 40.9101303,
+        "result": "success"
+    },
+    {
+        "name": "Barcelona",
+        "count": 2.89,
+        "lng": 2.1734035,
+        "lat": 41.3850639,
+        "result": "success"
+    },
+    {
+        "name": "Tunis",
+        "count": 3.07,
+        "lng": 10.1815316,
+        "lat": 36.8064948,
+        "result": "success"
+    },
+    {
+        "name": "Trieste",
+        "count": 2.86,
+        "lng": 13.7768182,
+        "lat": 45.6495264,
+        "result": "success"
+    },
+    {
+        "name": "Bassano del Grappa",
+        "count": 2.98,
+        "lng": 11.7272747,
+        "lat": 45.7657286,
+        "result": "success"
+    },
+    {
+        "name": "Vienna",
+        "count": 3.49,
+        "lng": 16.3738189,
+        "lat": 48.2081743,
+        "result": "success"
+    },
+    {
+        "name": "Jesi",
+        "count": 1.99,
+        "lng": 13.2463797,
+        "lat": 43.5270861,
+        "result": "success"
+    },
+    {
+        "name": "Cassano d'Adda",
+        "count": 3.07,
+        "lng": 9.5140979,
+        "lat": 45.526634,
+        "result": "success"
+    },
+    {
+        "name": "Rovereto",
+        "count": 3.16,
+        "lng": 11.0401399,
+        "lat": 45.89096,
+        "result": "success"
+    },
+    {
+        "name": "Istanbul",
+        "count": 2.59,
+        "lng": 28.97696,
+        "lat": 41.00527,
+        "result": "success"
+    },
+    {
+        "name": "Albino",
+        "count": 4.66,
+        "lng": 9.8015415,
+        "lat": 45.7636652,
+        "result": "success"
+    },
+    {
+        "name": "Fano",
+        "count": 2.09,
+        "lng": 13.0194201,
+        "lat": 43.8398164,
+        "result": "success"
+    },
+    {
+        "name": "Bollate",
+        "count": 2.6,
+        "lng": 9.1176956,
+        "lat": 45.5446792,
+        "result": "success"
+    },
+    {
+        "name": "Livorno",
+        "count": 2.92,
+        "lng": 10.3105674,
+        "lat": 43.548473,
+        "result": "success"
+    },
+    {
+        "name": "Castelfranco Veneto",
+        "count": 2.67,
+        "lng": 11.9282388,
+        "lat": 45.6716942,
+        "result": "success"
+    },
+    {
+        "name": "Malnate",
+        "count": 3.23,
+        "lng": 8.8827431,
+        "lat": 45.7971315,
+        "result": "success"
+    },
+    {
+        "name": "Tirana",
+        "count": 4.1,
+        "lng": 19.8186982,
+        "lat": 41.3275459,
+        "result": "success"
+    },
+    {
+        "name": "Cassano Magnago",
+        "count": 3.01,
+        "lng": 8.8272628,
+        "lat": 45.6717299,
+        "result": "success"
+    },
+    {
+        "name": "Assago",
+        "count": 3.48,
+        "lng": 9.1239694,
+        "lat": 45.4061985,
+        "result": "success"
+    },
+    {
+        "name": "Trezzo sull'Adda",
+        "count": 5.21,
+        "lng": 9.5156844,
+        "lat": 45.6105975,
+        "result": "success"
+    },
+    {
+        "name": "Brembate di Sopra",
+        "count": 3.78,
+        "lng": 9.5816698,
+        "lat": 45.7197493,
+        "result": "success"
+    },
+    {
+        "name": "Moscow",
+        "count": 3.4,
+        "lng": 37.6173,
+        "lat": 55.755826,
+        "result": "success"
+    },
+    {
+        "name": "Rovigo",
+        "count": 2.63,
+        "lng": 11.7902158,
+        "lat": 45.0698118,
+        "result": "success"
+    },
+    {
+        "name": "Casale Monferrato",
+        "count": 2.7,
+        "lng": 8.450503,
+        "lat": 45.1316088,
+        "result": "success"
+    },
+    {
+        "name": "Grumello del Monte",
+        "count": 3.65,
+        "lng": 9.874847,
+        "lat": 45.636274,
+        "result": "success"
+    },
+    {
+        "name": "Merate",
+        "count": 2.85,
+        "lng": 9.4065471,
+        "lat": 45.6983647,
+        "result": "success"
+    },
+    {
+        "name": "Olbia",
+        "count": 3.06,
+        "lng": 9.4964429,
+        "lat": 40.9235764,
+        "result": "success"
+    },
+    {
+        "name": "Cervia",
+        "count": 3.02,
+        "lng": 12.3476822,
+        "lat": 44.2635492,
+        "result": "success"
+    },
+    {
+        "name": "Cesenatico",
+        "count": 2.97,
+        "lng": 12.4052023,
+        "lat": 44.200847,
+        "result": "success"
+    },
+    {
+        "name": "Rivoli",
+        "count": 2.62,
+        "lng": 7.513821,
+        "lat": 45.0710902,
+        "result": "success"
+    },
+    {
+        "name": "Oristano",
+        "count": 2.48,
+        "lng": 8.5883863,
+        "lat": 39.906182,
+        "result": "success"
+    },
+    {
+        "name": "Nice",
+        "count": 2.99,
+        "lng": 7.2619532,
+        "lat": 43.7101728,
+        "result": "success"
+    },
+    {
+        "name": "Caravaggio",
+        "count": 2.69,
+        "lng": 9.6436013,
+        "lat": 45.4973992,
+        "result": "success"
+    },
+    {
+        "name": "Verbania",
+        "count": 2.76,
+        "lng": 8.5554714,
+        "lat": 45.9281827,
+        "result": "success"
+    },
+    {
+        "name": "Ancona",
+        "count": 2.35,
+        "lng": 13.518915,
+        "lat": 43.6158299,
+        "result": "success"
+    },
+    {
+        "name": "Empoli",
+        "count": 3.19,
+        "lng": 10.9477782,
+        "lat": 43.7178919,
+        "result": "success"
+    },
+    {
+        "name": "Melbourne",
+        "count": 3,
+        "lng": 144.96328,
+        "lat": -37.814107,
+        "result": "success"
+    },
+    {
+        "name": "Imola",
+        "count": 3.13,
+        "lng": 11.7124294,
+        "lat": 44.3599996,
+        "result": "success"
+    },
+    {
+        "name": "Glenview",
+        "count": 7.5,
+        "lng": -87.7878408,
+        "lat": 42.0697509,
+        "result": "success"
+    },
+    {
+        "name": "Benevento",
+        "count": 2.2,
+        "lng": 14.7826208,
+        "lat": 41.1297613,
+        "result": "success"
+    },
+    {
+        "name": "Ostiglia",
+        "count": 2.82,
+        "lng": 11.1339101,
+        "lat": 45.0714071,
+        "result": "success"
+    },
+    {
+        "name": "Grosseto",
+        "count": 2.65,
+        "lng": 11.1123634,
+        "lat": 42.7635254,
+        "result": "success"
+    },
+    {
+        "name": "Palma de Mallorca",
+        "count": 2.97,
+        "lng": 2.6536742,
+        "lat": 39.5751584,
+        "result": "success"
+    },
+    {
+        "name": "Arezzo",
+        "count": 2.34,
+        "lng": 11.8796336,
+        "lat": 43.4632839,
+        "result": "success"
+    },
+    {
+        "name": "Grassobbio",
+        "count": 3.67,
+        "lng": 9.7197938,
+        "lat": 45.659971,
+        "result": "success"
+    },
+    {
+        "name": "Messina",
+        "count": 1.96,
+        "lng": 15.5540152,
+        "lat": 38.1938137,
+        "result": "success"
+    },
+    {
+        "name": "Catanzaro",
+        "count": 1.64,
+        "lng": 16.5876516,
+        "lat": 38.9097919,
+        "result": "success"
+    },
+    {
+        "name": "Kirchheimbolanden",
+        "count": 3.29,
+        "lng": 8.0116405,
+        "lat": 49.6629007,
+        "result": "success"
+    },
+    {
+        "name": "Portogruaro",
+        "count": 2.66,
+        "lng": 12.8373992,
+        "lat": 45.7805759,
+        "result": "success"
+    },
+    {
+        "name": "Fidenza",
+        "count": 2.48,
+        "lng": 10.0615953,
+        "lat": 44.866279,
+        "result": "success"
+    },
+    {
+        "name": "Merano",
+        "count": 3.51,
+        "lng": 11.1525179,
+        "lat": 46.6712938,
+        "result": "success"
+    },
+    {
+        "name": "Perugia",
+        "count": 2.07,
+        "lng": 12.3908279,
+        "lat": 43.1107168,
+        "result": "success"
+    },
+    {
+        "name": "Quartu Sant'Elena",
+        "count": 2.35,
+        "lng": 9.1836462,
+        "lat": 39.2413493,
+        "result": "success"
+    },
+    {
+        "name": "Stezzano",
+        "count": 3.6,
+        "lng": 9.6540397,
+        "lat": 45.6522386,
+        "result": "success"
+    },
+    {
+        "name": "Sanremo",
+        "count": 3.79,
+        "lng": 7.7760567,
+        "lat": 43.8159671,
+        "result": "success"
+    },
+    {
+        "name": "Alzano Lombardo",
+        "count": 3.11,
+        "lng": 9.7241189,
+        "lat": 45.7293987,
+        "result": "success"
+    },
+    {
+        "name": "Valencia",
+        "count": 2.38,
+        "lng": -0.3762881,
+        "lat": 39.4699075,
+        "result": "success"
+    },
+    {
+        "name": "Edinburgh",
+        "count": 2.79,
+        "lng": -3.188267,
+        "lat": 55.953252,
+        "result": "success"
+    },
+    {
+        "name": "Sacile",
+        "count": 4.46,
+        "lng": 12.4985825,
+        "lat": 45.9520913,
+        "result": "success"
+    },
+    {
+        "name": "Segrate",
+        "count": 3.02,
+        "lng": 9.2981309,
+        "lat": 45.4920004,
+        "result": "success"
+    },
+    {
+        "name": "Villafranca di Verona",
+        "count": 3,
+        "lng": 10.8474267,
+        "lat": 45.3552546,
+        "result": "success"
+    },
+    {
+        "name": "Vimercate",
+        "count": 3.19,
+        "lng": 9.3684135,
+        "lat": 45.6158614,
+        "result": "success"
+    },
+    {
+        "name": "Agrate Brianza",
+        "count": 2.59,
+        "lng": 9.350906,
+        "lat": 45.5767892,
+        "result": "success"
+    },
+    {
+        "name": "Pioltello",
+        "count": 4.41,
+        "lng": 9.3304725,
+        "lat": 45.5013851,
+        "result": "success"
+    },
+    {
+        "name": "Castel San Giovanni",
+        "count": 3.02,
+        "lng": 9.4371438,
+        "lat": 45.0571093,
+        "result": "success"
+    },
+    {
+        "name": "Cairo",
+        "count": 2.43,
+        "lng": 31.2357116,
+        "lat": 30.0444196,
+        "result": "success"
+    },
+    {
+        "name": "Conegliano",
+        "count": 2.94,
+        "lng": 12.3006368,
+        "lat": 45.889197,
+        "result": "success"
+    },
+    {
+        "name": "Taranto",
+        "count": 3.03,
+        "lng": 17.2470303,
+        "lat": 40.4643606,
+        "result": "success"
+    },
+    {
+        "name": "Acerra",
+        "count": 4.83,
+        "lng": 14.371438,
+        "lat": 40.9441091,
+        "result": "success"
+    },
+    {
+        "name": "Fort Lauderdale",
+        "count": 1.06,
+        "lng": -80.1373174,
+        "lat": 26.1224386,
+        "result": "success"
+    },
+    {
+        "name": "Bussolengo",
+        "count": 3.65,
+        "lng": 10.8507277,
+        "lat": 45.4732537,
+        "result": "success"
+    },
+    {
+        "name": "Mortara",
+        "count": 3.32,
+        "lng": 8.7380708,
+        "lat": 45.2515328,
+        "result": "success"
+    },
+    {
+        "name": "Clusone",
+        "count": 3.45,
+        "lng": 9.9480311,
+        "lat": 45.8889397,
+        "result": "success"
+    },
+    {
+        "name": "Osio Sotto",
+        "count": 3.51,
+        "lng": 9.5842309,
+        "lat": 45.6202586,
+        "result": "success"
+    },
+    {
+        "name": "Codogno",
+        "count": 3.43,
+        "lng": 9.7009465,
+        "lat": 45.1610569,
+        "result": "success"
+    },
+    {
+        "name": "Latina",
+        "count": 2.49,
+        "lng": 12.9035965,
+        "lat": 41.4675671,
+        "result": "success"
+    },
+    {
+        "name": "Borgomanero",
+        "count": 4.03,
+        "lng": 8.4624538,
+        "lat": 45.6989441,
+        "result": "success"
+    },
+    {
+        "name": "Hialeah",
+        "count": 1,
+        "lng": -80.2781057,
+        "lat": 25.8575963,
+        "result": "success"
+    },
+    {
+        "name": "Schio",
+        "count": 4.31,
+        "lng": 11.3597702,
+        "lat": 45.7170517,
+        "result": "success"
+    },
+    {
+        "name": "Vercelli",
+        "count": 2.92,
+        "lng": 8.4185735,
+        "lat": 45.3202272,
+        "result": "success"
+    },
+    {
+        "name": "Varazze",
+        "count": 3.39,
+        "lng": 8.5773126,
+        "lat": 44.3594336,
+        "result": "success"
+    },
+    {
+        "name": "Nembro",
+        "count": 3.46,
+        "lng": 9.7615203,
+        "lat": 45.7434353,
+        "result": "success"
+    },
+    {
+        "name": "Dueville",
+        "count": 2.33,
+        "lng": 11.5488448,
+        "lat": 45.6355065,
+        "result": "success"
+    },
+    {
+        "name": "Praia",
+        "count": 2.87,
+        "lng": -23.516667,
+        "lat": 14.95,
+        "result": "success"
+    },
+    {
+        "name": "Campobasso",
+        "count": 3.28,
+        "lng": 14.6627161,
+        "lat": 41.5602544,
+        "result": "success"
+    },
+    {
+        "name": "San Martino Buon Albergo",
+        "count": 4.68,
+        "lng": 11.094291,
+        "lat": 45.42318,
+        "result": "success"
+    },
+    {
+        "name": "Geneva",
+        "count": 3.15,
+        "lng": 6.1422961,
+        "lat": 46.1983922,
+        "result": "success"
+    },
+    {
+        "name": "Olgiate Olona",
+        "count": 3.41,
+        "lng": 8.8876103,
+        "lat": 45.6332679,
+        "result": "success"
+    },
+    {
+        "name": "Somma Lombardo",
+        "count": 2.79,
+        "lng": 8.7068019,
+        "lat": 45.6827443,
+        "result": "success"
+    },
+    {
+        "name": "Cattolica",
+        "count": 3.22,
+        "lng": 12.7384318,
+        "lat": 43.963318,
+        "result": "success"
+    },
+    {
+        "name": "Legnago",
+        "count": 5.32,
+        "lng": 11.303213,
+        "lat": 45.1935965,
+        "result": "success"
+    },
+    {
+        "name": "Malcesine",
+        "count": 3.42,
+        "lng": 10.8100928,
+        "lat": 45.7642335,
+        "result": "success"
+    },
+    {
+        "name": "Castellucchio",
+        "count": 3.35,
+        "lng": 10.650047,
+        "lat": 45.1523355,
+        "result": "success"
+    },
+    {
+        "name": "Johannesburg",
+        "count": 1.88,
+        "lng": 28.0473051,
+        "lat": -26.2041028,
+        "result": "success"
+    },
+    {
+        "name": "Syracuse",
+        "count": 2.86,
+        "lng": -76.1474244,
+        "lat": 43.0481221,
+        "result": "success"
+    },
+    {
+        "name": "Bucharest",
+        "count": 2.93,
+        "lng": 26.103889,
+        "lat": 44.4325,
+        "result": "success"
+    },
+    {
+        "name": "Spirano",
+        "count": 2.56,
+        "lng": 9.6679688,
+        "lat": 45.5814501,
+        "result": "success"
+    },
+    {
+        "name": "Buenos Aires",
+        "count": 3.68,
+        "lng": -58.3815931,
+        "lat": -34.6037232,
+        "result": "success"
+    },
+    {
+        "name": "Amsterdam",
+        "count": 2.28,
+        "lng": 4.8951679,
+        "lat": 52.3702157,
+        "result": "success"
+    },
+    {
+        "name": "Mozzate",
+        "count": 3.27,
+        "lng": 8.9506894,
+        "lat": 45.6753692,
+        "result": "success"
+    },
+    {
+        "name": "Massa",
+        "count": 4.66,
+        "lng": 2.27137,
+        "lat": 48.730756,
+        "result": "success"
+    },
+    {
+        "name": "Montesilvano",
+        "count": 2.26,
+        "lng": 14.1436996,
+        "lat": 42.5102079,
+        "result": "success"
+    },
+    {
+        "name": "Abano Terme",
+        "count": 3.23,
+        "lng": 11.7882998,
+        "lat": 45.3587173,
+        "result": "success"
+    },
+    {
+        "name": "Warsaw",
+        "count": 3.17,
+        "lng": 21.0122287,
+        "lat": 52.2296756,
+        "result": "success"
+    },
+    {
+        "name": "Arcore",
+        "count": 2.82,
+        "lng": 9.326543,
+        "lat": 45.6269249,
+        "result": "success"
+    },
+    {
+        "name": "Stuttgart",
+        "count": 3.52,
+        "lng": 9.1817588,
+        "lat": 48.7754181,
+        "result": "success"
+    },
+    {
+        "name": "Foligno",
+        "count": 2.35,
+        "lng": 12.7014749,
+        "lat": 42.9508683,
+        "result": "success"
+    },
+    {
+        "name": "Lainate",
+        "count": 3.65,
+        "lng": 9.0274157,
+        "lat": 45.574026,
+        "result": "success"
+    },
+    {
+        "name": "Viterbo",
+        "count": 2.3,
+        "lng": 12.107669,
+        "lat": 42.4206766,
+        "result": "success"
+    },
+    {
+        "name": "Moncalieri",
+        "count": 3.03,
+        "lng": 7.6802878,
+        "lat": 44.9983525,
+        "result": "success"
+    },
+    {
+        "name": "Thiene",
+        "count": 3.88,
+        "lng": 11.4773537,
+        "lat": 45.7070408,
+        "result": "success"
+    },
+    {
+        "name": "Washington",
+        "count": 1.82,
+        "lng": -77.0368707,
+        "lat": 38.9071923,
+        "result": "success"
+    },
+    {
+        "name": "Budapest",
+        "count": 3.38,
+        "lng": 19.040235,
+        "lat": 47.497912,
+        "result": "success"
+    },
+    {
+        "name": "Castellanza",
+        "count": 3.15,
+        "lng": 8.8915002,
+        "lat": 45.6053912,
+        "result": "success"
+    },
+    {
+        "name": "San Benedetto del Tronto",
+        "count": 2.68,
+        "lng": 13.8746469,
+        "lat": 42.9609785,
+        "result": "success"
+    },
+    {
+        "name": "Oggiono",
+        "count": 4.54,
+        "lng": 9.3455127,
+        "lat": 45.7900132,
+        "result": "success"
+    },
+    {
+        "name": "Viareggio",
+        "count": 2.29,
+        "lng": 10.2513103,
+        "lat": 43.8657267,
+        "result": "success"
+    },
+    {
+        "name": "Chiavenna",
+        "count": 5.03,
+        "lng": 9.3976574,
+        "lat": 46.3209673,
+        "result": "success"
+    },
+    {
+        "name": "Gavirate",
+        "count": 3.64,
+        "lng": 8.7122336,
+        "lat": 45.8459052,
+        "result": "success"
+    },
+    {
+        "name": "Bangkok",
+        "count": 3.07,
+        "lng": 100.5241235,
+        "lat": 13.7278956,
+        "result": "success"
+    },
+    {
+        "name": "Calolziocorte",
+        "count": 3.8,
+        "lng": 9.431899,
+        "lat": 45.8003717,
+        "result": "success"
+    },
+    {
+        "name": "Rijeka",
+        "count": 4.23,
+        "lng": 14.442176,
+        "lat": 45.3270631,
+        "result": "success"
+    },
+    {
+        "name": "Trani",
+        "count": 2.62,
+        "lng": 16.4178334,
+        "lat": 41.2774857,
+        "result": "success"
+    },
+    {
+        "name": "Parabiago",
+        "count": 2.62,
+        "lng": 8.9478154,
+        "lat": 45.558189,
+        "result": "success"
+    },
+    {
+        "name": "Berne",
+        "count": 3.6,
+        "lng": 7.4446085,
+        "lat": 46.9479222,
+        "result": "success"
+    },
+    {
+        "name": "Shanghai",
+        "count": 3.22,
+        "lng": 121.473701,
+        "lat": 31.230416,
+        "result": "success"
+    },
+    {
+        "name": "Chioggia",
+        "count": 3.31,
+        "lng": 12.2790144,
+        "lat": 45.2198654,
+        "result": "success"
+    },
+    {
+        "name": "Potenza",
+        "count": 3.11,
+        "lng": 15.8056041,
+        "lat": 40.6404067,
+        "result": "success"
+    },
+    {
+        "name": "Corbetta",
+        "count": 2.47,
+        "lng": 8.9189319,
+        "lat": 45.4695652,
+        "result": "success"
+    },
+    {
+        "name": "Tucumcari",
+        "count": 2.83,
+        "lng": -103.7249662,
+        "lat": 35.171723,
+        "result": "success"
+    },
+    {
+        "name": "Basel",
+        "count": 3.27,
+        "lng": 7.5975507,
+        "lat": 47.5674422,
+        "result": "success"
+    },
+    {
+        "name": "Piombino",
+        "count": 2.5,
+        "lng": 10.5258891,
+        "lat": 42.9256335,
+        "result": "success"
+    },
+    {
+        "name": "Scandicci",
+        "count": 3.84,
+        "lng": 11.1922839,
+        "lat": 43.7542169,
+        "result": "success"
+    },
+    {
+        "name": "Magenta",
+        "count": 2.64,
+        "lng": 8.8850211,
+        "lat": 45.4655261,
+        "result": "success"
+    },
+    {
+        "name": "Bracciano",
+        "count": 2.96,
+        "lng": 12.1761422,
+        "lat": 42.1017979,
+        "result": "success"
+    },
+    {
+        "name": "L'Aquila",
+        "count": 2.72,
+        "lng": 13.3995091,
+        "lat": 42.3498479,
+        "result": "success"
+    },
+    {
+        "name": "Rozzano",
+        "count": 3.57,
+        "lng": 9.1427661,
+        "lat": 45.3760312,
+        "result": "success"
+    },
+    {
+        "name": "Zagreb",
+        "count": 3.01,
+        "lng": 15.981919,
+        "lat": 45.8150108,
+        "result": "success"
+    },
+    {
+        "name": "Stockholm",
+        "count": 2.2,
+        "lng": 18.0685808,
+        "lat": 59.3293235,
+        "result": "success"
+    },
+    {
+        "name": "Dubai",
+        "count": 2.95,
+        "lng": 55.3,
+        "lat": 25.2,
+        "result": "success"
+    },
+    {
+        "name": "Cesano Maderno",
+        "count": 2.5,
+        "lng": 9.1353741,
+        "lat": 45.6304212,
+        "result": "success"
+    },
+    {
+        "name": "Ragusa",
+        "count": 3.62,
+        "lng": 14.7255129,
+        "lat": 36.9269273,
+        "result": "success"
+    },
+    {
+        "name": "Rieti",
+        "count": 2.33,
+        "lng": 12.8567281,
+        "lat": 42.404509,
+        "result": "success"
+    },
+    {
+        "name": "Trapani",
+        "count": 2.4,
+        "lng": 12.537202,
+        "lat": 38.0176177,
+        "result": "success"
+    },
+    {
+        "name": "Riva del Garda",
+        "count": 4.59,
+        "lng": 10.8430696,
+        "lat": 45.8891984,
+        "result": "success"
+    },
+    {
+        "name": "Winterthur",
+        "count": 6,
+        "lng": 8.7375646,
+        "lat": 47.49995,
+        "result": "success"
+    },
+    {
+        "name": "La Spezia",
+        "count": 2.64,
+        "lng": 9.8240826,
+        "lat": 44.1024504,
+        "result": "success"
+    },
+    {
+        "name": "Ascoli Piceno",
+        "count": 2.58,
+        "lng": 13.5749442,
+        "lat": 42.8536043,
+        "result": "success"
+    },
+    {
+        "name": "Andria",
+        "count": 2.65,
+        "lng": 16.2966406,
+        "lat": 41.2272519,
+        "result": "success"
+    },
+    {
+        "name": "Treviolo",
+        "count": 3.98,
+        "lng": 9.6064483,
+        "lat": 45.6693283,
+        "result": "success"
+    },
+    {
+        "name": "Casablanca",
+        "count": 4.58,
+        "lng": -7.583333,
+        "lat": 33.533333,
+        "result": "success"
+    },
+    {
+        "name": "Torre Boldone",
+        "count": 4.4,
+        "lng": 9.7066205,
+        "lat": 45.7163086,
+        "result": "success"
+    },
+    {
+        "name": "Belluno",
+        "count": 4,
+        "lng": 12.2167088,
+        "lat": 46.1424635,
+        "result": "success"
+    },
+    {
+        "name": "Frankfurt",
+        "count": 3.04,
+        "lng": 8.6821267,
+        "lat": 50.1109221,
+        "result": "success"
+    },
+    {
+        "name": "Montpellier",
+        "count": 2.72,
+        "lng": 3.876716,
+        "lat": 43.610769,
+        "result": "success"
+    },
+    {
+        "name": "Domodossola",
+        "count": 9.44,
+        "lng": 8.2919754,
+        "lat": 46.113222,
+        "result": "success"
+    },
+    {
+        "name": "Grenoble",
+        "count": 3.57,
+        "lng": 5.724524,
+        "lat": 45.188529,
+        "result": "success"
+    },
+    {
+        "name": "Carate Brianza",
+        "count": 2.56,
+        "lng": 9.2367432,
+        "lat": 45.6765522,
+        "result": "success"
+    },
+    {
+        "name": "Pontedera",
+        "count": 4.15,
+        "lng": 10.6363586,
+        "lat": 43.6625156,
+        "result": "success"
+    },
+    {
+        "name": "Montebelluna",
+        "count": 2.78,
+        "lng": 12.0439904,
+        "lat": 45.775491,
+        "result": "success"
+    },
+    {
+        "name": "Fortaleza",
+        "count": 2.82,
+        "lng": -38.5266704,
+        "lat": -3.7318616,
+        "result": "success"
+    },
+    {
+        "name": "Casalpusterlengo",
+        "count": 4.21,
+        "lng": 9.6555698,
+        "lat": 45.1758596,
+        "result": "success"
+    },
+    {
+        "name": "Paderno Dugnano",
+        "count": 3.32,
+        "lng": 9.1639813,
+        "lat": 45.5711618,
+        "result": "success"
+    },
+    {
+        "name": "San Francisco",
+        "count": 1.96,
+        "lng": -122.4194155,
+        "lat": 37.7749295,
+        "result": "success"
+    },
+    {
+        "name": "Vidin",
+        "count": 2.47,
+        "lng": 22.8679302,
+        "lat": 43.996159,
+        "result": "success"
+    },
+    {
+        "name": "Lallio",
+        "count": 2.77,
+        "lng": 9.6294455,
+        "lat": 45.664807,
+        "result": "success"
+    },
+    {
+        "name": "Brindisi",
+        "count": 2.04,
+        "lng": 17.9417616,
+        "lat": 40.6327278,
+        "result": "success"
+    },
+    {
+        "name": "Hong Kong",
+        "count": 3.07,
+        "lng": 114.109497,
+        "lat": 22.396428,
+        "result": "success"
+    },
+    {
+        "name": "Alba",
+        "count": 2.64,
+        "lng": -95.6344036,
+        "lat": 32.7929034,
+        "result": "success"
+    },
+    {
+        "name": "Capannori",
+        "count": 2.67,
+        "lng": 10.5733254,
+        "lat": 43.8418933,
+        "result": "success"
+    },
+    {
+        "name": "Los Angeles",
+        "count": 2.18,
+        "lng": -118.2436849,
+        "lat": 34.0522342,
+        "result": "success"
+    },
+    {
+        "name": "Meda",
+        "count": 3.19,
+        "lng": 9.1524254,
+        "lat": 45.6611243,
+        "result": "success"
+    },
+    {
+        "name": "Las Palmas de Gran Canaria",
+        "count": 3.11,
+        "lng": -15.4362574,
+        "lat": 28.1235459,
+        "result": "success"
+    },
+    {
+        "name": "Abbiategrasso",
+        "count": 3.79,
+        "lng": 8.9165553,
+        "lat": 45.3990523,
+        "result": "success"
+    },
+    {
+        "name": "Pomezia",
+        "count": 2.69,
+        "lng": 12.5023439,
+        "lat": 41.6693373,
+        "result": "success"
+    },
+    {
+        "name": "Fornovo di Taro",
+        "count": 3,
+        "lng": 10.1058747,
+        "lat": 44.6959682,
+        "result": "success"
+    },
+    {
+        "name": "Aosta",
+        "count": 2.19,
+        "lng": 7.3130762,
+        "lat": 45.7349551,
+        "result": "success"
+    },
+    {
+        "name": "Sao Paulo",
+        "count": 2.6,
+        "lng": -46.6333094,
+        "lat": -23.5505199,
+        "result": "success"
+    },
+    {
+        "name": "Gorgonzola",
+        "count": 3.24,
+        "lng": 9.4054483,
+        "lat": 45.5307573,
+        "result": "success"
+    },
+    {
+        "name": "Casalecchio di Reno",
+        "count": 2.38,
+        "lng": 11.2773797,
+        "lat": 44.4782469,
+        "result": "success"
+    },
+    {
+        "name": "Gallipoli",
+        "count": 3.82,
+        "lng": 17.9926137,
+        "lat": 40.0558508,
+        "result": "success"
+    },
+    {
+        "name": "Calusco D'adda",
+        "count": 4.07,
+        "lng": 9.4770681,
+        "lat": 45.6911074,
+        "result": "success"
+    },
+    {
+        "name": "Gothenburg",
+        "count": 2.85,
+        "lng": 11.97456,
+        "lat": 57.70887,
+        "result": "success"
+    },
+    {
+        "name": "Acilia-Castel Fusano-Ostia Antica",
+        "count": 2.3,
+        "lng": 12.334934,
+        "lat": 41.7577221,
+        "result": "success"
+    },
+    {
+        "name": "Trezzano Sul Naviglio",
+        "count": 2.96,
+        "lng": 9.0600219,
+        "lat": 45.4266514,
+        "result": "success"
+    },
+    {
+        "name": "San Bonifacio",
+        "count": 2.71,
+        "lng": 11.2742002,
+        "lat": 45.3953713,
+        "result": "success"
+    },
+    {
+        "name": "Fiorenzuola d'Arda",
+        "count": 3.8,
+        "lng": 9.9131456,
+        "lat": 44.9278495,
+        "result": "success"
+    },
+    {
+        "name": "Timisoara",
+        "count": 2.73,
+        "lng": 21.23,
+        "lat": 45.759722,
+        "result": "success"
+    },
+    {
+        "name": "Santa Cruz de Tenerife",
+        "count": 6.27,
+        "lng": -16.2518467,
+        "lat": 28.4636296,
+        "result": "success"
+    },
+    {
+        "name": "Romano Banco",
+        "count": 2.06,
+        "lng": 9.116944,
+        "lat": 45.42,
+        "result": "success"
+    },
+    {
+        "name": "Ranica",
+        "count": 5.66,
+        "lng": 9.7170809,
+        "lat": 45.7229985,
+        "result": "success"
+    },
+    {
+        "name": "San Giuliano Milanese",
+        "count": 3.25,
+        "lng": 9.2920102,
+        "lat": 45.3937633,
+        "result": "success"
+    },
+    {
+        "name": "Nichelino",
+        "count": 3.02,
+        "lng": 7.655573,
+        "lat": 45.0021286,
+        "result": "success"
+    },
+    {
+        "name": "Isola della Scala",
+        "count": 2.85,
+        "lng": 11.0323252,
+        "lat": 45.2747126,
+        "result": "success"
+    },
+    {
+        "name": "Corsico",
+        "count": 3.82,
+        "lng": 9.1092323,
+        "lat": 45.4323397,
+        "result": "success"
+    },
+    {
+        "name": "Medellin",
+        "count": 3.11,
+        "lng": -75.575137,
+        "lat": 6.235925,
+        "result": "success"
+    },
+    {
+        "name": "Pontassieve",
+        "count": 4.15,
+        "lng": 11.4384686,
+        "lat": 43.7747178,
+        "result": "success"
+    },
+    {
+        "name": "Cecina",
+        "count": 3.6,
+        "lng": 10.5188593,
+        "lat": 43.30853,
+        "result": "success"
+    },
+    {
+        "name": "Formigine",
+        "count": 3.16,
+        "lng": 10.84784,
+        "lat": 44.5727786,
+        "result": "success"
+    },
+    {
+        "name": "Malaga",
+        "count": 5.49,
+        "lng": -4.4212655,
+        "lat": 36.721261,
+        "result": "success"
+    },
+    {
+        "name": "Limbiate",
+        "count": 3.18,
+        "lng": 9.1246265,
+        "lat": 45.5995511,
+        "result": "success"
+    },
+    {
+        "name": "Giugliano in Campania",
+        "count": 1.94,
+        "lng": 14.2032077,
+        "lat": 40.9285635,
+        "result": "success"
+    },
+    {
+        "name": "Green",
+        "count": 4.89,
+        "lng": -89.6251646,
+        "lat": 42.6287336,
+        "result": "success"
+    },
+    {
+        "name": "Ortona",
+        "count": 3.3,
+        "lng": 14.4028113,
+        "lat": 42.3522441,
+        "result": "success"
+    },
+    {
+        "name": "Busnago",
+        "count": 4.03,
+        "lng": 9.4644206,
+        "lat": 45.6164655,
+        "result": "success"
+    },
+    {
+        "name": "Teramo",
+        "count": 2.43,
+        "lng": 13.6986639,
+        "lat": 42.6611431,
+        "result": "success"
+    },
+    {
+        "name": "Barletta",
+        "count": 2.21,
+        "lng": 16.2838207,
+        "lat": 41.3196635,
+        "result": "success"
+    },
+    {
+        "name": "Nuremberg",
+        "count": 2.92,
+        "lng": 11.07675,
+        "lat": 49.45203,
+        "result": "success"
+    },
+    {
+        "name": "Copenhagen",
+        "count": 3.09,
+        "lng": 12.5683371,
+        "lat": 55.6760968,
+        "result": "success"
+    },
+    {
+        "name": "Ivrea",
+        "count": 2.73,
+        "lng": 7.8800589,
+        "lat": 45.4672764,
+        "result": "success"
+    },
+    {
+        "name": "Frosinone",
+        "count": 2.16,
+        "lng": 13.3426341,
+        "lat": 41.6396009,
+        "result": "success"
+    },
+    {
+        "name": "Cornaredo",
+        "count": 2.56,
+        "lng": 9.0239284,
+        "lat": 45.5015276,
+        "result": "success"
+    },
+    {
+        "name": "Pero",
+        "count": 3.78,
+        "lng": -75.015152,
+        "lat": -9.189967,
+        "result": "success"
+    },
+    {
+        "name": "Vittorio Veneto",
+        "count": 2.49,
+        "lng": 12.3017968,
+        "lat": 45.9786011,
+        "result": "success"
+    },
+    {
+        "name": "Affi",
+        "count": 3,
+        "lng": 10.7720528,
+        "lat": 45.552506,
+        "result": "success"
+    },
+    {
+        "name": "Portoferraio",
+        "count": 3.13,
+        "lng": 10.3211801,
+        "lat": 42.8108565,
+        "result": "success"
+    },
+    {
+        "name": "Selvazzano Dentro",
+        "count": 2.69,
+        "lng": 11.7800578,
+        "lat": 45.3928629,
+        "result": "success"
+    },
+    {
+        "name": "Playa del Carmen",
+        "count": 3.25,
+        "lng": -87.0738851,
+        "lat": 20.6295586,
+        "result": "success"
+    },
+    {
+        "name": "Esslingen",
+        "count": 3.95,
+        "lng": 9.3201122,
+        "lat": 48.7433425,
+        "result": "success"
+    },
+    {
+        "name": "Arad",
+        "count": 4.75,
+        "lng": 21.316667,
+        "lat": 46.166667,
+        "result": "success"
+    },
+    {
+        "name": "Ispra",
+        "count": 3.08,
+        "lng": 8.6120782,
+        "lat": 45.8139584,
+        "result": "success"
+    },
+    {
+        "name": "Montevideo",
+        "count": 4.68,
+        "lng": -56.181944,
+        "lat": -34.883611,
+        "result": "success"
+    },
+    {
+        "name": "Mandello del Lario",
+        "count": 3.04,
+        "lng": 9.3177385,
+        "lat": 45.9138699,
+        "result": "success"
+    },
+    {
+        "name": "Cascina",
+        "count": 2.67,
+        "lng": 10.5558967,
+        "lat": 43.6759139,
+        "result": "success"
+    },
+    {
+        "name": "Valmadrera",
+        "count": 1.67,
+        "lng": 9.3597616,
+        "lat": 45.8469661,
+        "result": "success"
+    },
+    {
+        "name": "Lerici",
+        "count": 2.63,
+        "lng": 9.9169337,
+        "lat": 44.0756332,
+        "result": "success"
+    },
+    {
+        "name": "Guyancourt",
+        "count": 3.06,
+        "lng": 2.075323,
+        "lat": 48.762895,
+        "result": "success"
+    },
+    {
+        "name": "Avezzano",
+        "count": 2.45,
+        "lng": 13.4255637,
+        "lat": 42.0281396,
+        "result": "success"
+    },
+    {
+        "name": "Prague",
+        "count": 3.07,
+        "lng": 14.4378005,
+        "lat": 50.0755381,
+        "result": "success"
+    },
+    {
+        "name": "Riyadh",
+        "count": 1.86,
+        "lng": 46.716667,
+        "lat": 24.633333,
+        "result": "success"
+    },
+    {
+        "name": "Addis Ababa",
+        "count": 2.16,
+        "lng": 38.7577605,
+        "lat": 8.9806034,
+        "result": "success"
+    },
+    {
+        "name": "Novi Ligure",
+        "count": 3.67,
+        "lng": 8.7858956,
+        "lat": 44.7620048,
+        "result": "success"
+    },
+    {
+        "name": "Casteggio",
+        "count": 4.78,
+        "lng": 9.1272882,
+        "lat": 45.0158408,
+        "result": "success"
+    },
+    {
+        "name": "Solbiate Arno",
+        "count": 5.74,
+        "lng": 8.8141238,
+        "lat": 45.7186396,
+        "result": "success"
+    },
+    {
+        "name": "Guadalajara",
+        "count": 2.24,
+        "lng": -103.3496092,
+        "lat": 20.6596988,
+        "result": "success"
+    },
+    {
+        "name": "Irvine",
+        "count": 6.32,
+        "lng": -117.7946942,
+        "lat": 33.6839473,
+        "result": "success"
+    },
+    {
+        "name": "Brisbane",
+        "count": 3.46,
+        "lng": 153.0234489,
+        "lat": -27.4710107,
+        "result": "success"
+    },
+    {
+        "name": "Osimo",
+        "count": 3.01,
+        "lng": 13.4785426,
+        "lat": 43.4884025,
+        "result": "success"
+    },
+    {
+        "name": "Olginate",
+        "count": 2.05,
+        "lng": 9.4133265,
+        "lat": 45.7929293,
+        "result": "success"
+    },
+    {
+        "name": "Reggio Calabria",
+        "count": 2.55,
+        "lng": 15.6472914,
+        "lat": 38.1113006,
+        "result": "success"
+    },
+    {
+        "name": "San Dona di Piave",
+        "count": 3.57,
+        "lng": 12.5660992,
+        "lat": 45.630335,
+        "result": "success"
+    },
+    {
+        "name": "Chisinau",
+        "count": 3.35,
+        "lng": 28.8687,
+        "lat": 47.0107,
+        "result": "success"
+    },
+    {
+        "name": "Gorle",
+        "count": 2.97,
+        "lng": 9.7140847,
+        "lat": 45.7011543,
+        "result": "success"
+    },
+    {
+        "name": "Cormano",
+        "count": 3.22,
+        "lng": 9.1604438,
+        "lat": 45.5479756,
+        "result": "success"
+    },
+    {
+        "name": "Vignola",
+        "count": 4.17,
+        "lng": 11.0131217,
+        "lat": 44.4835861,
+        "result": "success"
+    },
+    {
+        "name": "Chivasso",
+        "count": 5.11,
+        "lng": 7.888952,
+        "lat": 45.1900384,
+        "result": "success"
+    },
+    {
+        "name": "Carrara",
+        "count": 3.36,
+        "lng": 10.097677,
+        "lat": 44.0793245,
+        "result": "success"
+    },
+    {
+        "name": "San Luis Potosi",
+        "count": 2.45,
+        "lng": -100.9855409,
+        "lat": 22.1564699,
+        "result": "success"
+    },
+    {
+        "name": "San Giovanni In Persiceto",
+        "count": 3.11,
+        "lng": 11.1893053,
+        "lat": 44.6405433,
+        "result": "success"
+    },
+    {
+        "name": "Cusano Milanino",
+        "count": 3.17,
+        "lng": 9.1844583,
+        "lat": 45.55343,
+        "result": "success"
+    },
+    {
+        "name": "Luxemburg City",
+        "count": 3.21,
+        "lng": 6.1319346,
+        "lat": 49.611621,
+        "result": "success"
+    },
+    {
+        "name": "Bratislava",
+        "count": 3.23,
+        "lng": 17.1071373,
+        "lat": 48.1458923,
+        "result": "success"
+    },
+    {
+        "name": "Finale Ligure",
+        "count": 3.14,
+        "lng": 8.3416211,
+        "lat": 44.1689028,
+        "result": "success"
+    },
+    {
+        "name": "Tortona",
+        "count": 3.57,
+        "lng": 8.8633326,
+        "lat": 44.8952122,
+        "result": "success"
+    },
+    {
+        "name": "Hamburg",
+        "count": 3.25,
+        "lng": 9.9936818,
+        "lat": 53.5510846,
+        "result": "success"
+    },
+    {
+        "name": "Lancenigo-villorba",
+        "count": 3.11,
+        "lng": 12.2708739,
+        "lat": 45.7115409,
+        "result": "success"
+    },
+    {
+        "name": "Aversa",
+        "count": 2.13,
+        "lng": 14.2076688,
+        "lat": 40.9731743,
+        "result": "success"
+    },
+    {
+        "name": "Concorezzo",
+        "count": 3.49,
+        "lng": 9.3322573,
+        "lat": 45.5932673,
+        "result": "success"
+    },
+    {
+        "name": "Battipaglia",
+        "count": 1.78,
+        "lng": 14.9808362,
+        "lat": 40.6093746,
+        "result": "success"
+    },
+    {
+        "name": "Fermo",
+        "count": 2.46,
+        "lng": 13.7200884,
+        "lat": 43.1588734,
+        "result": "success"
+    },
+    {
+        "name": "San Giovanni Lupatoto",
+        "count": 2.8,
+        "lng": 11.0444905,
+        "lat": 45.3823658,
+        "result": "success"
+    },
+    {
+        "name": "Bibione",
+        "count": 3.34,
+        "lng": 13.0614876,
+        "lat": 45.6361321,
+        "result": "success"
+    },
+    {
+        "name": "Perth",
+        "count": 2.22,
+        "lng": 115.8574693,
+        "lat": -31.9530044,
+        "result": "success"
+    },
+    {
+        "name": "Bitonto",
+        "count": 2.55,
+        "lng": 16.6910569,
+        "lat": 41.1078251,
+        "result": "success"
+    },
+    {
+        "name": "Salsomaggiore Terme",
+        "count": 2.97,
+        "lng": 9.9825123,
+        "lat": 44.8183121,
+        "result": "success"
+    },
+    {
+        "name": "Alghero",
+        "count": 2.86,
+        "lng": 8.3192949,
+        "lat": 40.5579517,
+        "result": "success"
+    },
+    {
+        "name": "Carmagnola",
+        "count": 2.99,
+        "lng": 7.7174363,
+        "lat": 44.8458851,
+        "result": "success"
+    },
+    {
+        "name": "Inverigo",
+        "count": 3.37,
+        "lng": 9.2236375,
+        "lat": 45.7403448,
+        "result": "success"
+    },
+    {
+        "name": "Settala",
+        "count": 4.07,
+        "lng": 9.3927566,
+        "lat": 45.4548814,
+        "result": "success"
+    },
+    {
+        "name": "Sassuolo",
+        "count": 2.3,
+        "lng": 10.7847741,
+        "lat": 44.54433,
+        "result": "success"
+    },
+    {
+        "name": "Caronno Pertusella",
+        "count": 2.56,
+        "lng": 9.0450399,
+        "lat": 45.5985076,
+        "result": "success"
+    },
+    {
+        "name": "Bardolino",
+        "count": 2.61,
+        "lng": 10.7214679,
+        "lat": 45.551817,
+        "result": "success"
+    },
+    {
+        "name": "Cerea",
+        "count": 2.78,
+        "lng": 11.210085,
+        "lat": 45.1931241,
+        "result": "success"
+    },
+    {
+        "name": "Basiglio",
+        "count": 3.15,
+        "lng": 9.1567615,
+        "lat": 45.3609313,
+        "result": "success"
+    },
+    {
+        "name": "Lamezia Terme",
+        "count": 2.75,
+        "lng": 16.3092719,
+        "lat": 38.962912,
+        "result": "success"
+    },
+    {
+        "name": "Rio de Janeiro",
+        "count": 3.33,
+        "lng": -43.1970773,
+        "lat": -22.9082998,
+        "result": "success"
+    },
+    {
+        "name": "Tallinn",
+        "count": 1.71,
+        "lng": 24.7535746,
+        "lat": 59.4369608,
+        "result": "success"
+    },
+    {
+        "name": "Opera",
+        "count": 4.34,
+        "lng": 9.212013,
+        "lat": 45.374713,
+        "result": "success"
+    },
+    {
+        "name": "Kampala",
+        "count": 2.86,
+        "lng": 32.581111,
+        "lat": 0.313611,
+        "result": "success"
+    },
+    {
+        "name": "Sofia",
+        "count": 3.14,
+        "lng": 23.3218675,
+        "lat": 42.6977082,
+        "result": "success"
+    },
+    {
+        "name": "Santiago De Los Caballeros",
+        "count": 7.11,
+        "lng": -70.7,
+        "lat": 19.466667,
+        "result": "success"
+    },
+    {
+        "name": "Manila",
+        "count": 20.7,
+        "lng": 120.9842195,
+        "lat": 14.5995124,
+        "result": "success"
+    },
+    {
+        "name": "Quattromiglia",
+        "count": 3.72,
+        "lng": 16.2413744,
+        "lat": 39.3545651,
+        "result": "success"
+    },
+    {
+        "name": "Lausanne",
+        "count": 2.78,
+        "lng": 6.6335971,
+        "lat": 46.5199617,
+        "result": "success"
+    },
+    {
+        "name": "Acqui",
+        "count": 2.6,
+        "lng": 8.4670285,
+        "lat": 44.6763846,
+        "result": "success"
+    },
+    {
+        "name": "Bisceglie",
+        "count": 3.3,
+        "lng": 16.502065,
+        "lat": 41.242726,
+        "result": "success"
+    },
+    {
+        "name": "Bovisio-Masciago",
+        "count": 3.11,
+        "lng": 9.1588992,
+        "lat": 45.6131091,
+        "result": "success"
+    },
+    {
+        "name": "Ankara",
+        "count": 3.33,
+        "lng": 32.85411,
+        "lat": 39.92077,
+        "result": "success"
+    },
+    {
+        "name": "Caracas",
+        "count": 3.74,
+        "lng": -66.916667,
+        "lat": 10.5,
+        "result": "success"
+    },
+    {
+        "name": "Rende",
+        "count": 2.63,
+        "lng": 16.1839028,
+        "lat": 39.3317751,
+        "result": "success"
+    },
+    {
+        "name": "Sesto Fiorentino",
+        "count": 2.52,
+        "lng": 11.2042694,
+        "lat": 43.8320966,
+        "result": "success"
+    },
+    {
+        "name": "Bordighera",
+        "count": 4.13,
+        "lng": 7.6722799,
+        "lat": 43.7806979,
+        "result": "success"
+    },
+    {
+        "name": "Delft",
+        "count": 4.94,
+        "lng": 4.3570677,
+        "lat": 52.0115769,
+        "result": "success"
+    },
+    {
+        "name": "Ceggia",
+        "count": 2.42,
+        "lng": 12.6390279,
+        "lat": 45.6890925,
+        "result": "success"
+    },
+    {
+        "name": "Tel Aviv",
+        "count": 2.54,
+        "lng": 34.7817676,
+        "lat": 32.0852999,
+        "result": "success"
+    },
+    {
+        "name": "Giussano",
+        "count": 3.63,
+        "lng": 9.2089664,
+        "lat": 45.7002381,
+        "result": "success"
+    },
+    {
+        "name": "Arona",
+        "count": 3.35,
+        "lng": 8.5581824,
+        "lat": 45.7586155,
+        "result": "success"
+    },
+    {
+        "name": "Limena",
+        "count": 3.78,
+        "lng": 11.8457208,
+        "lat": 45.4786121,
+        "result": "success"
+    },
+    {
+        "name": "Venaria",
+        "count": 2.69,
+        "lng": 7.6310474,
+        "lat": 45.1301582,
+        "result": "success"
+    },
+    {
+        "name": "Marsala",
+        "count": 3.73,
+        "lng": 12.4370156,
+        "lat": 37.798045,
+        "result": "success"
+    },
+    {
+        "name": "Lucera",
+        "count": 3.04,
+        "lng": 15.3385282,
+        "lat": 41.5054806,
+        "result": "success"
+    },
+    {
+        "name": "Cava de' Tirreni",
+        "count": 2.9,
+        "lng": 14.7107421,
+        "lat": 40.6960004,
+        "result": "success"
+    },
+    {
+        "name": "Caorle",
+        "count": 3.86,
+        "lng": 12.8859589,
+        "lat": 45.6030238,
+        "result": "success"
+    },
+    {
+        "name": "Darmstadt",
+        "count": 3.85,
+        "lng": 8.6511929,
+        "lat": 49.8728253,
+        "result": "success"
+    },
+    {
+        "name": "Imperia",
+        "count": 2.3,
+        "lng": 8.0346654,
+        "lat": 43.8905684,
+        "result": "success"
+    },
+    {
+        "name": "Grugliasco",
+        "count": 2,
+        "lng": 7.5789103,
+        "lat": 45.0660632,
+        "result": "success"
+    },
+    {
+        "name": "Salvador",
+        "count": 3.08,
+        "lng": -88.89653,
+        "lat": 13.794185,
+        "result": "success"
+    },
+    {
+        "name": "Chur",
+        "count": 3.95,
+        "lng": 9.5267305,
+        "lat": 46.8572621,
+        "result": "success"
+    },
+    {
+        "name": "Beijing",
+        "count": 2.74,
+        "lng": 116.407526,
+        "lat": 39.90403,
+        "result": "success"
+    },
+    {
+        "name": "Isernia",
+        "count": 2.75,
+        "lng": 14.2331612,
+        "lat": 41.5960411,
+        "result": "success"
+    },
+    {
+        "name": "Melzo",
+        "count": 2.66,
+        "lng": 9.4220875,
+        "lat": 45.5031581,
+        "result": "success"
+    },
+    {
+        "name": "Arco",
+        "count": 3.23,
+        "lng": 10.8855763,
+        "lat": 45.9178609,
+        "result": "success"
+    },
+    {
+        "name": "Carbonia",
+        "count": 1.79,
+        "lng": 8.5228853,
+        "lat": 39.1644281,
+        "result": "success"
+    },
+    {
+        "name": "Chiavari",
+        "count": 2.58,
+        "lng": 9.3199822,
+        "lat": 44.3168416,
+        "result": "success"
+    },
+    {
+        "name": "Merone",
+        "count": 5.82,
+        "lng": 9.245907,
+        "lat": 45.7819454,
+        "result": "success"
+    },
+    {
+        "name": "Quistello",
+        "count": 3.29,
+        "lng": 10.9805176,
+        "lat": 45.0092154,
+        "result": "success"
+    },
+    {
+        "name": "Matera",
+        "count": 3,
+        "lng": 16.6043199,
+        "lat": 40.666379,
+        "result": "success"
+    },
+    {
+        "name": "Leipzig",
+        "count": 2.6,
+        "lng": 12.3730747,
+        "lat": 51.3396955,
+        "result": "success"
+    },
+    {
+        "name": "Lyon",
+        "count": 2.72,
+        "lng": 4.835659,
+        "lat": 45.764043,
+        "result": "success"
+    },
+    {
+        "name": "Lanciano",
+        "count": 2.74,
+        "lng": 14.3890227,
+        "lat": 42.22655,
+        "result": "success"
+    },
+    {
+        "name": "Casoria",
+        "count": 1.91,
+        "lng": 14.2928248,
+        "lat": 40.9075976,
+        "result": "success"
+    },
+    {
+        "name": "Avigliana",
+        "count": 4.9,
+        "lng": 7.4016896,
+        "lat": 45.076291,
+        "result": "success"
+    },
+    {
+        "name": "Modugno",
+        "count": 2.19,
+        "lng": 16.7824423,
+        "lat": 41.0827212,
+        "result": "success"
+    },
+    {
+        "name": "Cologne",
+        "count": 2.02,
+        "lng": 6.9602786,
+        "lat": 50.937531,
+        "result": "success"
+    },
+    {
+        "name": "Manchester",
+        "count": 3.03,
+        "lng": -2.2484851,
+        "lat": 53.479324,
+        "result": "success"
+    },
+    {
+        "name": "Magnago",
+        "count": 2.95,
+        "lng": 8.8101878,
+        "lat": 45.5777285,
+        "result": "success"
+    },
+    {
+        "name": "Lisbon",
+        "count": 4.06,
+        "lng": -9.1393366,
+        "lat": 38.7222524,
+        "result": "success"
+    },
+    {
+        "name": "Montecchio Maggiore-Alte Ceccato",
+        "count": 2.28,
+        "lng": 11.42131,
+        "lat": 45.5002501,
+        "result": "success"
+    },
+    {
+        "name": "San Jose",
+        "count": 3.48,
+        "lng": -121.8949555,
+        "lat": 37.3393857,
+        "result": "success"
+    },
+    {
+        "name": "Urbino",
+        "count": 3.59,
+        "lng": 12.6365633,
+        "lat": 43.7262567,
+        "result": "success"
+    },
+    {
+        "name": "Pinerolo",
+        "count": 2.19,
+        "lng": 7.3306676,
+        "lat": 44.8845906,
+        "result": "success"
+    },
+    {
+        "name": "Vrilissia",
+        "count": 2.79,
+        "lng": 23.831904,
+        "lat": 38.0329785,
+        "result": "success"
+    },
+    {
+        "name": "Singapore",
+        "count": 1.95,
+        "lng": 103.819836,
+        "lat": 1.352083,
+        "result": "success"
+    },
+    {
+        "name": "Collecchio",
+        "count": 3.49,
+        "lng": 10.21645,
+        "lat": 44.7520042,
+        "result": "success"
+    },
+    {
+        "name": "Albenga",
+        "count": 2.27,
+        "lng": 8.2156113,
+        "lat": 44.0494254,
+        "result": "success"
+    },
+    {
+        "name": "Hilversum",
+        "count": 2.35,
+        "lng": 5.1668974,
+        "lat": 52.2291696,
+        "result": "success"
+    },
+    {
+        "name": "Canzo",
+        "count": 4.45,
+        "lng": 9.2726973,
+        "lat": 45.8486288,
+        "result": "success"
+    },
+    {
+        "name": "Grandate",
+        "count": 3.11,
+        "lng": 9.0574698,
+        "lat": 45.7753235,
+        "result": "success"
+    },
+    {
+        "name": "Senago",
+        "count": 3.23,
+        "lng": 9.1261261,
+        "lat": 45.5763629,
+        "result": "success"
+    },
+    {
+        "name": "Cannes",
+        "count": 3.19,
+        "lng": 7.017369,
+        "lat": 43.552847,
+        "result": "success"
+    },
+    {
+        "name": "Bolgare",
+        "count": 3.96,
+        "lng": 9.8138918,
+        "lat": 45.6340243,
+        "result": "success"
+    },
+    {
+        "name": "Cambiago",
+        "count": 4.23,
+        "lng": 9.4253601,
+        "lat": 45.5722337,
+        "result": "success"
+    },
+    {
+        "name": "Cusago",
+        "count": 2.62,
+        "lng": 9.0339584,
+        "lat": 45.4480581,
+        "result": "success"
+    },
+    {
+        "name": "Oderzo",
+        "count": 4.74,
+        "lng": 12.4973111,
+        "lat": 45.7797646,
+        "result": "success"
+    },
+    {
+        "name": "Alkmaar",
+        "count": 1.63,
+        "lng": 4.7533754,
+        "lat": 52.6323813,
+        "result": "success"
+    },
+    {
+        "name": "Chervonohrad",
+        "count": 33.6,
+        "lng": 24.233333,
+        "lat": 50.383333,
+        "result": "success"
+    },
+    {
+        "name": "Verrieres-le-Buisson",
+        "count": 2.62,
+        "lng": 2.266838,
+        "lat": 48.746318,
+        "result": "success"
+    },
+    {
+        "name": "Ibiza",
+        "count": 2.43,
+        "lng": 1.4265579,
+        "lat": 38.9085387,
+        "result": "success"
+    },
+    {
+        "name": "Molfetta",
+        "count": 3.08,
+        "lng": 16.5987187,
+        "lat": 41.2027767,
+        "result": "success"
+    },
+    {
+        "name": "Garbagnate Milanese",
+        "count": 3.03,
+        "lng": 9.075436,
+        "lat": 45.5755975,
+        "result": "success"
+    },
+    {
+        "name": "Pozzuoli",
+        "count": 2.04,
+        "lng": 14.0932861,
+        "lat": 40.8459469,
+        "result": "success"
+    },
+    {
+        "name": "Reggiolo",
+        "count": 3.06,
+        "lng": 10.8025268,
+        "lat": 44.9177593,
+        "result": "success"
+    },
+    {
+        "name": "Igea Marina",
+        "count": 3.93,
+        "lng": 12.4834658,
+        "lat": 44.1332889,
+        "result": "success"
+    },
+    {
+        "name": "Oradea",
+        "count": 4.84,
+        "lng": 21.921111,
+        "lat": 47.072222,
+        "result": "success"
+    },
+    {
+        "name": "Mogliano Veneto",
+        "count": 3.61,
+        "lng": 12.2342958,
+        "lat": 45.5537964,
+        "result": "success"
+    },
+    {
+        "name": "Lido di Ostia",
+        "count": 2.44,
+        "lng": 12.278939,
+        "lat": 41.733244,
+        "result": "success"
+    },
+    {
+        "name": "Lignano Sabbiadoro",
+        "count": 3.94,
+        "lng": 13.1040857,
+        "lat": 45.6685554,
+        "result": "success"
+    },
+    {
+        "name": "Thessaloniki",
+        "count": 2.53,
+        "lng": 22.9444191,
+        "lat": 40.6400629,
+        "result": "success"
+    },
+    {
+        "name": "Rhodes",
+        "count": 2.58,
+        "lng": 28.2174829,
+        "lat": 36.4349631,
+        "result": "success"
+    },
+    {
+        "name": "Guastalla",
+        "count": 2.84,
+        "lng": 10.6543959,
+        "lat": 44.9212351,
+        "result": "success"
+    },
+    {
+        "name": "Nocera Inferiore",
+        "count": 2.27,
+        "lng": 14.6474887,
+        "lat": 40.7460596,
+        "result": "success"
+    },
+    {
+        "name": "Wurzburg",
+        "count": 3.8,
+        "lng": 9.9533548,
+        "lat": 49.7913044,
+        "result": "success"
+    },
+    {
+        "name": "Oleggio",
+        "count": 3.25,
+        "lng": 8.6350077,
+        "lat": 45.5951746,
+        "result": "success"
+    },
+    {
+        "name": "Saint Gallen",
+        "count": 3.39,
+        "lng": 9.3643968,
+        "lat": 47.4179284,
+        "result": "success"
+    },
+    {
+        "name": "Zogno",
+        "count": 2.65,
+        "lng": 9.6593277,
+        "lat": 45.7933182,
+        "result": "success"
+    },
+    {
+        "name": "Carugate",
+        "count": 2.55,
+        "lng": 9.3391197,
+        "lat": 45.5489396,
+        "result": "success"
+    },
+    {
+        "name": "Nova Milanese",
+        "count": 2.39,
+        "lng": 9.1977705,
+        "lat": 45.5919816,
+        "result": "success"
+    },
+    {
+        "name": "Spresiano",
+        "count": 4.48,
+        "lng": 12.2595261,
+        "lat": 45.7801113,
+        "result": "success"
+    },
+    {
+        "name": "Negrar",
+        "count": 4.76,
+        "lng": 10.9393534,
+        "lat": 45.536146,
+        "result": "success"
+    },
+    {
+        "name": "Innsbruck",
+        "count": 3.42,
+        "lng": 11.4041024,
+        "lat": 47.2692124,
+        "result": "success"
+    },
+    {
+        "name": "Cellatica",
+        "count": 3.12,
+        "lng": 10.1803102,
+        "lat": 45.5842412,
+        "result": "success"
+    },
+    {
+        "name": "Nola",
+        "count": 2.08,
+        "lng": -90.0715323,
+        "lat": 29.9510658,
+        "result": "success"
+    },
+    {
+        "name": "Zeist",
+        "count": 3.97,
+        "lng": 5.2332526,
+        "lat": 52.0906015,
+        "result": "success"
+    },
+    {
+        "name": "Sollentuna",
+        "count": 2.2,
+        "lng": 17.94148,
+        "lat": 59.43911,
+        "result": "success"
+    },
+    {
+        "name": "Gessate",
+        "count": 3.92,
+        "lng": 9.4348624,
+        "lat": 45.5565542,
+        "result": "success"
+    },
+    {
+        "name": "Samarate",
+        "count": 3.6,
+        "lng": 8.7870324,
+        "lat": 45.6260364,
+        "result": "success"
+    },
+    {
+        "name": "San Lazzaro",
+        "count": 2.97,
+        "lng": 11.402955,
+        "lat": 44.47292,
+        "result": "success"
+    },
+    {
+        "name": "Zirndorf",
+        "count": 2.1,
+        "lng": 10.9550183,
+        "lat": 49.444555,
+        "result": "success"
+    },
+    {
+        "name": "Quito",
+        "count": 3.57,
+        "lng": -78.4678382,
+        "lat": -0.1806532,
+        "result": "success"
+    },
+    {
+        "name": "Corato",
+        "count": 3.85,
+        "lng": 16.4131601,
+        "lat": 41.1534886,
+        "result": "success"
+    },
+    {
+        "name": "Carvico",
+        "count": 2.78,
+        "lng": 9.4791497,
+        "lat": 45.7037223,
+        "result": "success"
+    },
+    {
+        "name": "Vittuone",
+        "count": 4.07,
+        "lng": 8.9564545,
+        "lat": 45.4896313,
+        "result": "success"
+    },
+    {
+        "name": "Marano di Napoli",
+        "count": 2.61,
+        "lng": 14.1916736,
+        "lat": 40.8899594,
+        "result": "success"
+    },
+    {
+        "name": "Burscheid",
+        "count": 4.2,
+        "lng": 7.1105932,
+        "lat": 51.085636,
+        "result": "success"
+    },
+    {
+        "name": "Vimodrone",
+        "count": 2.17,
+        "lng": 9.2839365,
+        "lat": 45.5146249,
+        "result": "success"
+    },
+    {
+        "name": "Assemini",
+        "count": 2.52,
+        "lng": 8.9977583,
+        "lat": 39.2915003,
+        "result": "success"
+    },
+    {
+        "name": "Heraklion",
+        "count": 2.59,
+        "lng": 25.1442126,
+        "lat": 35.3387352,
+        "result": "success"
+    },
+    {
+        "name": "Savigliano",
+        "count": 1.84,
+        "lng": 7.6624635,
+        "lat": 44.6470327,
+        "result": "success"
+    },
+    {
+        "name": "Ventimiglia",
+        "count": 3.3,
+        "lng": 7.6075864,
+        "lat": 43.7912366,
+        "result": "success"
+    },
+    {
+        "name": "Sarzana",
+        "count": 2.74,
+        "lng": 9.9631215,
+        "lat": 44.111424,
+        "result": "success"
+    },
+    {
+        "name": "Santiago de Queretaro",
+        "count": 4.13,
+        "lng": -100.3898881,
+        "lat": 20.5887932,
+        "result": "success"
+    },
+    {
+        "name": "Nashville",
+        "count": 3.94,
+        "lng": -86.783333,
+        "lat": 36.166667,
+        "result": "success"
+    },
+    {
+        "name": "Jakarta",
+        "count": 2.25,
+        "lng": 106.845599,
+        "lat": -6.2087634,
+        "result": "success"
+    },
+    {
+        "name": "Crevalcore",
+        "count": 3.29,
+        "lng": 11.148594,
+        "lat": 44.7200288,
+        "result": "success"
+    },
+    {
+        "name": "San Candido",
+        "count": 2.71,
+        "lng": 12.2805214,
+        "lat": 46.7300428,
+        "result": "success"
+    },
+    {
+        "name": "Marcianise",
+        "count": 2.86,
+        "lng": 14.2995419,
+        "lat": 41.0310868,
+        "result": "success"
+    },
+    {
+        "name": "Aprilia",
+        "count": 3.3,
+        "lng": 12.6560314,
+        "lat": 41.5944018,
+        "result": "success"
+    },
+    {
+        "name": "Lugo",
+        "count": 3.3,
+        "lng": -7.5567582,
+        "lat": 43.0097384,
+        "result": "success"
+    },
+    {
+        "name": "Dakar",
+        "count": 2.03,
+        "lng": -17.3660286,
+        "lat": 14.7645042,
+        "result": "success"
+    },
+    {
+        "name": "Valladolid",
+        "count": 5.37,
+        "lng": -4.7245321,
+        "lat": 41.652251,
+        "result": "success"
+    },
+    {
+        "name": "Isola di Capo Rizzuto",
+        "count": 2.44,
+        "lng": 17.0906215,
+        "lat": 38.9579646,
+        "result": "success"
+    },
+    {
+        "name": "Nerviano",
+        "count": 2.84,
+        "lng": 8.9706224,
+        "lat": 45.5535751,
+        "result": "success"
+    },
+    {
+        "name": "Vignate",
+        "count": 2.78,
+        "lng": 9.3750131,
+        "lat": 45.496531,
+        "result": "success"
+    },
+    {
+        "name": "Galliate",
+        "count": 2.26,
+        "lng": 8.6932889,
+        "lat": 45.4784219,
+        "result": "success"
+    },
+    {
+        "name": "Nuoro",
+        "count": 2.54,
+        "lng": 9.3264377,
+        "lat": 40.3202421,
+        "result": "success"
+    },
+    {
+        "name": "Agropoli",
+        "count": 1.68,
+        "lng": 14.9912195,
+        "lat": 40.3486827,
+        "result": "success"
+    },
+    {
+        "name": "Dallas",
+        "count": 3.99,
+        "lng": -96.8004511,
+        "lat": 32.7801399,
+        "result": "success"
+    },
+    {
+        "name": "Milwaukee",
+        "count": 1.81,
+        "lng": -87.9064736,
+        "lat": 43.0389025,
+        "result": "success"
+    },
+    {
+        "name": "Menton",
+        "count": 2.04,
+        "lng": 7.49754,
+        "lat": 43.774481,
+        "result": "success"
+    },
+    {
+        "name": "Obernai",
+        "count": 2.5,
+        "lng": 7.48168,
+        "lat": 48.46226,
+        "result": "success"
+    },
+    {
+        "name": "Cittadella",
+        "count": 2.33,
+        "lng": 11.7836431,
+        "lat": 45.648826,
+        "result": "success"
+    },
+    {
+        "name": "Bovolone",
+        "count": 2.52,
+        "lng": 11.1206081,
+        "lat": 45.257693,
+        "result": "success"
+    },
+    {
+        "name": "Castellammare di Stabia",
+        "count": 1.49,
+        "lng": 14.4828435,
+        "lat": 40.6957862,
+        "result": "success"
+    },
+    {
+        "name": "Hanover",
+        "count": 1.79,
+        "lng": 9.7320104,
+        "lat": 52.3758916,
+        "result": "success"
+    },
+    {
+        "name": "Agrigento",
+        "count": 2.2,
+        "lng": 13.5765475,
+        "lat": 37.3110897,
+        "result": "success"
+    },
+    {
+        "name": "Melegnano",
+        "count": 3.94,
+        "lng": 9.321463,
+        "lat": 45.3563017,
+        "result": "success"
+    },
+    {
+        "name": "Ornago",
+        "count": 3.47,
+        "lng": 9.4194422,
+        "lat": 45.5965448,
+        "result": "success"
+    },
+    {
+        "name": "Rescaldina",
+        "count": 2.52,
+        "lng": 8.9551104,
+        "lat": 45.6188903,
+        "result": "success"
+    },
+    {
+        "name": "Citta di Castello",
+        "count": 2.62,
+        "lng": 12.2404869,
+        "lat": 43.4639783,
+        "result": "success"
+    },
+    {
+        "name": "Gioia Tauro",
+        "count": 1.88,
+        "lng": 15.8988669,
+        "lat": 38.4262258,
+        "result": "success"
+    },
+    {
+        "name": "Civitavecchia",
+        "count": 2.45,
+        "lng": 11.7954132,
+        "lat": 42.0924239,
+        "result": "success"
+    },
+    {
+        "name": "Brasov",
+        "count": 1.64,
+        "lng": 25.616667,
+        "lat": 45.666667,
+        "result": "success"
+    },
+    {
+        "name": "Fiumicino",
+        "count": 2.26,
+        "lng": 12.2397117,
+        "lat": 41.7735409,
+        "result": "success"
+    },
+    {
+        "name": "Toulon",
+        "count": 3.65,
+        "lng": 5.928,
+        "lat": 43.124228,
+        "result": "success"
+    },
+    {
+        "name": "Cambridge",
+        "count": 3.11,
+        "lng": -71.1097335,
+        "lat": 42.3736158,
+        "result": "success"
+    },
+    {
+        "name": "Rapallo",
+        "count": 3.2,
+        "lng": 9.2338889,
+        "lat": 44.3498211,
+        "result": "success"
+    },
+    {
+        "name": "Chieri",
+        "count": 2.11,
+        "lng": 7.8275551,
+        "lat": 45.008885,
+        "result": "success"
+    },
+    {
+        "name": "Settimo Torinese",
+        "count": 2.28,
+        "lng": 7.7709784,
+        "lat": 45.139586,
+        "result": "success"
+    },
+    {
+        "name": "Marrakesh",
+        "count": 2.28,
+        "lng": -8.008889,
+        "lat": 31.63,
+        "result": "success"
+    },
+    {
+        "name": "Poznan",
+        "count": 2.32,
+        "lng": 16.9251681,
+        "lat": 52.406374,
+        "result": "success"
+    },
+    {
+        "name": "Rapperswil-Jona",
+        "count": 3,
+        "lng": 8.8564836,
+        "lat": 47.232707,
+        "result": "success"
+    },
+    {
+        "name": "Sestu",
+        "count": 2.17,
+        "lng": 9.0919429,
+        "lat": 39.3007903,
+        "result": "success"
+    },
+    {
+        "name": "Bellinzona",
+        "count": 2.84,
+        "lng": 9.0269178,
+        "lat": 46.1984944,
+        "result": "success"
+    },
+    {
+        "name": "Barzano",
+        "count": 2.47,
+        "lng": 9.3134807,
+        "lat": 45.7324264,
+        "result": "success"
+    },
+    {
+        "name": "Acireale",
+        "count": 5,
+        "lng": 15.166736,
+        "lat": 37.607802,
+        "result": "success"
+    },
+    {
+        "name": "San Severo",
+        "count": 3.19,
+        "lng": 15.3795161,
+        "lat": 41.6854203,
+        "result": "success"
+    },
+    {
+        "name": "Novate Milanese",
+        "count": 2.91,
+        "lng": 9.1397222,
+        "lat": 45.5317964,
+        "result": "success"
+    },
+    {
+        "name": "Trebaseleghe",
+        "count": 3.92,
+        "lng": 12.0506796,
+        "lat": 45.5918062,
+        "result": "success"
+    },
+    {
+        "name": "Altavilla Vicentina",
+        "count": 3.41,
+        "lng": 11.4660635,
+        "lat": 45.5092513,
+        "result": "success"
+    },
+    {
+        "name": "Ploiesti",
+        "count": 3.59,
+        "lng": 26.033333,
+        "lat": 44.933333,
+        "result": "success"
+    },
+    {
+        "name": "Bielefeld",
+        "count": 2.76,
+        "lng": 8.5324708,
+        "lat": 52.0302285,
+        "result": "success"
+    },
+    {
+        "name": "Rosignano Solvay-Castiglioncello",
+        "count": 6.37,
+        "lng": 10.4424658,
+        "lat": 43.3918054,
+        "result": "success"
+    },
+    {
+        "name": "Monselice",
+        "count": 2.21,
+        "lng": 11.749736,
+        "lat": 45.2391132,
+        "result": "success"
+    },
+    {
+        "name": "Correggio",
+        "count": 2.21,
+        "lng": 10.7819083,
+        "lat": 44.7708574,
+        "result": "success"
+    },
+    {
+        "name": "Mozzecane",
+        "count": 2.59,
+        "lng": 10.8169663,
+        "lat": 45.3088099,
+        "result": "success"
+    },
+    {
+        "name": "Heroica Veracruz",
+        "count": 23.97,
+        "lng": -96.1342241,
+        "lat": 19.173773,
+        "result": "success"
+    },
+    {
+        "name": "La Victoria",
+        "count": 2.92,
+        "lng": -4.8507672,
+        "lat": 37.6813893,
+        "result": "success"
+    },
+    {
+        "name": "Newton",
+        "count": 2.35,
+        "lng": -71.2092214,
+        "lat": 42.3370413,
+        "result": "success"
+    },
+    {
+        "name": "Aarau",
+        "count": 2.73,
+        "lng": 8.04312,
+        "lat": 47.3934,
+        "result": "success"
+    },
+    {
+        "name": "Crotone",
+        "count": 2.05,
+        "lng": 17.1271102,
+        "lat": 39.0807932,
+        "result": "success"
+    },
+    {
+        "name": "Afragola",
+        "count": 1.85,
+        "lng": 14.309304,
+        "lat": 40.9230386,
+        "result": "success"
+    },
+    {
+        "name": "Trecate",
+        "count": 3.29,
+        "lng": 8.7380125,
+        "lat": 45.4327441,
+        "result": "success"
+    },
+    {
+        "name": "Atlanta",
+        "count": 5.98,
+        "lng": -84.3879824,
+        "lat": 33.7489954,
+        "result": "success"
+    },
+    {
+        "name": "Bogota",
+        "count": 3.87,
+        "lng": -74.075833,
+        "lat": 4.598056,
+        "result": "success"
+    },
+    {
+        "name": "Gorizia",
+        "count": 3.26,
+        "lng": 13.6201754,
+        "lat": 45.9401812,
+        "result": "success"
+    },
+    {
+        "name": "Omegna",
+        "count": 6.23,
+        "lng": 8.4095977,
+        "lat": 45.8773469,
+        "result": "success"
+    },
+    {
+        "name": "Valdagno",
+        "count": 2.95,
+        "lng": 11.3024802,
+        "lat": 45.6448315,
+        "result": "success"
+    },
+    {
+        "name": "Mexico City",
+        "count": 2.23,
+        "lng": -99.133208,
+        "lat": 19.4326077,
+        "result": "success"
+    },
+    {
+        "name": "Velletri",
+        "count": 2.98,
+        "lng": 12.7785347,
+        "lat": 41.6868422,
+        "result": "success"
+    },
+    {
+        "name": "Bobruysk",
+        "count": 6.08,
+        "lng": 29.2345901,
+        "lat": 53.0252142,
+        "result": "success"
+    },
+    {
+        "name": "Iglesias",
+        "count": 4.8,
+        "lng": 8.5366236,
+        "lat": 39.3106447,
+        "result": "success"
+    },
+    {
+        "name": "Cardano Al Campo",
+        "count": 2.03,
+        "lng": 8.7594898,
+        "lat": 45.6488803,
+        "result": "success"
+    },
+    {
+        "name": "Cherkasy",
+        "count": 2.93,
+        "lng": 32.059767,
+        "lat": 49.444433,
+        "result": "success"
+    },
+    {
+        "name": "Cape Town",
+        "count": 4,
+        "lng": 18.4240553,
+        "lat": -33.9248685,
+        "result": "success"
+    },
+    {
+        "name": "Varna",
+        "count": 2.29,
+        "lng": 27.9105425,
+        "lat": 43.2046654,
+        "result": "success"
+    },
+    {
+        "name": "Vevey",
+        "count": 3.02,
+        "lng": 6.8424313,
+        "lat": 46.4627306,
+        "result": "success"
+    },
+    {
+        "name": "Dusseldorf",
+        "count": 2.81,
+        "lng": 6.7734556,
+        "lat": 51.2277411,
+        "result": "success"
+    },
+    {
+        "name": "Martina Franca",
+        "count": 2.8,
+        "lng": 17.3392645,
+        "lat": 40.7028666,
+        "result": "success"
+    },
+    {
+        "name": "St Julian's",
+        "count": 2.47,
+        "lng": 14.49,
+        "lat": 35.918611,
+        "result": "success"
+    },
+    {
+        "name": "Pont-saint-martin",
+        "count": 3.43,
+        "lng": -1.584433,
+        "lat": 47.123277,
+        "result": "success"
+    },
+    {
+        "name": "Termoli",
+        "count": 1.59,
+        "lng": 14.9952839,
+        "lat": 42.0005331,
+        "result": "success"
+    },
+    {
+        "name": "Sesto Calende",
+        "count": 3.64,
+        "lng": 8.6365972,
+        "lat": 45.7307015,
+        "result": "success"
+    },
+    {
+        "name": "Albufeira",
+        "count": 2.67,
+        "lng": -8.2478796,
+        "lat": 37.0890719,
+        "result": "success"
+    },
+    {
+        "name": "Doha",
+        "count": 3.66,
+        "lng": 51.533333,
+        "lat": 25.286667,
+        "result": "success"
+    },
+    {
+        "name": "Alpignano",
+        "count": 5.36,
+        "lng": 7.523704,
+        "lat": 45.0929488,
+        "result": "success"
+    },
+    {
+        "name": "Aix-en-Provence",
+        "count": 2.82,
+        "lng": 5.447427,
+        "lat": 43.529742,
+        "result": "success"
+    },
+    {
+        "name": "Birmingham",
+        "count": 3.14,
+        "lng": -86.80249,
+        "lat": 33.5206608,
+        "result": "success"
+    },
+    {
+        "name": "Monopoli",
+        "count": 3.39,
+        "lng": 17.2985559,
+        "lat": 40.9525166,
+        "result": "success"
+    },
+    {
+        "name": "Gela",
+        "count": 2.11,
+        "lng": 14.2403537,
+        "lat": 37.0741526,
+        "result": "success"
+    },
+    {
+        "name": "Enna",
+        "count": 16.47,
+        "lng": 14.2751277,
+        "lat": 37.5655912,
+        "result": "success"
+    },
+    {
+        "name": "Misano Adriatico",
+        "count": 2.93,
+        "lng": 12.6946857,
+        "lat": 43.982546,
+        "result": "success"
+    },
+    {
+        "name": "Pergine Valsugana",
+        "count": 2.75,
+        "lng": 11.2369603,
+        "lat": 46.06174,
+        "result": "success"
+    },
+    {
+        "name": "Cuveglio",
+        "count": 2.93,
+        "lng": 8.7332138,
+        "lat": 45.9044147,
+        "result": "success"
+    },
+    {
+        "name": "Novi Sad",
+        "count": 6.6,
+        "lng": 19.85,
+        "lat": 45.25,
+        "result": "success"
+    },
+    {
+        "name": "Cordoba",
+        "count": 4.16,
+        "lng": -4.7793835,
+        "lat": 37.8881751,
+        "result": "success"
+    },
+    {
+        "name": "Santiago",
+        "count": 3.43,
+        "lng": -70.641997,
+        "lat": -33.4691199,
+        "result": "success"
+    },
+    {
+        "name": "Belfast",
+        "count": 3.93,
+        "lng": -5.93012,
+        "lat": 54.597285,
+        "result": "success"
+    },
+    {
+        "name": "Paterno",
+        "count": 2.02,
+        "lng": 15.7344389,
+        "lat": 40.379662,
+        "result": "success"
+    },
+    {
+        "name": "Torre Lapillo",
+        "count": 2.36,
+        "lng": 17.8522392,
+        "lat": 40.2886728,
+        "result": "success"
+    },
+    {
+        "name": "Barcellona Pozzo di Gotto",
+        "count": 2.11,
+        "lng": 15.2128482,
+        "lat": 38.1472621,
+        "result": "success"
+    },
+    {
+        "name": "Mirandola",
+        "count": 2.79,
+        "lng": 11.0632969,
+        "lat": 44.8863605,
+        "result": "success"
+    },
+    {
+        "name": "Volpiano",
+        "count": 2.25,
+        "lng": 7.7796572,
+        "lat": 45.2009438,
+        "result": "success"
+    },
+    {
+        "name": "Pula",
+        "count": 3.59,
+        "lng": 13.8495788,
+        "lat": 44.8666232,
+        "result": "success"
+    },
+    {
+        "name": "Altdorf",
+        "count": 2.02,
+        "lng": 8.6405494,
+        "lat": 46.8778929,
+        "result": "success"
+    },
+    {
+        "name": "Paradise",
+        "count": 2.48,
+        "lng": -115.1466648,
+        "lat": 36.0971945,
+        "result": "success"
+    },
+    {
+        "name": "Langfang",
+        "count": 3.55,
+        "lng": 116.683752,
+        "lat": 39.538047,
+        "result": "success"
+    },
+    {
+        "name": "Gurgaon",
+        "count": 1.55,
+        "lng": 77.0266383,
+        "lat": 28.4594965,
+        "result": "success"
+    },
+    {
+        "name": "Brugherio",
+        "count": 2.91,
+        "lng": 9.2980223,
+        "lat": 45.553941,
+        "result": "success"
+    },
+    {
+        "name": "Sorrento Peninsula",
+        "count": 2.93,
+        "lng": 14.3757985,
+        "lat": 40.6262925,
+        "result": "success"
+    },
+    {
+        "name": "Leini",
+        "count": 1.98,
+        "lng": 7.7137308,
+        "lat": 45.1835252,
+        "result": "success"
+    },
+    {
+        "name": "Rivarolo Canavese",
+        "count": 2.44,
+        "lng": 7.7231702,
+        "lat": 45.3319785,
+        "result": "success"
+    },
+    {
+        "name": "Cavaion Veronese",
+        "count": 2.27,
+        "lng": 10.7701136,
+        "lat": 45.5402498,
+        "result": "success"
+    },
+    {
+        "name": "Karachi",
+        "count": 2.56,
+        "lng": 67.0099388,
+        "lat": 24.8614622,
+        "result": "success"
+    },
+    {
+        "name": "Borlange",
+        "count": 4.95,
+        "lng": 15.433969,
+        "lat": 60.484304,
+        "result": "success"
+    },
+    {
+        "name": "Diano Marina",
+        "count": 2.89,
+        "lng": 8.0828024,
+        "lat": 43.9088641,
+        "result": "success"
+    },
+    {
+        "name": "Piove di Sacco",
+        "count": 2.84,
+        "lng": 12.0349785,
+        "lat": 45.2968571,
+        "result": "success"
+    },
+    {
+        "name": "Usmate Velate",
+        "count": 2.73,
+        "lng": 9.3429671,
+        "lat": 45.6501261,
+        "result": "success"
+    },
+    {
+        "name": "Vancouver",
+        "count": 2.28,
+        "lng": -123.1139268,
+        "lat": 49.261226,
+        "result": "success"
+    },
+    {
+        "name": "Mumbai",
+        "count": 3.96,
+        "lng": 72.8776559,
+        "lat": 19.0759837,
+        "result": "success"
+    },
+    {
+        "name": "Saluzzo",
+        "count": 3.13,
+        "lng": 7.4927355,
+        "lat": 44.6445404,
+        "result": "success"
+    },
+    {
+        "name": "Pietrasanta",
+        "count": 3.63,
+        "lng": 10.2286323,
+        "lat": 43.9595513,
+        "result": "success"
+    },
+    {
+        "name": "Camposampiero",
+        "count": 2.76,
+        "lng": 11.9333359,
+        "lat": 45.5724468,
+        "result": "success"
+    },
+    {
+        "name": "Vigonza",
+        "count": 2.93,
+        "lng": 11.9843835,
+        "lat": 45.4438896,
+        "result": "success"
+    },
+    {
+        "name": "Loano",
+        "count": 2.81,
+        "lng": 8.2609671,
+        "lat": 44.1306408,
+        "result": "success"
+    },
+    {
+        "name": "Lonigo",
+        "count": 2.52,
+        "lng": 11.3878624,
+        "lat": 45.3882751,
+        "result": "success"
+    },
+    {
+        "name": "Christchurch",
+        "count": 6.13,
+        "lng": 172.6362254,
+        "lat": -43.5320544,
+        "result": "success"
+    },
+    {
+        "name": "Curitiba",
+        "count": 1.74,
+        "lng": -49.2650973,
+        "lat": -25.4200388,
+        "result": "success"
+    },
+    {
+        "name": "Seville",
+        "count": 2.89,
+        "lng": -5.9844589,
+        "lat": 37.3890924,
+        "result": "success"
+    },
+    {
+        "name": "Galway",
+        "count": 3.19,
+        "lng": -9.0566677,
+        "lat": 53.2705588,
+        "result": "success"
+    },
+    {
+        "name": "Porto Recanati",
+        "count": 2.81,
+        "lng": 13.6641282,
+        "lat": 43.4320959,
+        "result": "success"
+    },
+    {
+        "name": "Castelfranco Emilia",
+        "count": 2.96,
+        "lng": 11.0522393,
+        "lat": 44.5951111,
+        "result": "success"
+    },
+    {
+        "name": "Ljubljana",
+        "count": 2.4,
+        "lng": 14.5057515,
+        "lat": 46.0569465,
+        "result": "success"
+    },
+    {
+        "name": "Houston",
+        "count": 2.96,
+        "lng": -95.3693896,
+        "lat": 29.7601927,
+        "result": "success"
+    },
+    {
+        "name": "Buttrio",
+        "count": 4.94,
+        "lng": 13.3398358,
+        "lat": 46.019099,
+        "result": "success"
+    },
+    {
+        "name": "Sestri Levante",
+        "count": 2.17,
+        "lng": 9.4008281,
+        "lat": 44.2763654,
+        "result": "success"
+    },
+    {
+        "name": "Trier",
+        "count": 2.38,
+        "lng": 6.6371433,
+        "lat": 49.749992,
+        "result": "success"
+    },
+    {
+        "name": "Algiers",
+        "count": 3.92,
+        "lng": 3.042048,
+        "lat": 36.752887,
+        "result": "success"
+    },
+    {
+        "name": "Feltre",
+        "count": 2.08,
+        "lng": 11.9005837,
+        "lat": 46.0178511,
+        "result": "success"
+    },
+    {
+        "name": "Brixen",
+        "count": 3.35,
+        "lng": 11.6572436,
+        "lat": 46.7177048,
+        "result": "success"
+    },
+    {
+        "name": "Orvieto",
+        "count": 2.31,
+        "lng": 12.1107446,
+        "lat": 42.7185068,
+        "result": "success"
+    },
+    {
+        "name": "Wroclaw",
+        "count": 2.17,
+        "lng": 17.0385376,
+        "lat": 51.1078852,
+        "result": "success"
+    },
+    {
+        "name": "Falkenberg",
+        "count": 1.9,
+        "lng": 12.4888013,
+        "lat": 56.9027333,
+        "result": "success"
+    },
+    {
+        "name": "Philadelphia",
+        "count": 3.54,
+        "lng": -75.163789,
+        "lat": 39.952335,
+        "result": "success"
+    },
+    {
+        "name": "Belgrade",
+        "count": 3.87,
+        "lng": 20.466667,
+        "lat": 44.816667,
+        "result": "success"
+    },
+    {
+        "name": "Fasano",
+        "count": 3,
+        "lng": 17.3609347,
+        "lat": 40.8366588,
+        "result": "success"
+    },
+    {
+        "name": "Mira Taglio",
+        "count": 1.87,
+        "lng": 12.1357954,
+        "lat": 45.4353135,
+        "result": "success"
+    },
+    {
+        "name": "Liege",
+        "count": 3.57,
+        "lng": 5.5796662,
+        "lat": 50.6325574,
+        "result": "success"
+    },
+    {
+        "name": "Turate",
+        "count": 3.31,
+        "lng": 9.0020664,
+        "lat": 45.6568245,
+        "result": "success"
+    },
+    {
+        "name": "Albignasego",
+        "count": 4.2,
+        "lng": 11.8677169,
+        "lat": 45.3466767,
+        "result": "success"
+    },
+    {
+        "name": "Monterrey",
+        "count": 3.53,
+        "lng": -100.3161126,
+        "lat": 25.6866142,
+        "result": "success"
+    },
+    {
+        "name": "Ciampino",
+        "count": 2.47,
+        "lng": 12.6021389,
+        "lat": 41.802425,
+        "result": "success"
+    },
+    {
+        "name": "Giulianova",
+        "count": 1.94,
+        "lng": 13.9665051,
+        "lat": 42.7538138,
+        "result": "success"
+    },
+    {
+        "name": "Schaerbeek",
+        "count": 3.48,
+        "lng": 4.3772981,
+        "lat": 50.8674164,
+        "result": "success"
+    },
+    {
+        "name": "Patras",
+        "count": 2.64,
+        "lng": 21.734574,
+        "lat": 38.2466395,
+        "result": "success"
+    },
+    {
+        "name": "Altamura",
+        "count": 1.58,
+        "lng": 16.5527874,
+        "lat": 40.8253924,
+        "result": "success"
+    },
+    {
+        "name": "Campi Bisenzio",
+        "count": 2.26,
+        "lng": 11.1276471,
+        "lat": 43.8259774,
+        "result": "success"
+    },
+    {
+        "name": "Settimo Milanese",
+        "count": 2.24,
+        "lng": 9.0567416,
+        "lat": 45.4866596,
+        "result": "success"
+    },
+    {
+        "name": "Eindhoven",
+        "count": 8.74,
+        "lng": 5.4697225,
+        "lat": 51.441642,
+        "result": "success"
+    },
+    {
+        "name": "Este",
+        "count": 2.88,
+        "lng": 11.6603917,
+        "lat": 45.2254915,
+        "result": "success"
+    },
+    {
+        "name": "Marostica",
+        "count": 2.42,
+        "lng": 11.6583922,
+        "lat": 45.7459624,
+        "result": "success"
+    },
+    {
+        "name": "Kloten",
+        "count": 2.04,
+        "lng": 8.5852412,
+        "lat": 47.4526616,
+        "result": "success"
+    },
+    {
+        "name": "Novedrate",
+        "count": 4.65,
+        "lng": 9.120945,
+        "lat": 45.6996901,
+        "result": "success"
+    },
+    {
+        "name": "Arenzano",
+        "count": 2.78,
+        "lng": 8.6860167,
+        "lat": 44.4058612,
+        "result": "success"
+    },
+    {
+        "name": "Follonica",
+        "count": 2.53,
+        "lng": 10.7593003,
+        "lat": 42.9226887,
+        "result": "success"
+    },
+    {
+        "name": "Taormina",
+        "count": 2.47,
+        "lng": 15.2853127,
+        "lat": 37.8516366,
+        "result": "success"
+    },
+    {
+        "name": "Inveruno",
+        "count": 4.55,
+        "lng": 8.8521537,
+        "lat": 45.5139325,
+        "result": "success"
+    },
+    {
+        "name": "Maranello",
+        "count": 3.37,
+        "lng": 10.8666834,
+        "lat": 44.5263024,
+        "result": "success"
+    },
+    {
+        "name": "Bagheria",
+        "count": 2.57,
+        "lng": 13.512365,
+        "lat": 38.0789178,
+        "result": "success"
+    },
+    {
+        "name": "Spoleto",
+        "count": 2.37,
+        "lng": 12.7344664,
+        "lat": 42.7305146,
+        "result": "success"
+    },
+    {
+        "name": "Vittoria",
+        "count": 3.67,
+        "lng": 14.5372653,
+        "lat": 36.9520998,
+        "result": "success"
+    },
+    {
+        "name": "Lisle",
+        "count": 12.29,
+        "lng": -88.0747875,
+        "lat": 41.801141,
+        "result": "success"
+    },
+    {
+        "name": "Seattle",
+        "count": 2.49,
+        "lng": -122.3320708,
+        "lat": 47.6062095,
+        "result": "success"
+    },
+    {
+        "name": "Forte dei Marmi",
+        "count": 2,
+        "lng": 10.1672792,
+        "lat": 43.9579617,
+        "result": "success"
+    },
+    {
+        "name": "Montecatini Terme",
+        "count": 2.67,
+        "lng": 10.775436,
+        "lat": 43.8808472,
+        "result": "success"
+    },
+    {
+        "name": "Sant'agata Bolognese",
+        "count": 2.65,
+        "lng": 11.1342324,
+        "lat": 44.6647763,
+        "result": "success"
+    },
+    {
+        "name": "Santarcangelo di Romagna",
+        "count": 2.04,
+        "lng": 12.4523883,
+        "lat": 44.0633602,
+        "result": "success"
+    },
+    {
+        "name": "Granada",
+        "count": 3.54,
+        "lng": -3.5985571,
+        "lat": 37.1773363,
+        "result": "success"
+    },
+    {
+        "name": "Binfield",
+        "count": 2.77,
+        "lng": -0.788077,
+        "lat": 51.431488,
+        "result": "success"
+    },
+    {
+        "name": "Menaggio",
+        "count": 3.56,
+        "lng": 9.2388285,
+        "lat": 46.0217068,
+        "result": "success"
+    },
+    {
+        "name": "Anzio",
+        "count": 2.33,
+        "lng": 12.6197253,
+        "lat": 41.4495955,
+        "result": "success"
+    },
+    {
+        "name": "Mons",
+        "count": 1.98,
+        "lng": 3.956659,
+        "lat": 50.4542408,
+        "result": "success"
+    },
+    {
+        "name": "Zofingen",
+        "count": 3.06,
+        "lng": 7.9439368,
+        "lat": 47.2927991,
+        "result": "success"
+    },
+    {
+        "name": "Annecy",
+        "count": 2.89,
+        "lng": 6.129384,
+        "lat": 45.899247,
+        "result": "success"
+    },
+    {
+        "name": "Fara Gera D'Adda",
+        "count": 7.85,
+        "lng": 9.534498,
+        "lat": 45.5565185,
+        "result": "success"
+    },
+    {
+        "name": "Caltanissetta",
+        "count": 1.64,
+        "lng": 14.0628928,
+        "lat": 37.4901115,
+        "result": "success"
+    },
+    {
+        "name": "Bra",
+        "count": 2.7,
+        "lng": -51.92528,
+        "lat": -14.235004,
+        "result": "success"
+    },
+    {
+        "name": "Rubiera",
+        "count": 2.77,
+        "lng": 10.7806381,
+        "lat": 44.6529827,
+        "result": "success"
+    },
+    {
+        "name": "Mirano",
+        "count": 2.53,
+        "lng": 12.1158683,
+        "lat": 45.4950138,
+        "result": "success"
+    },
+    {
+        "name": "Arzignano",
+        "count": 2.45,
+        "lng": 11.3337046,
+        "lat": 45.5223525,
+        "result": "success"
+    },
+    {
+        "name": "Riga",
+        "count": 2.45,
+        "lng": 24.1051864,
+        "lat": 56.9496487,
+        "result": "success"
+    },
+    {
+        "name": "Antalya",
+        "count": 4.94,
+        "lng": 30.70563,
+        "lat": 36.88414,
+        "result": "success"
+    },
+    {
+        "name": "Cerignola",
+        "count": 2.79,
+        "lng": 15.8939163,
+        "lat": 41.2656592,
+        "result": "success"
+    },
+    {
+        "name": "Nettuno",
+        "count": 2.36,
+        "lng": 12.6654914,
+        "lat": 41.4577305,
+        "result": "success"
+    },
+    {
+        "name": "Piana del Sole",
+        "count": 3.15,
+        "lng": 12.310833,
+        "lat": 41.821667,
+        "result": "success"
+    },
+    {
+        "name": "Belo Horizonte",
+        "count": 2,
+        "lng": -43.9352685,
+        "lat": -19.9245192,
+        "result": "success"
+    },
+    {
+        "name": "Bishop's Cleeve",
+        "count": 4.02,
+        "lng": -2.060942,
+        "lat": 51.947366,
+        "result": "success"
+    },
+    {
+        "name": "Vibo Valentia",
+        "count": 2.35,
+        "lng": 16.0983488,
+        "lat": 38.6757774,
+        "result": "success"
+    },
+    {
+        "name": "Lublin",
+        "count": 2.07,
+        "lng": 22.5684463,
+        "lat": 51.2464536,
+        "result": "success"
+    },
+    {
+        "name": "Porto Sant'Elpidio",
+        "count": 3.7,
+        "lng": 13.7592975,
+        "lat": 43.2563334,
+        "result": "success"
+    },
+    {
+        "name": "Vigo",
+        "count": 7.6,
+        "lng": -8.7207268,
+        "lat": 42.2405989,
+        "result": "success"
+    },
+    {
+        "name": "Kecskemet",
+        "count": 4.38,
+        "lng": 19.6896861,
+        "lat": 46.8963711,
+        "result": "success"
+    },
+    {
+        "name": "Valenza",
+        "count": 3.13,
+        "lng": 8.644111,
+        "lat": 45.0122876,
+        "result": "success"
+    },
+    {
+        "name": "Capriate San Gervasio",
+        "count": 3.07,
+        "lng": 9.527097,
+        "lat": 45.6225032,
+        "result": "success"
+    },
+    {
+        "name": "Francavilla al Mare",
+        "count": 1.53,
+        "lng": 14.2988085,
+        "lat": 42.415183,
+        "result": "success"
+    },
+    {
+        "name": "Cabiate",
+        "count": 2.22,
+        "lng": 9.1741214,
+        "lat": 45.6747476,
+        "result": "success"
+    },
+    {
+        "name": "Pavullo Nel Frignano",
+        "count": 3.24,
+        "lng": 10.8335633,
+        "lat": 44.3365935,
+        "result": "success"
+    },
+    {
+        "name": "Torre del Greco",
+        "count": 1.69,
+        "lng": 14.367461,
+        "lat": 40.7894429,
+        "result": "success"
+    },
+    {
+        "name": "Cluj-Napoca",
+        "count": 4.51,
+        "lng": 23.583333,
+        "lat": 46.766667,
+        "result": "success"
+    },
+    {
+        "name": "Lahaina",
+        "count": 2.04,
+        "lng": -156.6825,
+        "lat": 20.8783333,
+        "result": "success"
+    },
+    {
+        "name": "Locarno",
+        "count": 1.96,
+        "lng": 8.7889791,
+        "lat": 46.1679583,
+        "result": "success"
+    },
+    {
+        "name": "Cefalu",
+        "count": 2.31,
+        "lng": 14.0174436,
+        "lat": 38.0337046,
+        "result": "success"
+    },
+    {
+        "name": "Adelaide",
+        "count": 1.64,
+        "lng": 138.5999594,
+        "lat": -34.9286212,
+        "result": "success"
+    },
+    {
+        "name": "Essen",
+        "count": 2.02,
+        "lng": 7.0115552,
+        "lat": 51.4556432,
+        "result": "success"
+    },
+    {
+        "name": "Marseille",
+        "count": 2.82,
+        "lng": 5.36978,
+        "lat": 43.296482,
+        "result": "success"
+    },
+    {
+        "name": "Sciacca",
+        "count": 2.55,
+        "lng": 13.0816305,
+        "lat": 37.5085148,
+        "result": "success"
+    },
+    {
+        "name": "Nairobi",
+        "count": 3.3,
+        "lng": 36.8219462,
+        "lat": -1.2920659,
+        "result": "success"
+    },
+    {
+        "name": "Tuxtla Gutierrez",
+        "count": 9.5,
+        "lng": -93.1029939,
+        "lat": 16.7516009,
+        "result": "success"
+    },
+    {
+        "name": "Uppsala",
+        "count": 2.52,
+        "lng": 17.6389267,
+        "lat": 59.8585638,
+        "result": "success"
+    },
+    {
+        "name": "Boston",
+        "count": 1.75,
+        "lng": -71.0597732,
+        "lat": 42.3584308,
+        "result": "success"
+    },
+    {
+        "name": "St. Louis",
+        "count": 4.59,
+        "lng": -90.1994042,
+        "lat": 38.6270025,
+        "result": "success"
+    },
+    {
+        "name": "Charleroi",
+        "count": 2.56,
+        "lng": 4.444643,
+        "lat": 50.4108095,
+        "result": "success"
+    },
+    {
+        "name": "Dresden",
+        "count": 4.63,
+        "lng": 13.7372621,
+        "lat": 51.0504088,
+        "result": "success"
+    },
+    {
+        "name": "Tbilisi",
+        "count": 3.42,
+        "lng": 44.783333,
+        "lat": 41.716667,
+        "result": "success"
+    },
+    {
+        "name": "Split",
+        "count": 3.49,
+        "lng": 16.4401935,
+        "lat": 43.5081323,
+        "result": "success"
+    },
+    {
+        "name": "Cento",
+        "count": 2.72,
+        "lng": 11.2908156,
+        "lat": 44.7315319,
+        "result": "success"
+    },
+    {
+        "name": "Monfalcone",
+        "count": 1.84,
+        "lng": 13.5331727,
+        "lat": 45.8050468,
+        "result": "success"
+    },
+    {
+        "name": "Monterotondo",
+        "count": 2.19,
+        "lng": 12.6202874,
+        "lat": 42.0517785,
+        "result": "success"
+    },
+    {
+        "name": "Cividale del Friuli",
+        "count": 3.81,
+        "lng": 13.4292014,
+        "lat": 46.0961711,
+        "result": "success"
+    },
+    {
+        "name": "Liptovsky Mikulas",
+        "count": 3.91,
+        "lng": 19.6124852,
+        "lat": 49.0834456,
+        "result": "success"
+    },
+    {
+        "name": "Zanzibar",
+        "count": 2.93,
+        "lng": 39.202641,
+        "lat": -6.165917,
+        "result": "success"
+    },
+    {
+        "name": "Ponte San Nicolo",
+        "count": 1.95,
+        "lng": 11.923116,
+        "lat": 45.3694386,
+        "result": "success"
+    },
+    {
+        "name": "Filderstadt",
+        "count": 3.86,
+        "lng": 9.2161353,
+        "lat": 48.6781974,
+        "result": "success"
+    },
+    {
+        "name": "Erfurt",
+        "count": 2.1,
+        "lng": 11.0298799,
+        "lat": 50.9847679,
+        "result": "success"
+    },
+    {
+        "name": "Chania",
+        "count": 3.76,
+        "lng": 24.0180367,
+        "lat": 35.5138298,
+        "result": "success"
+    },
+    {
+        "name": "Bresso",
+        "count": 2.05,
+        "lng": 9.1903928,
+        "lat": 45.5391048,
+        "result": "success"
+    },
+    {
+        "name": "Castano Primo",
+        "count": 2.1,
+        "lng": 8.7772349,
+        "lat": 45.5545769,
+        "result": "success"
+    },
+    {
+        "name": "Mestrino",
+        "count": 5.43,
+        "lng": 11.7576379,
+        "lat": 45.4430405,
+        "result": "success"
+    },
+    {
+        "name": "Brugnera",
+        "count": 3.21,
+        "lng": 12.526491,
+        "lat": 45.9019925,
+        "result": "success"
+    },
+    {
+        "name": "Noale",
+        "count": 3.26,
+        "lng": 12.0723259,
+        "lat": 45.5526011,
+        "result": "success"
+    },
+    {
+        "name": "Auckland",
+        "count": 2.26,
+        "lng": 174.7633315,
+        "lat": -36.8484597,
+        "result": "success"
+    },
+    {
+        "name": "Muscat",
+        "count": 2.4,
+        "lng": 58.54,
+        "lat": 23.61,
+        "result": "success"
+    },
+    {
+        "name": "San Diego",
+        "count": 2.95,
+        "lng": -117.1610838,
+        "lat": 32.715738,
+        "result": "success"
+    },
+    {
+        "name": "Stavanger",
+        "count": 8.52,
+        "lng": 5.7331073,
+        "lat": 58.9699756,
+        "result": "success"
+    },
+    {
+        "name": "Leuven",
+        "count": 3.85,
+        "lng": 4.7,
+        "lat": 50.883333,
+        "result": "success"
+    },
+    {
+        "name": "Alicante",
+        "count": 3.24,
+        "lng": -0.4906855,
+        "lat": 38.3459963,
+        "result": "success"
+    },
+    {
+        "name": "Douglas",
+        "count": 3.66,
+        "lng": -82.8498654,
+        "lat": 31.5088073,
+        "result": "success"
+    },
+    {
+        "name": "Chalandri",
+        "count": 3.44,
+        "lng": 23.7986297,
+        "lat": 38.0213307,
+        "result": "success"
+    },
+    {
+        "name": "Ciserano",
+        "count": 3.29,
+        "lng": 9.6029498,
+        "lat": 45.5855615,
+        "result": "success"
+    },
+    {
+        "name": "Terracina",
+        "count": 3.37,
+        "lng": 13.2332657,
+        "lat": 41.2963728,
+        "result": "success"
+    },
+    {
+        "name": "Cavriago",
+        "count": 2.07,
+        "lng": 10.523885,
+        "lat": 44.6923476,
+        "result": "success"
+    },
+    {
+        "name": "San Zeno di Montagna",
+        "count": 3.41,
+        "lng": 10.7239788,
+        "lat": 45.6311344,
+        "result": "success"
+    },
+    {
+        "name": "Pitesti",
+        "count": 1.98,
+        "lng": 24.867778,
+        "lat": 44.860556,
+        "result": "success"
+    },
+    {
+        "name": "Orbetello",
+        "count": 2.41,
+        "lng": 11.2124083,
+        "lat": 42.4396474,
+        "result": "success"
+    },
+    {
+        "name": "Ghent",
+        "count": 2.1,
+        "lng": 3.7174243,
+        "lat": 51.0543422,
+        "result": "success"
+    },
+    {
+        "name": "Glasgow",
+        "count": 4.58,
+        "lng": -4.251806,
+        "lat": 55.864237,
+        "result": "success"
+    },
+    {
+        "name": "Porto San Giorgio",
+        "count": 2.25,
+        "lng": 13.7929636,
+        "lat": 43.1801759,
+        "result": "success"
+    },
+    {
+        "name": "Bruneck",
+        "count": 3.53,
+        "lng": 11.9380416,
+        "lat": 46.7965736,
+        "result": "success"
+    },
+    {
+        "name": "Binasco",
+        "count": 3.3,
+        "lng": 9.0996141,
+        "lat": 45.3317093,
+        "result": "success"
+    },
+    {
+        "name": "Cerro Maggiore",
+        "count": 2.83,
+        "lng": 8.9528983,
+        "lat": 45.5952619,
+        "result": "success"
+    },
+    {
+        "name": "Muggio",
+        "count": 3.88,
+        "lng": 9.2264175,
+        "lat": 45.591052,
+        "result": "success"
+    },
+    {
+        "name": "Manduria",
+        "count": 3.43,
+        "lng": 17.6376863,
+        "lat": 40.3980418,
+        "result": "success"
+    },
+    {
+        "name": "San Giovanni Al Natisone",
+        "count": 2.98,
+        "lng": 13.3968155,
+        "lat": 45.9790081,
+        "result": "success"
+    },
+    {
+        "name": "Kuala Lumpur",
+        "count": 4.63,
+        "lng": 101.686855,
+        "lat": 3.139003,
+        "result": "success"
+    },
+    {
+        "name": "Panama",
+        "count": 2.15,
+        "lng": -80.782127,
+        "lat": 8.537981,
+        "result": "success"
+    },
+    {
+        "name": "Goldfield",
+        "count": 2.83,
+        "lng": -117.2357131,
+        "lat": 37.7084481,
+        "result": "success"
+    },
+    {
+        "name": "Cheraw",
+        "count": 2.73,
+        "lng": -79.8833971,
+        "lat": 34.6976564,
+        "result": "success"
+    },
+    {
+        "name": "Asiago",
+        "count": 2.1,
+        "lng": 11.50962,
+        "lat": 45.8758852,
+        "result": "success"
+    },
+    {
+        "name": "Casalnuovo di Napoli",
+        "count": 2.35,
+        "lng": 14.339994,
+        "lat": 40.9092206,
+        "result": "success"
+    },
+    {
+        "name": "Castellana",
+        "count": 2.88,
+        "lng": 17.1632224,
+        "lat": 40.8792212,
+        "result": "success"
+    },
+    {
+        "name": "Fiorano",
+        "count": 3.15,
+        "lng": 10.8339023,
+        "lat": 44.5384534,
+        "result": "success"
+    },
+    {
+        "name": "Natal",
+        "count": 2.15,
+        "lng": -35.200916,
+        "lat": -5.7792569,
+        "result": "success"
+    },
+    {
+        "name": "Freiburg",
+        "count": 4.85,
+        "lng": 7.8421043,
+        "lat": 47.9990077,
+        "result": "success"
+    },
+    {
+        "name": "Brighton",
+        "count": 1.97,
+        "lng": -0.137163,
+        "lat": 50.82253,
+        "result": "success"
+    },
+    {
+        "name": "Pessano Con Bornago",
+        "count": 1.85,
+        "lng": 9.3882226,
+        "lat": 45.5516006,
+        "result": "success"
+    },
+    {
+        "name": "Aulla",
+        "count": 1.97,
+        "lng": 9.9674972,
+        "lat": 44.2166706,
+        "result": "success"
+    },
+    {
+        "name": "Pompei",
+        "count": 2.41,
+        "lng": 14.4989344,
+        "lat": 40.7461572,
+        "result": "success"
+    },
+    {
+        "name": "Fontanafredda",
+        "count": 4.77,
+        "lng": 12.56818,
+        "lat": 45.9747129,
+        "result": "success"
+    },
+    {
+        "name": "Asolo",
+        "count": 2.38,
+        "lng": 11.9141103,
+        "lat": 45.7992586,
+        "result": "success"
+    },
+    {
+        "name": "Codroipo",
+        "count": 2.1,
+        "lng": 12.9767813,
+        "lat": 45.9613936,
+        "result": "success"
+    },
+    {
+        "name": "Cancun",
+        "count": 2.31,
+        "lng": -86.8515279,
+        "lat": 21.161908,
+        "result": "success"
+    },
+    {
+        "name": "Nizhny Novgorod",
+        "count": 3.64,
+        "lng": 44,
+        "lat": 56.333333,
+        "result": "success"
+    },
+    {
+        "name": "Izmir",
+        "count": 2.21,
+        "lng": 27.12872,
+        "lat": 38.41885,
+        "result": "success"
+    },
+    {
+        "name": "Kortenberg",
+        "count": 3.26,
+        "lng": 4.5440302,
+        "lat": 50.8884334,
+        "result": "success"
+    },
+    {
+        "name": "Neuchatel",
+        "count": 3.26,
+        "lng": 6.9319325,
+        "lat": 46.9929793,
+        "result": "success"
+    },
+    {
+        "name": "Cork",
+        "count": 2.42,
+        "lng": -8.4863157,
+        "lat": 51.8968917,
+        "result": "success"
+    },
+    {
+        "name": "Argelato",
+        "count": 3.39,
+        "lng": 11.3447429,
+        "lat": 44.6447617,
+        "result": "success"
+    },
+    {
+        "name": "Recanati",
+        "count": 2.5,
+        "lng": 13.5495324,
+        "lat": 43.4035649,
+        "result": "success"
+    },
+    {
+        "name": "Assisi",
+        "count": 2.53,
+        "lng": 12.6195966,
+        "lat": 43.0707017,
+        "result": "success"
+    },
+    {
+        "name": "Makati",
+        "count": 4.47,
+        "lng": 121.0244452,
+        "lat": 14.554729,
+        "result": "success"
+    },
+    {
+        "name": "Krakow",
+        "count": 1.68,
+        "lng": 19.9449799,
+        "lat": 50.0646501,
+        "result": "success"
+    },
+    {
+        "name": "Aveiro",
+        "count": 4.34,
+        "lng": -8.6537539,
+        "lat": 40.6405055,
+        "result": "success"
+    },
+    {
+        "name": "Porec",
+        "count": 3.95,
+        "lng": 13.5947399,
+        "lat": 45.2271652,
+        "result": "success"
+    },
+    {
+        "name": "Cirie",
+        "count": 3.37,
+        "lng": 7.6014933,
+        "lat": 45.2358319,
+        "result": "success"
+    },
+    {
+        "name": "Saluggia",
+        "count": 3.05,
+        "lng": 8.0105832,
+        "lat": 45.2353908,
+        "result": "success"
+    },
+    {
+        "name": "Santa Maria Capua Vetere",
+        "count": 2.03,
+        "lng": 14.2541872,
+        "lat": 41.0820867,
+        "result": "success"
+    },
+    {
+        "name": "Linz",
+        "count": 3.76,
+        "lng": 14.28583,
+        "lat": 48.30694,
+        "result": "success"
+    },
+    {
+        "name": "Mannheim",
+        "count": 7.14,
+        "lng": 8.4660395,
+        "lat": 49.4874592,
+        "result": "success"
+    },
+    {
+        "name": "Aachen",
+        "count": 1.89,
+        "lng": 6.0838868,
+        "lat": 50.7753455,
+        "result": "success"
+    },
+    {
+        "name": "Tours",
+        "count": 2.16,
+        "lng": 0.68484,
+        "lat": 47.394144,
+        "result": "success"
+    },
+    {
+        "name": "Ostuni",
+        "count": 1.95,
+        "lng": 17.5779979,
+        "lat": 40.7295235,
+        "result": "success"
+    },
+    {
+        "name": "Villasanta",
+        "count": 3.24,
+        "lng": 9.3015087,
+        "lat": 45.606179,
+        "result": "success"
+    },
+    {
+        "name": "Gozzano",
+        "count": 2.19,
+        "lng": 8.4419547,
+        "lat": 45.746784,
+        "result": "success"
+    },
+    {
+        "name": "San Miniato",
+        "count": 2.68,
+        "lng": 10.8551196,
+        "lat": 43.6829641,
+        "result": "success"
+    },
+    {
+        "name": "Kaunas",
+        "count": 1.7,
+        "lng": 23.9035965,
+        "lat": 54.8985207,
+        "result": "success"
+    },
+    {
+        "name": "Iasi",
+        "count": 2.81,
+        "lng": 27.590278,
+        "lat": 47.156944,
+        "result": "success"
+    },
+    {
+        "name": "Carmignano di Brenta",
+        "count": 3.32,
+        "lng": 11.702301,
+        "lat": 45.6290158,
+        "result": "success"
+    },
+    {
+        "name": "Lazise",
+        "count": 2.57,
+        "lng": 10.7350716,
+        "lat": 45.5060202,
+        "result": "success"
+    },
+    {
+        "name": "Foshan",
+        "count": 8.06,
+        "lng": 113.121436,
+        "lat": 23.021479,
+        "result": "success"
+    },
+    {
+        "name": "Bonn",
+        "count": 4.25,
+        "lng": 7.0982068,
+        "lat": 50.73743,
+        "result": "success"
+    },
+    {
+        "name": "Dunstable",
+        "count": 1.56,
+        "lng": -0.52039,
+        "lat": 51.885644,
+        "result": "success"
+    },
+    {
+        "name": "Leeds",
+        "count": 1.94,
+        "lng": -1.5490774,
+        "lat": 53.8007554,
+        "result": "success"
+    },
+    {
+        "name": "Fabriano",
+        "count": 4.28,
+        "lng": 12.9006655,
+        "lat": 43.3392143,
+        "result": "success"
+    },
+    {
+        "name": "Cortina d'Ampezzo",
+        "count": 2.83,
+        "lng": 12.1356524,
+        "lat": 46.5404711,
+        "result": "success"
+    },
+    {
+        "name": "Montelupo Fiorentino",
+        "count": 4.92,
+        "lng": 11.0206163,
+        "lat": 43.7331893,
+        "result": "success"
+    },
+    {
+        "name": "Modica",
+        "count": 2.94,
+        "lng": 14.7608152,
+        "lat": 36.8588355,
+        "result": "success"
+    },
+    {
+        "name": "Baveno",
+        "count": 2.58,
+        "lng": 8.5055814,
+        "lat": 45.9089803,
+        "result": "success"
+    },
+    {
+        "name": "Santa Maria di Sala",
+        "count": 2.64,
+        "lng": 12.0342312,
+        "lat": 45.5083572,
+        "result": "success"
+    },
+    {
+        "name": "San Gwann",
+        "count": 1.64,
+        "lng": 14.478611,
+        "lat": 35.909444,
+        "result": "success"
+    },
+    {
+        "name": "Big Spring",
+        "count": 3.19,
+        "lng": -101.4787355,
+        "lat": 32.2503979,
+        "result": "success"
+    },
+    {
+        "name": "Cossato",
+        "count": 2.14,
+        "lng": 8.175544,
+        "lat": 45.5668371,
+        "result": "success"
+    },
+    {
+        "name": "Narbonne",
+        "count": 1.43,
+        "lng": 3.003078,
+        "lat": 43.184277,
+        "result": "success"
+    },
+    {
+        "name": "Teddington",
+        "count": 3.89,
+        "lng": -0.331342,
+        "lat": 51.426799,
+        "result": "success"
+    },
+    {
+        "name": "Tolentino",
+        "count": 3.29,
+        "lng": 13.2847426,
+        "lat": 43.2088828,
+        "result": "success"
+    },
+    {
+        "name": "San Vito al Tagliamento",
+        "count": 2.69,
+        "lng": 12.857311,
+        "lat": 45.917978,
+        "result": "success"
+    },
+    {
+        "name": "Scorze",
+        "count": 1.83,
+        "lng": 12.1100866,
+        "lat": 45.5767244,
+        "result": "success"
+    },
+    {
+        "name": "Shibuya",
+        "count": 1.6,
+        "lng": 139.6982122,
+        "lat": 35.6640352,
+        "result": "success"
+    },
+    {
+        "name": "Seoul",
+        "count": 2.26,
+        "lng": 126.9779692,
+        "lat": 37.566535,
+        "result": "success"
+    },
+    {
+        "name": "San Salvador",
+        "count": 6.74,
+        "lng": -89.2181911,
+        "lat": 13.6929403,
+        "result": "success"
+    },
+    {
+        "name": "Gaziantep",
+        "count": 1.83,
+        "lng": 37.38332,
+        "lat": 37.06622,
+        "result": "success"
+    },
+    {
+        "name": "San Jose",
+        "count": 4.94,
+        "lng": -121.8949555,
+        "lat": 37.3393857,
+        "result": "success"
+    },
+    {
+        "name": "Miami Beach",
+        "count": 2.31,
+        "lng": -80.1300455,
+        "lat": 25.790654,
+        "result": "success"
+    },
+    {
+        "name": "Indianapolis",
+        "count": 5.97,
+        "lng": -86.158068,
+        "lat": 39.768403,
+        "result": "success"
+    },
+    {
+        "name": "Gioia del Colle",
+        "count": 2.51,
+        "lng": 16.9221587,
+        "lat": 40.7990706,
+        "result": "success"
+    },
+    {
+        "name": "Grottaglie",
+        "count": 3,
+        "lng": 17.435493,
+        "lat": 40.5379536,
+        "result": "success"
+    },
+    {
+        "name": "Wyldwood",
+        "count": 3.91,
+        "lng": -97.4727743,
+        "lat": 30.1293821,
+        "result": "success"
+    },
+    {
+        "name": "Hobart",
+        "count": 1.35,
+        "lng": 147.3238148,
+        "lat": -42.8819032,
+        "result": "success"
+    },
+    {
+        "name": "Vitoria",
+        "count": 3.82,
+        "lng": -40.2957768,
+        "lat": -20.2976178,
+        "result": "success"
+    },
+    {
+        "name": "Montreuil",
+        "count": 3.56,
+        "lng": 2.448451,
+        "lat": 48.863812,
+        "result": "success"
+    },
+    {
+        "name": "Palaiseau",
+        "count": 4.24,
+        "lng": 2.245748,
+        "lat": 48.714509,
+        "result": "success"
+    },
+    {
+        "name": "Cassina de' Pecchi",
+        "count": 3.24,
+        "lng": 9.3601844,
+        "lat": 45.5184199,
+        "result": "success"
+    },
+    {
+        "name": "Bastia Umbra",
+        "count": 2.24,
+        "lng": 12.5492451,
+        "lat": 43.069059,
+        "result": "success"
+    },
+    {
+        "name": "Port Louis",
+        "count": 3.91,
+        "lng": 57.516667,
+        "lat": -20.166667,
+        "result": "success"
+    },
+    {
+        "name": "Dar es Salaam",
+        "count": 3.18,
+        "lng": 39.283333,
+        "lat": -6.8,
+        "result": "success"
+    },
+    {
+        "name": "Sumy",
+        "count": 36.5,
+        "lng": 34.7981,
+        "lat": 50.9077,
+        "result": "success"
+    },
+    {
+        "name": "Chicago",
+        "count": 2.26,
+        "lng": -87.6297982,
+        "lat": 41.8781136,
+        "result": "success"
+    },
+    {
+        "name": "Carmel",
+        "count": 1.12,
+        "lng": -121.9232879,
+        "lat": 36.5552386,
+        "result": "success"
+    },
+    {
+        "name": "Canosa di Puglia",
+        "count": 2.38,
+        "lng": 16.0660707,
+        "lat": 41.2224319,
+        "result": "success"
+    },
+    {
+        "name": "Sulmona",
+        "count": 2.97,
+        "lng": 13.9289304,
+        "lat": 42.0481782,
+        "result": "success"
+    },
+    {
+        "name": "Varedo",
+        "count": 3.12,
+        "lng": 9.1577441,
+        "lat": 45.5991187,
+        "result": "success"
+    },
+    {
+        "name": "Graz",
+        "count": 4.09,
+        "lng": 15.439504,
+        "lat": 47.070714,
+        "result": "success"
+    },
+    {
+        "name": "Minsk",
+        "count": 2.45,
+        "lng": 27.566667,
+        "lat": 53.9,
+        "result": "success"
+    },
+    {
+        "name": "Santander",
+        "count": 2.24,
+        "lng": -3.8099803,
+        "lat": 43.4623057,
+        "result": "success"
+    },
+    {
+        "name": "Helsinki",
+        "count": 2.85,
+        "lng": 24.9410248,
+        "lat": 60.1733244,
+        "result": "success"
+    },
+    {
+        "name": "Halesowen",
+        "count": 2.48,
+        "lng": -2.050526,
+        "lat": 52.449845,
+        "result": "success"
+    },
+    {
+        "name": "Vasto",
+        "count": 2.18,
+        "lng": 14.7058711,
+        "lat": 42.1045588,
+        "result": "success"
+    },
+    {
+        "name": "Bellusco",
+        "count": 3.73,
+        "lng": 9.4208712,
+        "lat": 45.6169268,
+        "result": "success"
+    },
+    {
+        "name": "Cesano Boscone",
+        "count": 2.55,
+        "lng": 9.0905963,
+        "lat": 45.4456509,
+        "result": "success"
+    },
+    {
+        "name": "Portici",
+        "count": 2.82,
+        "lng": 14.339067,
+        "lat": 40.8141218,
+        "result": "success"
+    },
+    {
+        "name": "Sora",
+        "count": 1.85,
+        "lng": 2.1606806,
+        "lat": 42.1119857,
+        "result": "success"
+    },
+    {
+        "name": "Town and Country",
+        "count": 5.85,
+        "lng": -82.5773193,
+        "lat": 28.0105745,
+        "result": "success"
+    },
+    {
+        "name": "Xiamen",
+        "count": 1.94,
+        "lng": 118.089425,
+        "lat": 24.479834,
+        "result": "success"
+    },
+    {
+        "name": "Straubing",
+        "count": 1.25,
+        "lng": 12.5801538,
+        "lat": 48.8777333,
+        "result": "success"
+    },
+    {
+        "name": "Monheim am Rhein",
+        "count": 2.09,
+        "lng": 6.8945753,
+        "lat": 51.0891756,
+        "result": "success"
+    },
+    {
+        "name": "Wuppertal",
+        "count": 4.91,
+        "lng": 7.1507636,
+        "lat": 51.2562128,
+        "result": "success"
+    },
+    {
+        "name": "Tarragona",
+        "count": 3.69,
+        "lng": 1.2444909,
+        "lat": 41.1188827,
+        "result": "success"
+    },
+    {
+        "name": "Rueil-Malmaison",
+        "count": 8.41,
+        "lng": 2.17693,
+        "lat": 48.882767,
+        "result": "success"
+    },
+    {
+        "name": "Oxford",
+        "count": 2.84,
+        "lng": -1.2577263,
+        "lat": 51.7520209,
+        "result": "success"
+    },
+    {
+        "name": "Figline Valdarno",
+        "count": 3.31,
+        "lng": 11.4718335,
+        "lat": 43.6182502,
+        "result": "success"
+    },
+    {
+        "name": "Cassino",
+        "count": 1.72,
+        "lng": 13.8333776,
+        "lat": 41.4907889,
+        "result": "success"
+    },
+    {
+        "name": "Casarano",
+        "count": 2.72,
+        "lng": 18.1614311,
+        "lat": 40.0113573,
+        "result": "success"
+    },
+    {
+        "name": "Arluno",
+        "count": 2.34,
+        "lng": 8.9410106,
+        "lat": 45.5056869,
+        "result": "success"
+    },
+    {
+        "name": "Lacchiarella",
+        "count": 2.66,
+        "lng": 9.1371971,
+        "lat": 45.3219668,
+        "result": "success"
+    },
+    {
+        "name": "Castelnuovo Rangone",
+        "count": 2.16,
+        "lng": 10.9390215,
+        "lat": 44.5490278,
+        "result": "success"
+    },
+    {
+        "name": "Scandiano",
+        "count": 6.13,
+        "lng": 10.6909273,
+        "lat": 44.5982342,
+        "result": "success"
+    },
+    {
+        "name": "Frascati",
+        "count": 3.19,
+        "lng": 12.6761041,
+        "lat": 41.8085208,
+        "result": "success"
+    },
+    {
+        "name": "Orbassano",
+        "count": 1.88,
+        "lng": 7.5353625,
+        "lat": 45.0057265,
+        "result": "success"
+    },
+    {
+        "name": "Valdobbiadene",
+        "count": 1.97,
+        "lng": 11.9958811,
+        "lat": 45.9012514,
+        "result": "success"
+    },
+    {
+        "name": "Cavaria",
+        "count": 4.34,
+        "lng": 8.8029492,
+        "lat": 45.6946472,
+        "result": "success"
+    },
+    {
+        "name": "Dolo",
+        "count": 2.84,
+        "lng": 42.066667,
+        "lat": 4.166667,
+        "result": "success"
+    },
+    {
+        "name": "Garda",
+        "count": 6.19,
+        "lng": 10.7055676,
+        "lat": 45.5771011,
+        "result": "success"
+    },
+    {
+        "name": "Porto",
+        "count": 2.03,
+        "lng": -8.6239254,
+        "lat": 41.1566892,
+        "result": "success"
+    },
+    {
+        "name": "Medina",
+        "count": 2.47,
+        "lng": 39.6,
+        "lat": 24.466667,
+        "result": "success"
+    },
+    {
+        "name": "Guidonia",
+        "count": 2.31,
+        "lng": 12.7245045,
+        "lat": 41.9939694,
+        "result": "success"
+    },
+    {
+        "name": "Marino",
+        "count": 2.66,
+        "lng": 12.6585371,
+        "lat": 41.7700866,
+        "result": "success"
+    },
+    {
+        "name": "Tor Lupara",
+        "count": 9.84,
+        "lng": 12.6192,
+        "lat": 41.996736,
+        "result": "success"
+    },
+    {
+        "name": "Toledo",
+        "count": 2.13,
+        "lng": -83.555212,
+        "lat": 41.6639383,
+        "result": "success"
+    },
+    {
+        "name": "Santiago de Compostela",
+        "count": 3.42,
+        "lng": -8.5448445,
+        "lat": 42.8782132,
+        "result": "success"
+    },
+    {
+        "name": "Clermont-Ferrand",
+        "count": 2.42,
+        "lng": 3.087025,
+        "lat": 45.777222,
+        "result": "success"
+    },
+    {
+        "name": "Calenzano",
+        "count": 1.87,
+        "lng": 11.1673181,
+        "lat": 43.86604,
+        "result": "success"
+    },
+    {
+        "name": "Bernareggio",
+        "count": 3.16,
+        "lng": 9.4053851,
+        "lat": 45.6466274,
+        "result": "success"
+    },
+    {
+        "name": "Solaro",
+        "count": 3.55,
+        "lng": 9.079405,
+        "lat": 45.61803,
+        "result": "success"
+    },
+    {
+        "name": "Santa Croce sull'Arno",
+        "count": 2.03,
+        "lng": 10.783619,
+        "lat": 43.7109248,
+        "result": "success"
+    },
+    {
+        "name": "Roseto degli Abruzzi",
+        "count": 4,
+        "lng": 14.0160161,
+        "lat": 42.6751898,
+        "result": "success"
+    },
+    {
+        "name": "Kuwait City",
+        "count": 2.9,
+        "lng": 47.978333,
+        "lat": 29.369722,
+        "result": "success"
+    },
+    {
+        "name": "Saint Petersburg",
+        "count": 2.16,
+        "lng": 30.3350986,
+        "lat": 59.9342802,
+        "result": "success"
+    },
+    {
+        "name": "Greensboro",
+        "count": 3.23,
+        "lng": -79.7919754,
+        "lat": 36.0726354,
+        "result": "success"
+    },
+    {
+        "name": "Grimaud",
+        "count": 2.74,
+        "lng": 6.521865,
+        "lat": 43.274308,
+        "result": "success"
+    },
+    {
+        "name": "Grottaferrata",
+        "count": 2.23,
+        "lng": 12.6735914,
+        "lat": 41.7865663,
+        "result": "success"
+    },
+    {
+        "name": "San Casciano In Val di Pesa",
+        "count": 3.97,
+        "lng": 11.1887674,
+        "lat": 43.6583548,
+        "result": "success"
+    },
+    {
+        "name": "Dhaka",
+        "count": 2.37,
+        "lng": 90.4125181,
+        "lat": 23.810332,
+        "result": "success"
+    },
+    {
+        "name": "Gabrovo",
+        "count": 6.57,
+        "lng": 25.3186837,
+        "lat": 42.8742212,
+        "result": "success"
+    },
+    {
+        "name": "Mostar",
+        "count": 4.03,
+        "lng": 17.8127536,
+        "lat": 43.3422732,
+        "result": "success"
+    },
+    {
+        "name": "Wallisellen",
+        "count": 4.27,
+        "lng": 8.5952008,
+        "lat": 47.4156626,
+        "result": "success"
+    },
+    {
+        "name": "Boblingen",
+        "count": 2.7,
+        "lng": 9.0088299,
+        "lat": 48.6813312,
+        "result": "success"
+    },
+    {
+        "name": "Zaragoza",
+        "count": 3.03,
+        "lng": -0.8890853,
+        "lat": 41.6488226,
+        "result": "success"
+    },
+    {
+        "name": "Courbevoie",
+        "count": 2.8,
+        "lng": 2.25929,
+        "lat": 48.900552,
+        "result": "success"
+    },
+    {
+        "name": "Fossano",
+        "count": 2.47,
+        "lng": 7.7217934,
+        "lat": 44.552479,
+        "result": "success"
+    },
+    {
+        "name": "Pogliano Milanese",
+        "count": 1.6,
+        "lng": 8.9955862,
+        "lat": 45.5388936,
+        "result": "success"
+    },
+    {
+        "name": "Trezzano Rosa",
+        "count": 14.7,
+        "lng": 9.4886612,
+        "lat": 45.5831283,
+        "result": "success"
+    },
+    {
+        "name": "Ischia",
+        "count": 2.93,
+        "lng": 13.9486184,
+        "lat": 40.7379299,
+        "result": "success"
+    },
+    {
+        "name": "Gubbio",
+        "count": 2.23,
+        "lng": 12.5753166,
+        "lat": 43.3513193,
+        "result": "success"
+    },
+    {
+        "name": "Torvaianica",
+        "count": 2,
+        "lng": 12.4626387,
+        "lat": 41.6208388,
+        "result": "success"
+    },
+    {
+        "name": "Induno Olona",
+        "count": 3.13,
+        "lng": 8.8385106,
+        "lat": 45.8506537,
+        "result": "success"
+    },
+    {
+        "name": "Rosa",
+        "count": 2.83,
+        "lng": -94.262927,
+        "lat": 31.151882,
+        "result": "success"
+    },
+    {
+        "name": "Rossano Veneto",
+        "count": 2.53,
+        "lng": 11.8002318,
+        "lat": 45.7033765,
+        "result": "success"
+    },
+    {
+        "name": "Trissino",
+        "count": 3.23,
+        "lng": 11.3750573,
+        "lat": 45.5638514,
+        "result": "success"
+    },
+    {
+        "name": "Slupsk",
+        "count": 2.53,
+        "lng": 17.0284824,
+        "lat": 54.464148,
+        "result": "success"
+    },
+    {
+        "name": "Huskvarna",
+        "count": 6.77,
+        "lng": 14.2755781,
+        "lat": 57.7904141,
+        "result": "success"
+    },
+    {
+        "name": "Wessling",
+        "count": 4.9,
+        "lng": 11.2483111,
+        "lat": 48.0745018,
+        "result": "success"
+    },
+    {
+        "name": "West Deptford",
+        "count": 6.3,
+        "lng": -75.185397,
+        "lat": 39.842012,
+        "result": "success"
+    },
+    {
+        "name": "Venado Tuerto",
+        "count": 4.38,
+        "lng": -61.965641,
+        "lat": -33.75,
+        "result": "success"
+    },
+    {
+        "name": "Freising",
+        "count": 4.1,
+        "lng": 11.7411846,
+        "lat": 48.4028796,
+        "result": "success"
+    },
+    {
+        "name": "Avignon",
+        "count": 1.9,
+        "lng": 4.805528,
+        "lat": 43.949317,
+        "result": "success"
+    },
+    {
+        "name": "Kerkira",
+        "count": 2.86,
+        "lng": 19.9223461,
+        "lat": 39.6249838,
+        "result": "success"
+    },
+    {
+        "name": "Mondovi",
+        "count": 3.03,
+        "lng": 7.8196709,
+        "lat": 44.3953434,
+        "result": "success"
+    },
+    {
+        "name": "Anagni",
+        "count": 6.24,
+        "lng": 13.1513636,
+        "lat": 41.745324,
+        "result": "success"
+    },
+    {
+        "name": "Biassono",
+        "count": 2.79,
+        "lng": 9.2741802,
+        "lat": 45.6299338,
+        "result": "success"
+    },
+    {
+        "name": "Seveso",
+        "count": 2.86,
+        "lng": 9.1444237,
+        "lat": 45.649339,
+        "result": "success"
+    },
+    {
+        "name": "Gemona",
+        "count": 2.31,
+        "lng": 13.1457376,
+        "lat": 46.2891468,
+        "result": "success"
+    },
+    {
+        "name": "Schiltach",
+        "count": 2.93,
+        "lng": 8.3468916,
+        "lat": 48.2917596,
+        "result": "success"
+    },
+    {
+        "name": "Logrono",
+        "count": 2.29,
+        "lng": -2.4449852,
+        "lat": 42.4627195,
+        "result": "success"
+    },
+    {
+        "name": "Eger",
+        "count": 3.11,
+        "lng": 20.3772284,
+        "lat": 47.9025348,
+        "result": "success"
+    },
+    {
+        "name": "Budrio",
+        "count": 2.43,
+        "lng": 11.5360478,
+        "lat": 44.5388539,
+        "result": "success"
+    },
+    {
+        "name": "Naturno",
+        "count": 2.29,
+        "lng": 11.008112,
+        "lat": 46.6502423,
+        "result": "success"
+    },
+    {
+        "name": "Recco",
+        "count": 4.93,
+        "lng": 9.1437445,
+        "lat": 44.3614219,
+        "result": "success"
+    },
+    {
+        "name": "Cesate",
+        "count": 3.43,
+        "lng": 9.0782182,
+        "lat": 45.5909919,
+        "result": "success"
+    },
+    {
+        "name": "Ercolano",
+        "count": 1.71,
+        "lng": 14.3481628,
+        "lat": 40.8079195,
+        "result": "success"
+    },
+    {
+        "name": "Paese",
+        "count": 2.71,
+        "lng": 12.1672862,
+        "lat": 45.6741818,
+        "result": "success"
+    },
+    {
+        "name": "Lonate Pozzolo",
+        "count": 2.71,
+        "lng": 8.753802,
+        "lat": 45.5993133,
+        "result": "success"
+    },
+    {
+        "name": "Malo",
+        "count": 2.93,
+        "lng": 73.508889,
+        "lat": 4.175278,
+        "result": "success"
+    },
+    {
+        "name": "Santiago de Surco",
+        "count": 2.43,
+        "lng": -76.9918155,
+        "lat": -12.1416088,
+        "result": "success"
+    },
+    {
+        "name": "Rzeszow",
+        "count": 2.54,
+        "lng": 21.9992806,
+        "lat": 50.0409469,
+        "result": "success"
+    },
+    {
+        "name": "Slatina",
+        "count": 2.86,
+        "lng": 17.701144,
+        "lat": 45.701932,
+        "result": "success"
+    },
+    {
+        "name": "Mueang Phuket District",
+        "count": 2.64,
+        "lng": 98.398062,
+        "lat": 7.8890489,
+        "result": "success"
+    },
+    {
+        "name": "Wesseling",
+        "count": 7,
+        "lng": 6.9725385,
+        "lat": 50.8255624,
+        "result": "success"
+    },
+    {
+        "name": "Scafati",
+        "count": 2.61,
+        "lng": 14.5377595,
+        "lat": 40.7602114,
+        "result": "success"
+    },
+    {
+        "name": "Dubendorf",
+        "count": 2.89,
+        "lng": 8.6186385,
+        "lat": 47.3969647,
+        "result": "success"
+    },
+    {
+        "name": "Marburg",
+        "count": 2,
+        "lng": 8.7667933,
+        "lat": 50.8021728,
+        "result": "success"
+    },
+    {
+        "name": "Huelva",
+        "count": 1.81,
+        "lng": -6.9447224,
+        "lat": 37.261421,
+        "result": "success"
+    },
+    {
+        "name": "Ajaccio",
+        "count": 2.78,
+        "lng": 8.738635,
+        "lat": 41.919229,
+        "result": "success"
+    },
+    {
+        "name": "Mantes-la-Jolie",
+        "count": 2.56,
+        "lng": 1.714958,
+        "lat": 48.989323,
+        "result": "success"
+    },
+    {
+        "name": "Basildon",
+        "count": 3.15,
+        "lng": 0.488736,
+        "lat": 51.576084,
+        "result": "success"
+    },
+    {
+        "name": "Selargius",
+        "count": 5.41,
+        "lng": 9.1629372,
+        "lat": 39.2596768,
+        "result": "success"
+    },
+    {
+        "name": "San Giovanni La Punta",
+        "count": 3,
+        "lng": 15.0947724,
+        "lat": 37.5782757,
+        "result": "success"
+    },
+    {
+        "name": "Lauria",
+        "count": 2.26,
+        "lng": 15.8387147,
+        "lat": 40.0511927,
+        "result": "success"
+    },
+    {
+        "name": "Seongnam-si",
+        "count": 2.37,
+        "lng": 127.1388684,
+        "lat": 37.4449168,
+        "result": "success"
+    },
+    {
+        "name": "Gorinchem",
+        "count": 3.44,
+        "lng": 4.9758292,
+        "lat": 51.8372247,
+        "result": "success"
+    },
+    {
+        "name": "Columbia",
+        "count": 2.52,
+        "lng": -74.297333,
+        "lat": 4.570868,
+        "result": "success"
+    },
+    {
+        "name": "Charleston",
+        "count": 3.89,
+        "lng": -79.9310512,
+        "lat": 32.7764749,
+        "result": "success"
+    },
+    {
+        "name": "Vincennes",
+        "count": 13.19,
+        "lng": 2.4394969,
+        "lat": 48.847759,
+        "result": "success"
+    },
+    {
+        "name": "Montepulciano",
+        "count": 2.85,
+        "lng": 11.7872467,
+        "lat": 43.0986938,
+        "result": "success"
+    },
+    {
+        "name": "Abu Dhabi",
+        "count": 3.19,
+        "lng": 54.366667,
+        "lat": 24.466667,
+        "result": "success"
+    },
+    {
+        "name": "Solothurn",
+        "count": 1.92,
+        "lng": 7.5379549,
+        "lat": 47.2086574,
+        "result": "success"
+    },
+    {
+        "name": "Yverdon-les-Bains",
+        "count": 3.69,
+        "lng": 6.6414898,
+        "lat": 46.7782175,
+        "result": "success"
+    },
+    {
+        "name": "Ostrava",
+        "count": 2.46,
+        "lng": 18.2625243,
+        "lat": 49.8209226,
+        "result": "success"
+    },
+    {
+        "name": "Duisburg",
+        "count": 1.96,
+        "lng": 6.7623293,
+        "lat": 51.4344079,
+        "result": "success"
+    },
+    {
+        "name": "Nancy",
+        "count": 1.81,
+        "lng": 6.184417,
+        "lat": 48.692054,
+        "result": "success"
+    },
+    {
+        "name": "Poitiers",
+        "count": 2.04,
+        "lng": 0.340375,
+        "lat": 46.580224,
+        "result": "success"
+    },
+    {
+        "name": "Liverpool",
+        "count": 5.19,
+        "lng": -2.9915726,
+        "lat": 53.4083714,
+        "result": "success"
+    },
+    {
+        "name": "Canicatti",
+        "count": 2.77,
+        "lng": 13.8506902,
+        "lat": 37.3581785,
+        "result": "success"
+    },
+    {
+        "name": "Castelfidardo",
+        "count": 1.96,
+        "lng": 13.5514218,
+        "lat": 43.4631153,
+        "result": "success"
+    },
+    {
+        "name": "Saint-Vincent",
+        "count": 2.96,
+        "lng": 7.6420804,
+        "lat": 45.7515707,
+        "result": "success"
+    },
+    {
+        "name": "Casamassima",
+        "count": 2.04,
+        "lng": 16.9184534,
+        "lat": 40.9548003,
+        "result": "success"
+    },
+    {
+        "name": "Pianoro",
+        "count": 2.69,
+        "lng": 11.3412262,
+        "lat": 44.3910429,
+        "result": "success"
+    },
+    {
+        "name": "Giarre",
+        "count": 2.27,
+        "lng": 15.1842443,
+        "lat": 37.7269871,
+        "result": "success"
+    },
+    {
+        "name": "Grado",
+        "count": 3.46,
+        "lng": 13.3863992,
+        "lat": 45.6817741,
+        "result": "success"
+    },
+    {
+        "name": "Spilimbergo",
+        "count": 3.88,
+        "lng": 12.8992964,
+        "lat": 46.1172789,
+        "result": "success"
+    },
+    {
+        "name": "Ardea",
+        "count": 2.81,
+        "lng": 12.5432586,
+        "lat": 41.6079691,
+        "result": "success"
+    },
+    {
+        "name": "Gazzada Schianno",
+        "count": 2.65,
+        "lng": 8.83566,
+        "lat": 45.7798417,
+        "result": "success"
+    },
+    {
+        "name": "Sandton",
+        "count": 5,
+        "lng": 28.0567007,
+        "lat": -26.1075663,
+        "result": "success"
+    },
+    {
+        "name": "Grande-Synthe",
+        "count": 1.96,
+        "lng": 2.302577,
+        "lat": 51.013547,
+        "result": "success"
+    },
+    {
+        "name": "Alassio",
+        "count": 2.27,
+        "lng": 8.1811741,
+        "lat": 44.014336,
+        "result": "success"
+    },
+    {
+        "name": "Quarrata",
+        "count": 3.19,
+        "lng": 10.9779669,
+        "lat": 43.8478987,
+        "result": "success"
+    },
+    {
+        "name": "Jinhua",
+        "count": 3.16,
+        "lng": 119.647445,
+        "lat": 29.079059,
+        "result": "success"
+    },
+    {
+        "name": "Gunzburg",
+        "count": 1.92,
+        "lng": 10.2775127,
+        "lat": 48.4528412,
+        "result": "success"
+    },
+    {
+        "name": "Bremen",
+        "count": 2.2,
+        "lng": 8.8016937,
+        "lat": 53.0792962,
+        "result": "success"
+    },
+    {
+        "name": "Limburg",
+        "count": 4.88,
+        "lng": 8.0795783,
+        "lat": 50.3986005,
+        "result": "success"
+    },
+    {
+        "name": "Santa Barbara",
+        "count": 2.32,
+        "lng": -119.6981901,
+        "lat": 34.4208305,
+        "result": "success"
+    },
+    {
+        "name": "Strasbourg",
+        "count": 2,
+        "lng": 7.747882,
+        "lat": 48.583148,
+        "result": "success"
+    },
+    {
+        "name": "San Pedro Sula",
+        "count": 3.32,
+        "lng": -88.033333,
+        "lat": 15.5,
+        "result": "success"
+    },
+    {
+        "name": "Montevarchi",
+        "count": 2.72,
+        "lng": 11.5639528,
+        "lat": 43.530781,
+        "result": "success"
+    },
+    {
+        "name": "Ponteranica",
+        "count": 3,
+        "lng": 9.6671271,
+        "lat": 45.7375359,
+        "result": "success"
+    },
+    {
+        "name": "Calderara di Reno",
+        "count": 1.6,
+        "lng": 11.2726182,
+        "lat": 44.5674806,
+        "result": "success"
+    },
+    {
+        "name": "Castelvetro Piacentino",
+        "count": 3.48,
+        "lng": 9.9909121,
+        "lat": 45.0945287,
+        "result": "success"
+    },
+    {
+        "name": "Alfonsine",
+        "count": 3.84,
+        "lng": 12.0430671,
+        "lat": 44.5059036,
+        "result": "success"
+    },
+    {
+        "name": "Alcamo",
+        "count": 4.04,
+        "lng": 12.9686255,
+        "lat": 37.9783947,
+        "result": "success"
+    },
+    {
+        "name": "Jesolo",
+        "count": 1.68,
+        "lng": 12.6438498,
+        "lat": 45.5334198,
+        "result": "success"
+    },
+    {
+        "name": "Leeuwarden",
+        "count": 4.6,
+        "lng": 5.7999133,
+        "lat": 53.2012334,
+        "result": "success"
+    },
+    {
+        "name": "Sint-Oedenrode",
+        "count": 2.48,
+        "lng": 5.4620127,
+        "lat": 51.5655457,
+        "result": "success"
+    },
+    {
+        "name": "Jakobsberg",
+        "count": 1.72,
+        "lng": 17.833131,
+        "lat": 59.422571,
+        "result": "success"
+    },
+    {
+        "name": "Boardman",
+        "count": 1.96,
+        "lng": -80.6628528,
+        "lat": 41.0242256,
+        "result": "success"
+    },
+    {
+        "name": "East Greenville",
+        "count": 1,
+        "lng": -75.5018477,
+        "lat": 40.4064881,
+        "result": "success"
+    },
+    {
+        "name": "El Jadida",
+        "count": 3.96,
+        "lng": -8.5,
+        "lat": 33.233333,
+        "result": "success"
+    },
+    {
+        "name": "Betim",
+        "count": 6.12,
+        "lng": -44.2011904,
+        "lat": -19.9673078,
+        "result": "success"
+    },
+    {
+        "name": "Torrevieja",
+        "count": 3.84,
+        "lng": -0.6808233,
+        "lat": 37.9847003,
+        "result": "success"
+    },
+    {
+        "name": "Albano Laziale",
+        "count": 3.84,
+        "lng": 12.6589426,
+        "lat": 41.7284572,
+        "result": "success"
+    },
+    {
+        "name": "Borso del Grappa",
+        "count": 1.76,
+        "lng": 11.7993333,
+        "lat": 45.8209246,
+        "result": "success"
+    },
+    {
+        "name": "Colle di Val d'Elsa",
+        "count": 1.6,
+        "lng": 11.1272064,
+        "lat": 43.4199639,
+        "result": "success"
+    },
+    {
+        "name": "Santa Margherita Ligure",
+        "count": 2.64,
+        "lng": 9.2136594,
+        "lat": 44.3345737,
+        "result": "success"
+    },
+    {
+        "name": "Baden",
+        "count": 3.29,
+        "lng": -80.2281159,
+        "lat": 40.6350668,
+        "result": "success"
+    },
+    {
+        "name": "Lucerne",
+        "count": 9.13,
+        "lng": 8.3089295,
+        "lat": 47.0500376,
+        "result": "success"
+    },
+    {
+        "name": "Changzhou",
+        "count": 6.71,
+        "lng": 119.974062,
+        "lat": 31.811226,
+        "result": "success"
+    },
+    {
+        "name": "Havana",
+        "count": 1.88,
+        "lng": -82.345189,
+        "lat": 23.0540698,
+        "result": "success"
+    },
+    {
+        "name": "Radolfzell",
+        "count": 1.42,
+        "lng": 8.9669098,
+        "lat": 47.745237,
+        "result": "success"
+    },
+    {
+        "name": "Jettingen-Scheppach",
+        "count": 3.04,
+        "lng": 10.433333,
+        "lat": 48.383333,
+        "result": "success"
+    },
+    {
+        "name": "Passau",
+        "count": 2,
+        "lng": 13.4319466,
+        "lat": 48.5667364,
+        "result": "success"
+    },
+    {
+        "name": "Newcastle upon Tyne",
+        "count": 2.46,
+        "lng": -1.61778,
+        "lat": 54.978252,
+        "result": "success"
+    },
+    {
+        "name": "Francavilla Fontana",
+        "count": 4.17,
+        "lng": 17.5827818,
+        "lat": 40.5304977,
+        "result": "success"
+    },
+    {
+        "name": "Maddaloni",
+        "count": 2.58,
+        "lng": 14.3812391,
+        "lat": 41.0367027,
+        "result": "success"
+    },
+    {
+        "name": "Guanzate",
+        "count": 3.13,
+        "lng": 9.0121413,
+        "lat": 45.7229755,
+        "result": "success"
+    },
+    {
+        "name": "Rovellasca",
+        "count": 2.42,
+        "lng": 9.054401,
+        "lat": 45.6658035,
+        "result": "success"
+    },
+    {
+        "name": "Maglie",
+        "count": 2.04,
+        "lng": 18.298741,
+        "lat": 40.117885,
+        "result": "success"
+    },
+    {
+        "name": "Arese",
+        "count": 1.96,
+        "lng": 9.0779155,
+        "lat": 45.5508115,
+        "result": "success"
+    },
+    {
+        "name": "Bareggio",
+        "count": 1.79,
+        "lng": 8.9975265,
+        "lat": 45.4791352,
+        "result": "success"
+    },
+    {
+        "name": "Tribiano",
+        "count": 4.21,
+        "lng": 9.3794296,
+        "lat": 45.4127421,
+        "result": "success"
+    },
+    {
+        "name": "Conselve",
+        "count": 3.83,
+        "lng": 11.8741987,
+        "lat": 45.2314331,
+        "result": "success"
+    },
+    {
+        "name": "Eboli",
+        "count": 2.63,
+        "lng": 15.0564332,
+        "lat": 40.6179234,
+        "result": "success"
+    },
+    {
+        "name": "Poggibonsi",
+        "count": 2.83,
+        "lng": 11.146754,
+        "lat": 43.4725646,
+        "result": "success"
+    },
+    {
+        "name": "Santhia",
+        "count": 1.75,
+        "lng": 8.1713889,
+        "lat": 45.3669051,
+        "result": "success"
+    },
+    {
+        "name": "Osaka",
+        "count": 2.42,
+        "lng": 135.5021651,
+        "lat": 34.6937378,
+        "result": "success"
+    },
+    {
+        "name": "Amstelveen",
+        "count": 3.13,
+        "lng": 4.870087,
+        "lat": 52.3114207,
+        "result": "success"
+    },
+    {
+        "name": "Alphen aan den Rijn",
+        "count": 4.79,
+        "lng": 4.6688508,
+        "lat": 52.1276577,
+        "result": "success"
+    },
+    {
+        "name": "Manisa",
+        "count": 4.83,
+        "lng": 27.428921,
+        "lat": 38.619099,
+        "result": "success"
+    },
+    {
+        "name": "Uniao da Vitoria",
+        "count": 3.46,
+        "lng": -51.0850644,
+        "lat": -26.2219455,
+        "result": "success"
+    },
+    {
+        "name": "Bagnacavallo",
+        "count": 5.83,
+        "lng": 11.976675,
+        "lat": 44.4197361,
+        "result": "success"
+    },
+    {
+        "name": "Ladispoli",
+        "count": 2,
+        "lng": 12.0761045,
+        "lat": 41.9498965,
+        "result": "success"
+    },
+    {
+        "name": "Vipiteno",
+        "count": 3.46,
+        "lng": 11.4336186,
+        "lat": 46.8926725,
+        "result": "success"
+    },
+    {
+        "name": "Fribourg",
+        "count": 4.26,
+        "lng": 7.1455683,
+        "lat": 46.8016663,
+        "result": "success"
+    },
+    {
+        "name": "Adliswil",
+        "count": 5.96,
+        "lng": 8.5245079,
+        "lat": 47.3116759,
+        "result": "success"
+    },
+    {
+        "name": "Bremerhaven",
+        "count": 3.61,
+        "lng": 8.5809424,
+        "lat": 53.5395845,
+        "result": "success"
+    },
+    {
+        "name": "Eschborn",
+        "count": 3,
+        "lng": 8.5614555,
+        "lat": 50.1467469,
+        "result": "success"
+    },
+    {
+        "name": "Elx",
+        "count": 3.65,
+        "lng": -0.7125608,
+        "lat": 38.2699329,
+        "result": "success"
+    },
+    {
+        "name": "Mulhouse",
+        "count": 4.3,
+        "lng": 7.335888,
+        "lat": 47.750839,
+        "result": "success"
+    },
+    {
+        "name": "Nimes",
+        "count": 2.22,
+        "lng": 4.360054,
+        "lat": 43.836699,
+        "result": "success"
+    },
+    {
+        "name": "Antibes",
+        "count": 4.57,
+        "lng": 7.125102,
+        "lat": 43.580418,
+        "result": "success"
+    },
+    {
+        "name": "Sant'Elpidio a Mare",
+        "count": 2.61,
+        "lng": 13.6838931,
+        "lat": 43.2319055,
+        "result": "success"
+    },
+    {
+        "name": "Caldaro",
+        "count": 3.52,
+        "lng": 11.2402594,
+        "lat": 46.4129746,
+        "result": "success"
+    },
+    {
+        "name": "Caltagirone",
+        "count": 3,
+        "lng": 14.5126066,
+        "lat": 37.2380929,
+        "result": "success"
+    },
+    {
+        "name": "Bertinoro",
+        "count": 2.96,
+        "lng": 12.1351499,
+        "lat": 44.149228,
+        "result": "success"
+    },
+    {
+        "name": "Casatenovo",
+        "count": 1.39,
+        "lng": 9.3120344,
+        "lat": 45.6972083,
+        "result": "success"
+    },
+    {
+        "name": "Montagnana",
+        "count": 3.13,
+        "lng": 11.4624091,
+        "lat": 45.2308365,
+        "result": "success"
+    },
+    {
+        "name": "Azzano Decimo",
+        "count": 3.13,
+        "lng": 12.7144703,
+        "lat": 45.8813211,
+        "result": "success"
+    },
+    {
+        "name": "Adria",
+        "count": 2.96,
+        "lng": 12.0560381,
+        "lat": 45.0555487,
+        "result": "success"
+    },
+    {
+        "name": "Gaeta",
+        "count": 1.74,
+        "lng": 13.5714285,
+        "lat": 41.2107299,
+        "result": "success"
+    },
+    {
+        "name": "Nago-torbole",
+        "count": 4.3,
+        "lng": 10.8908516,
+        "lat": 45.8778243,
+        "result": "success"
+    },
+    {
+        "name": "Katwijk",
+        "count": 2.78,
+        "lng": 4.4114135,
+        "lat": 52.1992517,
+        "result": "success"
+    },
+    {
+        "name": "Franca",
+        "count": 1.91,
+        "lng": 2.213749,
+        "lat": 46.227638,
+        "result": "success"
+    },
+    {
+        "name": "Ecublens",
+        "count": 1.73,
+        "lng": 6.5628249,
+        "lat": 46.5255108,
+        "result": "success"
+    },
+    {
+        "name": "Nicosia",
+        "count": 3.05,
+        "lng": 33.366667,
+        "lat": 35.166667,
+        "result": "success"
+    },
+    {
+        "name": "Kelsterbach",
+        "count": 4.59,
+        "lng": 8.5297786,
+        "lat": 50.0597078,
+        "result": "success"
+    },
+    {
+        "name": "Rennes",
+        "count": 1.36,
+        "lng": -1.6777926,
+        "lat": 48.117266,
+        "result": "success"
+    },
+    {
+        "name": "La Rochelle",
+        "count": 2.41,
+        "lng": -1.151139,
+        "lat": 46.160329,
+        "result": "success"
+    },
+    {
+        "name": "Vitrolles",
+        "count": 4.41,
+        "lng": 5.249703,
+        "lat": 43.458598,
+        "result": "success"
+    },
+    {
+        "name": "Telford",
+        "count": 2.36,
+        "lng": -2.445258,
+        "lat": 52.678419,
+        "result": "success"
+    },
+    {
+        "name": "Zadar",
+        "count": 3.18,
+        "lng": 15.2313648,
+        "lat": 44.119371,
+        "result": "success"
+    },
+    {
+        "name": "Haifa",
+        "count": 4.05,
+        "lng": 34.989571,
+        "lat": 32.7940463,
+        "result": "success"
+    },
+    {
+        "name": "Anzola Dell'emilia",
+        "count": 2.91,
+        "lng": 11.1927492,
+        "lat": 44.5461898,
+        "result": "success"
+    },
+    {
+        "name": "Misterbianco",
+        "count": 2.18,
+        "lng": 15.0077396,
+        "lat": 37.5183103,
+        "result": "success"
+    },
+    {
+        "name": "Borgaro Torinese",
+        "count": 5.68,
+        "lng": 7.6548472,
+        "lat": 45.1517706,
+        "result": "success"
+    },
+    {
+        "name": "Pianezza",
+        "count": 2.64,
+        "lng": 7.5447653,
+        "lat": 45.1006771,
+        "result": "success"
+    },
+    {
+        "name": "Fagnano Olona",
+        "count": 3.05,
+        "lng": 8.866763,
+        "lat": 45.66834,
+        "result": "success"
+    },
+    {
+        "name": "Nagoya",
+        "count": 1.55,
+        "lng": 136.906398,
+        "lat": 35.1814464,
+        "result": "success"
+    },
+    {
+        "name": "Lugoj",
+        "count": 3.18,
+        "lng": 21.900556,
+        "lat": 45.686111,
+        "result": "success"
+    },
+    {
+        "name": "Malmo",
+        "count": 3,
+        "lng": 13.003822,
+        "lat": 55.604981,
+        "result": "success"
+    },
+    {
+        "name": "Columbus",
+        "count": 1.45,
+        "lng": -82.9987942,
+        "lat": 39.9611755,
+        "result": "success"
+    },
+    {
+        "name": "Ho Chi Minh City",
+        "count": 2.41,
+        "lng": 106.6296638,
+        "lat": 10.8230989,
+        "result": "success"
+    },
+    {
+        "name": "Penzberg",
+        "count": 2.59,
+        "lng": 11.3698021,
+        "lat": 47.75612,
+        "result": "success"
+    },
+    {
+        "name": "Frejus",
+        "count": 3.45,
+        "lng": 6.737034,
+        "lat": 43.433152,
+        "result": "success"
+    },
+    {
+        "name": "Adrano",
+        "count": 2.09,
+        "lng": 14.8326154,
+        "lat": 37.6627555,
+        "result": "success"
+    },
+    {
+        "name": "Lentini",
+        "count": 2.18,
+        "lng": 14.996114,
+        "lat": 37.2838188,
+        "result": "success"
+    },
+    {
+        "name": "Motta di Livenza",
+        "count": 2.95,
+        "lng": 12.6121401,
+        "lat": 45.7772722,
+        "result": "success"
+    },
+    {
+        "name": "Ajman",
+        "count": 4,
+        "lng": 55.4796,
+        "lat": 25.3995,
+        "result": "success"
+    },
+    {
+        "name": "La Plata",
+        "count": 1.38,
+        "lng": -57.9543333,
+        "lat": -34.92125,
+        "result": "success"
+    },
+    {
+        "name": "Blagoevgrad",
+        "count": 7.67,
+        "lng": 23.0943385,
+        "lat": 42.0208569,
+        "result": "success"
+    },
+    {
+        "name": "Wohlen",
+        "count": 2.81,
+        "lng": 8.2757284,
+        "lat": 47.3519764,
+        "result": "success"
+    },
+    {
+        "name": "Guangzhou",
+        "count": 2.71,
+        "lng": 113.264435,
+        "lat": 23.129163,
+        "result": "success"
+    },
+    {
+        "name": "Brno",
+        "count": 1.71,
+        "lng": 16.6068371,
+        "lat": 49.1950602,
+        "result": "success"
+    },
+    {
+        "name": "Friedrichshafen",
+        "count": 3.76,
+        "lng": 9.4800113,
+        "lat": 47.6617648,
+        "result": "success"
+    },
+    {
+        "name": "Ansbach",
+        "count": 2.24,
+        "lng": 10.5719357,
+        "lat": 49.3004246,
+        "result": "success"
+    },
+    {
+        "name": "Soltau",
+        "count": 1.95,
+        "lng": 9.842125,
+        "lat": 52.9846914,
+        "result": "success"
+    },
+    {
+        "name": "Lippstadt",
+        "count": 2.33,
+        "lng": 8.3406481,
+        "lat": 51.6712278,
+        "result": "success"
+    },
+    {
+        "name": "Munster",
+        "count": 1.43,
+        "lng": 7.6261347,
+        "lat": 51.9606649,
+        "result": "success"
+    },
+    {
+        "name": "Badalona",
+        "count": 4.52,
+        "lng": 2.2450325,
+        "lat": 41.4469883,
+        "result": "success"
+    },
+    {
+        "name": "Nottingham",
+        "count": 2.43,
+        "lng": -1.1581086,
+        "lat": 52.9547832,
+        "result": "success"
+    },
+    {
+        "name": "Jerusalem",
+        "count": 1.86,
+        "lng": 35.21371,
+        "lat": 31.768319,
+        "result": "success"
+    },
+    {
+        "name": "Falconara Marittima",
+        "count": 2.33,
+        "lng": 13.4029204,
+        "lat": 43.6276081,
+        "result": "success"
+    },
+    {
+        "name": "Castelfiorentino",
+        "count": 3.67,
+        "lng": 10.9697129,
+        "lat": 43.6041852,
+        "result": "success"
+    },
+    {
+        "name": "Capo D'orlando",
+        "count": 2.24,
+        "lng": 14.742693,
+        "lat": 38.1585238,
+        "result": "success"
+    },
+    {
+        "name": "Tivoli",
+        "count": 2.62,
+        "lng": 12.5681471,
+        "lat": 55.6736841,
+        "result": "success"
+    },
+    {
+        "name": "Angri",
+        "count": 2.86,
+        "lng": 14.5712076,
+        "lat": 40.7381073,
+        "result": "success"
+    },
+    {
+        "name": "Porto Torres",
+        "count": 3.71,
+        "lng": 8.4022929,
+        "lat": 40.8333682,
+        "result": "success"
+    },
+    {
+        "name": "Povo",
+        "count": 5.48,
+        "lng": 11.154444,
+        "lat": 46.066111,
+        "result": "success"
+    },
+    {
+        "name": "Borgosesia",
+        "count": 1.57,
+        "lng": 8.2905839,
+        "lat": 45.7110753,
+        "result": "success"
+    },
+    {
+        "name": "Beirut",
+        "count": 5.38,
+        "lng": 35.4954794,
+        "lat": 33.8886289,
+        "result": "success"
+    },
+    {
+        "name": "La Paz",
+        "count": 2.38,
+        "lng": -68.15,
+        "lat": -16.5,
+        "result": "success"
+    },
+    {
+        "name": "Pleasanton",
+        "count": 3.1,
+        "lng": -121.8746789,
+        "lat": 37.6624312,
+        "result": "success"
+    },
+    {
+        "name": "Jaszarokszallas",
+        "count": 1.9,
+        "lng": 19.9786202,
+        "lat": 47.6417789,
+        "result": "success"
+    },
+    {
+        "name": "Ca' Savio",
+        "count": 2.57,
+        "lng": 12.4659794,
+        "lat": 45.4468772,
+        "result": "success"
+    },
+    {
+        "name": "Carini",
+        "count": 2.71,
+        "lng": 13.1812609,
+        "lat": 38.1311611,
+        "result": "success"
+    },
+    {
+        "name": "Maserada Sul Piave",
+        "count": 1.57,
+        "lng": 12.3137275,
+        "lat": 45.7527668,
+        "result": "success"
+    },
+    {
+        "name": "Sandrigo",
+        "count": 2.05,
+        "lng": 11.6029356,
+        "lat": 45.6592011,
+        "result": "success"
+    },
+    {
+        "name": "Mar del Plata",
+        "count": 2.75,
+        "lng": -57.5897942,
+        "lat": -37.9798584,
+        "result": "success"
+    },
+    {
+        "name": "Sarajevo",
+        "count": 1.3,
+        "lng": 18.4130763,
+        "lat": 43.8562586,
+        "result": "success"
+    },
+    {
+        "name": "Joao Pessoa",
+        "count": 7.65,
+        "lng": -34.8450118,
+        "lat": -7.1194958,
+        "result": "success"
+    },
+    {
+        "name": "Quebec",
+        "count": 3.75,
+        "lng": -73.5491361,
+        "lat": 52.9399159,
+        "result": "success"
+    },
+    {
+        "name": "Dongguan",
+        "count": 5.85,
+        "lng": 113.751765,
+        "lat": 23.020536,
+        "result": "success"
+    },
+    {
+        "name": "Regensburg",
+        "count": 1.5,
+        "lng": 12.1016236,
+        "lat": 49.0134297,
+        "result": "success"
+    },
+    {
+        "name": "Dijon",
+        "count": 2.4,
+        "lng": 5.04148,
+        "lat": 47.322047,
+        "result": "success"
+    },
+    {
+        "name": "Aberdeen",
+        "count": 4.55,
+        "lng": -2.094278,
+        "lat": 57.149717,
+        "result": "success"
+    },
+    {
+        "name": "Accra",
+        "count": 5.55,
+        "lng": -0.2,
+        "lat": 5.55,
+        "result": "success"
+    },
+    {
+        "name": "Komotini",
+        "count": 4.3,
+        "lng": 25.4065582,
+        "lat": 41.1224394,
+        "result": "success"
+    },
+    {
+        "name": "San Giovanni Rotondo",
+        "count": 2.85,
+        "lng": 15.7291788,
+        "lat": 41.70659,
+        "result": "success"
+    },
+    {
+        "name": "Cormons",
+        "count": 1.7,
+        "lng": 13.4694723,
+        "lat": 45.9603147,
+        "result": "success"
+    },
+    {
+        "name": "Caivano",
+        "count": 2.7,
+        "lng": 14.3046087,
+        "lat": 40.956764,
+        "result": "success"
+    },
+    {
+        "name": "Umbertide",
+        "count": 2.1,
+        "lng": 12.3278681,
+        "lat": 43.3055726,
+        "result": "success"
+    },
+    {
+        "name": "Monaco-Ville",
+        "count": 3.45,
+        "lng": 7.420816,
+        "lat": 43.737411,
+        "result": "success"
+    },
+    {
+        "name": "Ribnita",
+        "count": 4.65,
+        "lng": 29,
+        "lat": 47.766667,
+        "result": "success"
+    },
+    {
+        "name": "Haarlem",
+        "count": 1.2,
+        "lng": 4.6462194,
+        "lat": 52.3873878,
+        "result": "success"
+    },
+    {
+        "name": "Leiden",
+        "count": 2.4,
+        "lng": 4.4970097,
+        "lat": 52.1601144,
+        "result": "success"
+    },
+    {
+        "name": "The Hague",
+        "count": 2.35,
+        "lng": 4.3006999,
+        "lat": 52.0704978,
+        "result": "success"
+    },
+    {
+        "name": "Lodz",
+        "count": 2.95,
+        "lng": 19.4559833,
+        "lat": 51.7592485,
+        "result": "success"
+    },
+    {
+        "name": "Ridgefield Park",
+        "count": 6.85,
+        "lng": -74.0215285,
+        "lat": 40.8570442,
+        "result": "success"
+    },
+    {
+        "name": "Fes",
+        "count": 3.45,
+        "lng": -5,
+        "lat": 34.033333,
+        "result": "success"
+    },
+    {
+        "name": "Sharjah",
+        "count": 4.15,
+        "lng": 55.5136433,
+        "lat": 25.3223269,
+        "result": "success"
+    },
+    {
+        "name": "Jerez",
+        "count": 2.25,
+        "lng": -6.1261925,
+        "lat": 36.6838416,
+        "result": "success"
+    },
+    {
+        "name": "Castelrotto",
+        "count": 2.1,
+        "lng": 11.5639653,
+        "lat": 46.5681349,
+        "result": "success"
+    },
+    {
+        "name": "Frattamaggiore",
+        "count": 1.35,
+        "lng": 14.2759621,
+        "lat": 40.9416293,
+        "result": "success"
+    },
+    {
+        "name": "Sambuca",
+        "count": 2,
+        "lng": 11.2195667,
+        "lat": 43.5690002,
+        "result": "success"
+    },
+    {
+        "name": "Batam",
+        "count": 15.2,
+        "lng": 104.0304535,
+        "lat": 1.0456264,
+        "result": "success"
+    }
+]
