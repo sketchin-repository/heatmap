@@ -74,7 +74,7 @@ function drawGoogleMap(data, config) {
 
     // define map properties
     var myOptions = {
-        zoom: 9,
+        zoom: 3,
         center: myLatlng,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         disableDefaultUI: false,

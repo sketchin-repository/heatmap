@@ -307,6 +307,17 @@ $app->get('add/end', function() use ($app) {
     $slug = $slugify->slugify($name);
 
     $jsontoHeat = fopen(__DIR__ . "/assets/data/sources/" . $slug . ".json", 'w');
+
+    // Filter only useful infos to geocode
+    $tmpGeocoding = array();
+    foreach ($geocodingResults['data'] as $data) {
+        if ($data["result"] === "success" && $data["name"] !== "") {
+            $tmpGeocoding[] = $data;
+        }
+    }
+
+    $geocodingResults['data'] = $tmpGeocoding;
+
     fwrite($jsontoHeat, json_encode($geocodingResults['data'], JSON_PRETTY_PRINT));
     fclose($jsontoHeat);
 
@@ -322,14 +333,15 @@ $app->get('add/end', function() use ($app) {
     
     $dataSources[$slug] = array(
         'name' => $name,
+        'config' => $geocodingResults['config']
     );
     
     file_put_contents(__DIR__ . '/assets/data/sources.json',json_encode($dataSources, JSON_PRETTY_PRINT));
 
     // Carica i dati computati in sessione
-        $app['session']->set('heatmapConfig', array(
-            'config' => $geocodingResults['config']
-            ));
+        // $app['session']->set('heatmapConfig', array(
+        //     'config' => $geocodingResults['config']
+        //     ));
 
     return $app['twig']->render('add_end.html', array(
         'slug' => $slug
@@ -351,15 +363,15 @@ $app->get('/show/{slug}', function ($slug) use ($app) {
     $sources = json_decode(file_get_contents($filename), true);
 
 
-    if (null === $heatmapConfig = $app['session']->get('heatmapConfig')) {
-        return $app->redirect('/');
-    }
+    // if (null === $heatmapConfig = $app['session']->get('heatmapConfig')) {
+    //     return $app->redirect('/');
+    // }
 
     return $app['twig']->render('map.html', array(
         'slug' => $slug,
         'name' => $sources[$slug]['name'],
         'sources' => $sources,
-        'config' => $heatmapConfig['config']
+        'config' => $sources[$slug]['config']
     ));
 });
 
